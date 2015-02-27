@@ -1,0 +1,5 @@
+﻿* Next Courses
+** [[https://www.coursera.org/learn/insidetheinternet/outline?module=xY4Yp][Internet History]]
+** [[https://class.coursera.org/digitalsystems-002][Digital Systems - Sistemas Digitales]]
+** [[https://www.coursera.org/course/maththink][Introduction to Mathematical Thinking]]
+** [[https://www.coursera.org/course/designbiz][Design Thinking for Business Innovation]]

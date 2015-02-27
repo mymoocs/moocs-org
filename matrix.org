@@ -1,0 +1,99 @@
+﻿* [[https://class.coursera.org/matrix-002/lecture][Coding the Matrix: Linear Algebra through Computer Science Applications]]
+
+
+** [[http://resources.codingthematrix.com/][Resource Page]]
+
+** Week 0: The Function and the Field
+*** DONE Course Introduction Part 1 (9:53)
+    CLOSED: [2015-02-05 Thu 06:55]
+*** DONE Course Introduction Part 2 (8:49)
+    CLOSED: [2015-02-05 Thu 07:02]
+
+*** DONE Completed The Function: The function and other preliminaries (20:55)
+     CLOSED: [2015-02-07 Sat 08:00]
+
+*** DONE The Field: Introduction to complex numbers (5:52)
+      CLOSED: [2015-02-09 Mon 07:34]
+*** DONE The Field: Playing with C (15:19)
+       CLOSED: [2015-02-09 Mon 07:53]
+
+*** DONE The Field: Playing with GF(2) (10:28)
+    CLOSED: [2015-02-11 Wed 08:09]
+*** DONE Python Lab
+     CLOSED: [2015-02-13 Fri 10:32]
+*** DONE The Field problems 
+     CLOSED: [2015-02-14 Sat 23:48]
+*** DONE The Function problems
+     CLOSED: [2015-02-15 Sun 09:34]
+
+*** TODO Inverse Index Lab
+
+
+    
+** Week 1: The Vector
+*** DONE The Vector: What is a vector? (8:20)
+    CLOSED: [2015-02-12 Thu 08:32]
+
+*** DONE The Vector: Vector addition and scalar-vector multiplication (10:16)
+    CLOSED: [2015-02-16 Mon 09:07]
+*** DONE The Vector: Dictionary-based representations of vectors (9:10)
+    CLOSED: [2015-02-17 Tue 07:05]
+*** DONE The Vector: Vectors over GF(2) (9:18)
+    CLOSED: [2015-02-17 Tue 07:31]
+*** DONE The Vector: Dot-product (8:49)
+    CLOSED: [2015-02-17 Tue 07:42]
+*** DONE The Vector: Dot-product of vectors over GF(2) (4:44)
+    CLOSED: [2015-02-17 Tue 07:47]
+*** DONE The Vector: Solving a triangular system of linear equations (4:00)
+    CLOSED: [2015-02-17 Tue 07:55]
+
+*** TODO Politics Lab
+*** TODO review 13 an 14 problems of vectors
+
+
+** Week 2: The Vector Space
+*** DONE 2.1 The Vector Space: Linear combinations (04:58)
+    CLOSED: [2015-02-20 Fri 07:12]
+*** DONE 2.2 The Vector Space: Span (07:44)
+    CLOSED: [2015-02-20 Fri 07:23]
+    INFO: Generator Բազիս
+          Span վեկտորների բազմություն որոնք ստացվում են 
+          բազիսի վեկտորների բոլոր հնարավոր գծային կոմբինացիաներից:
+          Օրինակ՝ [(1,0,0), (0,1,0), (0,0,1)] այս բազիսի span-ը
+          եռաչափ տարածություն է:
+*** DONE 2.3 The Vector Space: Geometry of Sets of Vectors(13:06)
+    CLOSED: [2015-02-22 Sun 06:40]
+*** DONE 2.4 The Vector Space: Vector spaces (12:15)
+    CLOSED: [2015-02-22 Sun 06:55]
+*** DONE 2.5 The Vector Space: Checksum function (03:25)
+    CLOSED: [2015-02-23 Mon 07:44]
+*** DONE The Vector Space problems
+    CLOSED: [2015-02-22 Sun 08:46]
+
+
+
+** Week 3: The Matrix
+*** DONE 3.1 The Matrix: What is a matrix? (13:38)
+    CLOSED: [2015-02-24 Tue 07:33]
+*** DONE 3.2 The Matrix: Matrix-vector and vector-matrix multiplication
+    CLOSED: [2015-02-25 Wed 07:29]
+
+*** DONE 3.3 The Matrix: Matrix-vector multiplication in terms of dot-products(12:52)
+    CLOSED: [2015-02-26 Thu 07:06]
+*** DONE 3.4  The Matrix: Null space (04:14)
+    CLOSED: [2015-02-27 Fri 07:51]
+*** DONE The Matrix: Error-correcting codes (05:13)
+    CLOSED: [2015-02-27 Fri 07:56]
+*** DONE The Matrix: Matrices and their functions (09:42)
+    CLOSED: [2015-02-27 Fri 08:04]
+*** TODO The Matrix: Linear functions
+***  The Matrix: Matrix-matrix multiplication
+***  The Matrix: Matrix-matrix multiplication and function composition
+***  The Matrix: Matrix inverse
+*** The Matrix problems 
+    LINK: [[https://class.coursera.org/matrix-002/assignment/view?assignment_id=97][The Matrix problems: Instructions]]
+*** Matrix Class Homework
+    LINK: [[https://class.coursera.org/matrix-002/assignment/view?assignment_id=63][Matrix Class Homework: Instructions]]
+*** Error Correcting Code Lab 
+    LINK: [[https://class.coursera.org/matrix-002/assignment/view?assignment_id=65][Error Correcting Code Lab: Instructions]]
+

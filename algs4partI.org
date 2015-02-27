@@ -1,0 +1,41 @@
+﻿* [[https://class.coursera.org/algs4partI-007/lecture][Algorithms, Part I]]
+
+** Week 0: Welcome to Algorithms, Part I
+*** Course Introduction (9:22) 
+
+** Week 1: Union-Fin
+*** DONE Algorithms, Dynamic Connectivity (10:22)
+    CLOSED: [2015-02-05 Thu 06:35]
+*** DONE Algorithms, Quick Find (10:18)
+    CLOSED: [2015-02-05 Thu 06:45]
+*** DONE Quick Union (7:50)
+    CLOSED: [2015-02-06 Fri 07:21]
+*** DONE Quick-Union Improvements (13:02)
+    CLOSED: [2015-02-06 Fri 07:37]
+
+
+*** DONE Union-Find Applications (9:2)
+     CLOSED: [2015-02-07 Sat 07:03]
+***** 
+
+** Week 1: Analysis of Algorithms
+*** DONE Analysis of Algorithms Introduction (8:14)
+    CLOSED: [2015-02-09 Mon 05:59]
+*** DONE Observations (10:05)
+    CLOSED: [2015-02-09 Mon 06:14]
+
+
+*** DONE Mathematical Models (12:48)
+    CLOSED: [2015-02-11 Wed 07:36]
+*** DONE Order-of-Growth Classifications (14:39)
+    CLOSED: [2015-02-12 Thu 07:33]
+*** DONE Theory of Algorithms (11:35)
+    CLOSED: [2015-02-13 Fri 06:11]
+*** DONE Memory (8:11)
+    CLOSED: [2015-02-13 Fri 06:24]
+
+*** TODO Programming Assignment 1: Percolation: Instructions
+
+** Week 2: Stacks and Queues
+*** DONE Stacks (16:24)
+    CLOSED: [2015-02-16 Mon 07:03]

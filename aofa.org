@@ -1,0 +1,34 @@
+﻿* [[https://class.coursera.org/aofa-004/lecture][Analysis of Algorithms]]
+
+** Orientation
+*** Completed Brief History (9:33)
+*** Completed Analysis of Algorithms (16:20)
+*** Completed Context (12:43)
+*** Completed Analytic Combinatorics (29:15)
+
+
+** Analysis of Algorithms
+*** Completed History and Motivation (11:02)
+*** Completed A Scientific Approach (16:37)
+*** Completed Example: Quicksort (30:38)
+*** DONE Resources (17:38)
+    CLOSED: [2015-02-11 Wed 07:21]
+
+
+** Recurrences
+*** DONE Computing Values (10:31)
+     CLOSED: [2015-02-12 Thu 07:13]
+*** DONE Telescoping (15:18)
+     CLOSED: [2015-02-13 Fri 05:57]
+*** DONE Types of Recurrences (12:51)
+     CLOSED: [2015-02-14 Sat 07:00]
+*** DONE Mergesort (18:03)
+     CLOSED: [2015-02-16 Mon 06:43]
+*** DONE Master Theorem (14:20)
+     CLOSED: [2015-02-20 Fri 07:47] 
+
+     
+
+** Generating Functions
+*** 
+

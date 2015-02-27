@@ -1,0 +1,61 @@
+﻿* [[https://class.coursera.org/algo-007/lecture][Algorithms: Design and Analysis, Part 1]]
+
+** I. INTRODUCTION (Week 1)
+*** Why Study Algorithms ? (4 min)
+*** Integer Multiplication (9 min)
+*** Karatsuba Multiplication (13 min)
+*** About the Course (17 min)
+*** Merge Sort: Motivation and Example (9 min)
+*** Merge Sort: Pseudocode (13 min)
+*** Merge Sort: Analysis (9 min)
+*** Guiding Principles for Analysis of Algorithms (15 min)
+
+
+** II. ASYMPTOTIC ANALYSIS (Week 1)
+*** The Gist (14 min)
+*** Big-Oh Notation (4 min)
+*** Basic Examples (7 min)
+*** Big Omega and Theta (7 min)
+*** Additional Examples [Review - Optional] (8 min)
+
+** III. DIVIDE & CONQUER ALGORITHMS (Week 1)
+*** DONE O(n log n) Algorithm for Counting Inversions I (13 min)
+    CLOSED: [2015-02-04 Sat 15:28]
+*** DONE O(n log n) Algorithm for Counting Inversions II (17 min)
+    CLOSED: [2015-02-04 Thu 06:27]
+*** DONE Strassen's Subcubic Matrix Multiplication Algorithm (22 min)
+    CLOSED: [2015-02-05 Thu 06:27]
+*** O(n log n) Algorithm for Closest Pair I [Advanced - Optional] (32 min)
+*** O(n log n) Algorithm for Closest Pair II [Advanced - Optional] (19 min)   
+
+
+** IV. THE MASTER METHOD (Week 2)
+*** DONE motivation (8:00)
+    CLOSED: [2015-02-06 Fri 06:57]
+*** DONE Formal Statement (10 min)
+    CLOSED: [2015-02-06 Fri 07:08]
+
+*** DONE Examples (13 min)
+    CLOSED: [2015-02-07 Sat 06:40]
+*** DONE Proof I (10 min)
+    CLOSED: [2015-02-07 Sat 06:52]
+
+*** DONE Interpretation of the 3 Cases (11 min)
+    CLOSED: [2015-02-09 Mon 05:30]
+*** DONE Proof II (16 min)
+    CLOSED: [2015-02-09 Mon 05:38]
+
+
+** V. QUICKSORT - ALGORITHM (Week 2)
+*** DONE Quicksort: Overview (12 min)
+    CLOSED: [2015-02-11 Wed 05:42]
+*** DONE Partitioning Around a Pivot (25 min)
+    CLOSED: [2015-02-11 Wed 06:44]
+*** DONE Correctness of Quicksort [Review - Optional] (11 min)
+    CLOSED: [2015-02-13 Fri 05:31]
+*** DONE Choosing a Good Pivot (22min)
+    CLOSED: [2015-02-14 Sat 05:42]
+*** TODO Programming Question - 2
+
+
+** VI. QUICKSORT - ANALYSIS (Week 2)

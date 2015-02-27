@@ -1,0 +1,17 @@
+﻿* [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/658085dbe8d24fd3a7c334d77a76dfc0/b6f960db8b5746b3b330cbcf584b1f4e/][D003x.1 Applications of Linear Algebra (Part 1)]]
+
+** Unit 1: Entering the Matrix
+   RECAP:
+        -  Gain an overview perspective of applications of linear algebra
+        -  Be able to distinguish between linear and nonlinear equations
+        -  Learn terminology of related to matrices
+        -  Learn an algorithm that uses a matrix to visually approximate
+           an image using ASCII characters.
+
+*** DONE Introduction to Unit 1 (01:44)
+    CLOSED: [2015-02-24 Tue 06:40]
+*** 1.1 - When Life is Linear  (04:08)
+    INFO: will gain an appreciation for how linear processes can model 
+          or approximation the world.  We will also look specifically 
+          at wireframe models that create 3D models.
+*** 1.1 Exploratory Activity: When Life is Linear 

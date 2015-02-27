@@ -1,0 +1,42 @@
+﻿* [[https://class.coursera.org/nanotech-001/lecture][Nanotechnology: The Basics]]
+
+** Week 1: Nanotechnology Introduction
+*** Lecture 1.1: About this class (9:06)
+*** Lecture 1.2: Defining Nanotechnology (7:27)
+*** Lecture 1.3: Brief History of Nanotechnology (11:35)
+*** DONE Lecture 1.4: Nanotechnology: Now and Future (8:02)
+*** DONE Lecture 1.5: Why go small? New Worlds (11:11)
+    CLOSED: [2015-02-05 Thu 07:46]
+
+*** DONE Lecture 1.6: Why go small? More Stuff, More Surface (11:17)
+    CLOSED: [2015-02-06 Fri 08:08]
+    INFO: Նանոչափերի դեպքում ունենում ենք շատ օբյեկտներ նույն ծավալում և մեծ մակերես
+          հիմնականում ենթադրում ենք, որ նյութի խտությունը չի փոխվում բացի կարբոնից
+          որի խտությունը էապես փոխվում է նանոչափերում:
+          օբյեկտների քանակե խորհանարդային կախվածություն ունի շառավղից, իսկ մակերևույթը
+          քծային հակադարձ:    
+*** DONE Lecture 1.8: The nanotechnology ZOO Part 1 (15:38)
+    CLOSED: [2015-02-09 Mon 08:58]
+    
+*** DONE Lecture 1.9 The nanotechnology ZOO Part 2 (9:32)
+    CLOSED: [2015-02-11 Wed 08:20]
+    INFO: 
+         Կիսահաղորդիչներ - Quantum Dots
+         Մետաղներ - Metal nanoparticles
+         Կերամիկա - Ceramics(oxidie)
+         Ածուխ - Carbon nanostructures 
+         Օրգանիկ - Dendrimers
+*** DONE DEMO: NanoFruit: Why Go Small - Numbers and Surface
+    CLOSED: [2015-02-14 Sat 07:40]
+*** DONE DEMO: NanoWorlds: Why Go Small - New Worlds for Materials
+*** DONE SMALL TALK: Interview with Historian Cyrus Mody
+    CLOSED: [2015-02-14 Sat 22:38]
+
+
+** Week 2: Nanoelectronics
+*** DONE Lecture 2.1 Electronics: "Nano" since 2001 (10:18)
+    CLOSED: [2015-02-20 Fri 09:03]
+
+*** DONE Lecture 2.2 Fabrication - Crafting "Nano" electronics (12:14)
+    CLOSED: [2015-02-22 Sun 09:10]
+*** Lecture 2.3 The Wire: Basic Ideas (10:08)

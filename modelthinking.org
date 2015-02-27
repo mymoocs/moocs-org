@@ -1,0 +1,10 @@
+﻿* [[https://class.coursera.org/modelthinking-009/lecture][Model Thinking]]
+** Section 1: Why Model?
+*** DONE Lecture 1.1) Welcome and Thanks (Optional) (3:58)
+    CLOSED: [2015-02-16 Mon 21:54]
+*** DONE Lecture 1.2) One to Many and Many to One (8:59)
+    CLOSED: [2015-02-16 Mon 21:54]
+*** DONE Lecture 1.3) Why Model? (8:53)
+    CLOSED: [2015-02-16 Mon 21:54]
+
+

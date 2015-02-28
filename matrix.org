@@ -86,8 +86,9 @@
     CLOSED: [2015-02-27 Fri 07:56]
 *** DONE The Matrix: Matrices and their functions (09:42)
     CLOSED: [2015-02-27 Fri 08:04]
-*** TODO The Matrix: Linear functions
-***  The Matrix: Matrix-matrix multiplication
+*** DONE The Matrix: Linear functions (14:47)
+    CLOSED: [2015-02-28 Sat 04:56]
+*** TODO The Matrix: Matrix-matrix multiplication
 ***  The Matrix: Matrix-matrix multiplication and function composition
 ***  The Matrix: Matrix inverse
 *** The Matrix problems 

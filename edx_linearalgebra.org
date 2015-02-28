@@ -10,8 +10,14 @@
 
 *** DONE Introduction to Unit 1 (01:44)
     CLOSED: [2015-02-24 Tue 06:40]
-*** 1.1 - When Life is Linear  (04:08)
+*** DONE 1.1 - When Life is Linear  (04:08)
+    CLOSED: [2015-02-28 Sat 05:35]
     INFO: will gain an appreciation for how linear processes can model 
           or approximation the world.  We will also look specifically 
           at wireframe models that create 3D models.
-*** 1.1 Exploratory Activity: When Life is Linear 
+*** DONE 1.1 Exploratory Activity: When Life is Linear (03:17)
+    CLOSED: [2015-02-28 Sat 05:44]
+
+*** DONE 1.2 Being 1 Dimensional (11:29)
+    CLOSED: [2015-02-28 Sat 05:54]
+*** TODO Entering the Matrix (06:39)

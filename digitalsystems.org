@@ -32,7 +32,8 @@
     CLOSED: [2015-02-25 Wed 08:43]
 *** DONE L2.2. Boolean Algebra (26:02)
     CLOSED: [2015-02-27 Fri 07:46]
-*** L2.3. NAND, NOR, XOR, NXOR, TRI-STATE (27:28)
+*** DONE L2.3. NAND, NOR, XOR, NXOR, TRI-STATE (27:28)
+    CLOSED: [2015-02-28 Sat 05:24]
 *** P2.1. Functional specification (12:53)
 *** P2.2. Structural specification (11:15)
 *** Assignments

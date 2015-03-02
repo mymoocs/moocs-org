@@ -12,7 +12,33 @@
 *** DONE 1.1.1 Propositions (5:17)
     CLOSED: [2015-02-28 Sat 06:06]
 *** TODO 1.1.2 Connectives (19:44)
-***  1.1.3 Propositional Formulas (9:23)
+    SCHEDULED: <2015-03-02 Mon>
+    INFO: 
+    + Connectives
+      1. and - Conjuction &
+      2. or - inclusive Disjunction v (vel in Latin)
+         - inclusive "I'll get wet, or I'm lucky (and maybe both)'
+         - exclusive "I'll get wet, or I'm lucky (and not both)"
+      3. not - negation ~p
+         if p is propostion, its negation is ~p
+         p is daid to be the negand of ~p
+         - 
+      4. if-then - Conditionals
+         We say p is the antecedent, and q is the consequent
+         - if p then q
+         - if p, q
+         - q if p
+         - p only if q
+         - p implies q (ենթադրել)
+      5. unless
+      6. biconditional if-only-if (iff) p=q
+         p and q are the left-and right-hand expressions of the biconditional
+      7. that
+      8. because
+
+
+*** TODO 1.1.3 Propositional Formulas (9:23)
+    SCHEDULED: <2015-03-03 Tue>
 ***  1.1.4 Formalisation (7:00)
 ***  1.1.5 Expressive power (8:40)
 ***  1.2.1 Setting Up Truth Tables (6:35)

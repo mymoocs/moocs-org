@@ -34,9 +34,24 @@
     CLOSED: [2015-02-27 Fri 07:46]
 *** DONE L2.3. NAND, NOR, XOR, NXOR, TRI-STATE (27:28)
     CLOSED: [2015-02-28 Sat 05:24]
-*** P2.1. Functional specification (12:53)
-*** P2.2. Structural specification (11:15)
-*** Assignments
+*** DONE P2.1. Functional specification (12:53)
+    CLOSED: [2015-03-02 Mon 06:02]
+*** DONE P2.2. Structural specification (11:15)
+    CLOSED: [2015-03-02 Mon 06:02]
+*** TODO Assignments
 *** Discussion free exercises
 
+** Videos herramienta VerilUOC - Videos VerilUOC Tool videos
+*** TODO Introduction to VerilUOC_Desktop (I). Logisim and VerilCirc (20:57)
+    SCHEDULED: <2015-03-03 Tue>
+*** TODO Introduction to VerilUOC_Desktop (II). BoolMin and VerilChart (12:20)
+    SCHEDULED: <2015-03-03 Tue>
 
+** Semana 3 / Week 3
+*** TODO L3.1. Combinational circuit synthesis tools (21:33) 
+***  L3.2. Propagation time (14:46)
+***  L3.3. Other logic blocks (24:06)
+***  L3.4. Programming language structures (14:28)
+***  P3.1. Structural specification (continuation) (9:12)
+*** Assignments
+*** Discussion free exercise

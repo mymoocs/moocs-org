@@ -10,22 +10,21 @@
 
 *** DONE Lecture 1.6: Why go small? More Stuff, More Surface (11:17)
     CLOSED: [2015-02-06 Fri 08:08]
-    INFO: Նանոչափերի դեպքում ունենում ենք շատ օբյեկտներ նույն ծավալում և մեծ մակերես
-          հիմնականում ենթադրում ենք, որ նյութի խտությունը չի փոխվում բացի կարբոնից
-          որի խտությունը էապես փոխվում է նանոչափերում:
-          օբյեկտների քանակե խորհանարդային կախվածություն ունի շառավղից, իսկ մակերևույթը
-          քծային հակադարձ:    
+    Նանոչափերի դեպքում ունենում ենք շատ օբյեկտներ նույն ծավալում և մեծ մակերես
+    հիմնականում ենթադրում ենք, որ նյութի խտությունը չի փոխվում բացի կարբոնից
+    որի խտությունը էապես փոխվում է նանոչափերում:
+    օբյեկտների քանակե խորհանարդային կախվածություն ունի շառավղից, իսկ մակերևույթը
+    քծային հակադարձ:    
 *** DONE Lecture 1.8: The nanotechnology ZOO Part 1 (15:38)
     CLOSED: [2015-02-09 Mon 08:58]
     
 *** DONE Lecture 1.9 The nanotechnology ZOO Part 2 (9:32)
     CLOSED: [2015-02-11 Wed 08:20]
-    INFO: 
-         Կիսահաղորդիչներ - Quantum Dots
-         Մետաղներ - Metal nanoparticles
-         Կերամիկա - Ceramics(oxidie)
-         Ածուխ - Carbon nanostructures 
-         Օրգանիկ - Dendrimers
+    Կիսահաղորդիչներ - Quantum Dots
+    Մետաղներ - Metal nanoparticles
+    Կերամիկա - Ceramics(oxidie)
+    Ածուխ - Carbon nanostructures 
+    Օրգանիկ - Dendrimers
 *** DONE DEMO: NanoFruit: Why Go Small - Numbers and Surface
     CLOSED: [2015-02-14 Sat 07:40]
 *** DONE DEMO: NanoWorlds: Why Go Small - New Worlds for Materials
@@ -41,15 +40,15 @@
     CLOSED: [2015-02-22 Sun 09:10]
 *** DONE Lecture 2.3 The Wire: Basic Ideas (10:08)
     CLOSED: [2015-03-02 Mon 08:23]
-    INFO: I = n * e * volume = n*e*A*L=n*e*A*U*T, որտեղ՝
+    I = n * e * volume = n*e*A*L=n*e*A*U*T, որտեղ՝
           - e էլեկտորնի լիցք
           - n էլեկտրոնների քանակը հաղորդալարում
           - A հաղորդալարի լայնական հատույթի մակերեսը
           - U հաղորդալարում էլետկրոնների շարժշման արագությունը
           - T ժամանակահատվածը
-         Նանոչափերի դեպքում օգտագրրղվում է հոսանքի խտության բանաձևը՝ J = n*e*U = I/A*Q
-         Որպեսզի J /= 0, անհրաժեշտ է որ n, U /= 0, այսինքն հաղորդալարը լինի հաղորդիչ ապահովի ազատ էլեկտորններ և
-         ուժ՝ F=eE5 որը կուղղորդի էլեկտրոննների շարժումը:
+    Նանոչափերի դեպքում օգտագրրղվում է հոսանքի խտության բանաձևը՝ J = n*e*U = I/A*Q
+    Որպեսզի J /= 0, անհրաժեշտ է որ n, U /= 0, այսինքն հաղորդալարը լինի հաղորդիչ ապահովի ազատ էլեկտորններ և
+    ուժ՝ F=eE5 որը կուղղորդի էլեկտրոննների շարժումը:
 *** DONE Lecture 2.4 Cutting Edge Nanowires (12:31)
     CLOSED: [2015-03-02 Mon 08:28]
 **** ածխածնային նանոխողովակներ որպես նանոհաղորդալար
@@ -60,9 +59,16 @@
     1. Նանո հաղորդալարի տեսակը
     2. Նանո հաղորդալարի դիրքի կառավարում
     3. Երակցումը մետաղական տրանզիստորին, օրինակ եթե ածխածնային նանոխողովակներ դեպքում
-    
 **** Կիսահաղորդչային նանոհաղորդալար
      ունեն մոտավորապես 10 նմ տրամագիծ և մկմ-երի երկարություն
-*** TODO Lecture 2.5 The Transistor: Microscale to Nanoscale (12:45)
-    SCHEDULED: <2015-03-03 Tue>
+*** DONE Lecture 2.5 The Transistor: Microscale to Nanoscale (12:45)
+    CLOSED: [2015-03-03 Tue 11:20] SCHEDULED: <2015-03-03 Tue>
+    նանոչափերի դեպքում ինչպիսին կարող է լինել տրանզիստորը,
+    «մեկ էլէեկտոնով տրանիզոստր», «մեկ մոլեկուլով տրանզիստր»  
     
+*** TODO Lecture 2.6 Nanoelectronics: spin-off technologies (12:19)
+    SCHEDULED: <2015-03-04 Wed>
+*** TODO Lecture 2.X Optional Background: Semiconductors and Doping (18:13)
+    SCHEDULED: <2015-03-05 Thu>
+*** TODO Lecture 2.Y Optional Background: Transistors, FETs and MOSFETs (12:45)
+    SCHEDULED: <2015-03-06 Fri>

@@ -1,0 +1,6 @@
+﻿* learn org-mode and poishm my org config
+
+** TODO how write math formula in org mode
+   SCHEDULED: <2015-03-03 Tue>
+
+ 

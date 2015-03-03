@@ -24,10 +24,10 @@
     CLOSED: [2015-03-02 Mon 07:48]
 *** DONE 1.3.2 Activity: Build Your Own Matrix (03:42)
     CLOSED: [2015-03-02 Mon 07:53]
-*** TODO 1.4.1 Spying Submatrices (05:58)
-    SCHEDULED: <2015-03-03 Tue>
-*** TODO 1.4.2 Spying Submatrices: Activity (05:42)
-    SCHEDULED: <2015-03-03 Tue>
+*** DONE 1.4.1 Spying Submatrices (05:58)
+    CLOSED: [2015-03-03 Tue 07:03] SCHEDULED: <2015-03-03 Tue>
+*** DONE 1.4.2 Spying Submatrices: Activity (05:42)
+    CLOSED: [2015-03-03 Tue 06:53] SCHEDULED: <2015-03-03 Tue>
 *** TODO 1.5.1 ASCII Art ()
     SCHEDULED: <2015-03-04 Wed>
 

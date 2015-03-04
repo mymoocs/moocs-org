@@ -1,0 +1,17 @@
+* [[http://www.seas.upenn.edu/~cis194/spring13/][cis194 Brent Yorgey]]
+
+
+
+* [[http://www.seas.upenn.edu/~cis194/fall14/][cis194 Richard Eisenberg]]
+** TODO Week 1: Introduction to Haskell
+   SCHEDULED: <2015-03-05 Հնգ>
+** Week 2: Working with Lists
+** 
+
+
+  
+* [[http://www.seas.upenn.edu/~cis194/][cis194 Noam Zilberstein]]
+
+
+
+

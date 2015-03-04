@@ -1,4 +1,4 @@
-﻿* [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/658085dbe8d24fd3a7c334d77a76dfc0/b6f960db8b5746b3b330cbcf584b1f4e/][D003x.1 Applications of Linear Algebra (Part 1)]]
+* [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/658085dbe8d24fd3a7c334d77a76dfc0/b6f960db8b5746b3b330cbcf584b1f4e/][D003x.1 Applications of Linear Algebra (Part 1)]]
 
 ** Unit 1: Entering the Matrix
    RECAP:
@@ -28,8 +28,16 @@
     CLOSED: [2015-03-03 Tue 07:03] SCHEDULED: <2015-03-03 Tue>
 *** DONE 1.4.2 Spying Submatrices: Activity (05:42)
     CLOSED: [2015-03-03 Tue 06:53] SCHEDULED: <2015-03-03 Tue>
-*** TODO 1.5.1 ASCII Art ()
-    SCHEDULED: <2015-03-04 Wed>
+*** DONE 1.5.1 ASCII Art (07;24)
+    CLOSED: [2015-03-04 Wed 06:46] SCHEDULED: <2015-03-04 Wed>
+*** DONE Activity Overview: Create Your Own ASCII Art (05:26)
+    CLOSED: [2015-03-04 Wed 06:52] SCHEDULED: <2015-03-04 Wed>
 
-*** TODO Activity Overview: Create Your Own ASCII Art (05:26)
-    SCHEDULED: <2015-03-04 Wed>
+** [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/863d7f9887b7473ca182829a4db2d984/f169d4a1595e4d7597dc687f71d122e5/][Unit 2: Sum Matrices]]
+*** TODO Introduction to Unit 2 (02;23)
+    SCHEDULED: <2015-03-05 Thu>
+*** TODO 2.1.1 Get Inverted
+    SCHEDULED: <2015-03-05 Thu>
+*** TODO 2.1.2 Exploratory Activity: Get Inverted 
+    SCHEDULED: <2015-03-05 Thu>
+

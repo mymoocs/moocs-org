@@ -1,6 +1,12 @@
-﻿* learn org-mode and poishm my org config
+* learn emacs and org-mode and polish my org config
 
-** TODO how write math formula in org mode
-   SCHEDULED: <2015-03-03 Tue>
+** DONE how write math formula in org mode
+   CLOSED: [2015-03-04 Չրք 08:01] SCHEDULED: <2015-03-03 Tue>
+   no way, should use LaTex  syntax embedded in org.
+
+* An Introduction to Programming in Emacs Lisp
+** TODO [[http://www.gnu.org/software/emacs/manual/html_node/eintr/List-Processing.html#List-Processing][1 List Processing]]
+** [[http://www.gnu.org/software/emacs/manual/html_node/eintr/Practicing-Evaluation.html#Practicing-Evaluation][2 Practicing Evaluation]]
 
  
+

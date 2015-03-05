@@ -74,8 +74,7 @@
     CLOSED: [2015-03-05 Thu 06:29] SCHEDULED: <2015-03-05 Հնգ>
 
 
-
-*** DONE ex 5
+*** DONE Домашнее задание 5 
     CLOSED: [2015-03-05 Thu 07:05]
-*** DONE control work 
+*** DONE Контрольная работа 
     CLOSED: [2015-03-05 Thu 07:05]

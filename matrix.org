@@ -95,7 +95,7 @@
 *** DONE The Matrix: Matrix inverse (14:44)
     CLOSED: [2015-03-02 Mon 05:31]
 *** TODO The Matrix problems 
-    SCHEDULED: <2015-03-04 Wed> DEADLINE: <2015-03-15 Sun>
+    SCHEDULED: <2015-03-06 Fri> DEADLINE: <2015-03-15 Sun>
     LINK: [[https://class.coursera.org/matrix-002/assignment/view?assignment_id=97][The Matrix problems: Instructions]] 
 *** TODO Matrix Class Homework
     DEADLINE: <2015-03-15 Sun>
@@ -106,7 +106,7 @@
 
 ** Week 4: The Basis
 *** TODO The Basis: Coordinate systems
-    SCHEDULED: <2015-03-04 Wed>
+    SCHEDULED: <2015-03-06 Fri>
 *** The Basis: Lossy compression
 *** The Basis: Algorithms for finding a set of generators
 *** The Basis: Minimum spanning forest

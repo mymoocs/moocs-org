@@ -1,4 +1,4 @@
-* [[https://class.coursera.org/digitalsystems-002][Digital Signals]]
+﻿* [[https://class.coursera.org/digitalsystems-002][Digital Signals]]
 
 ** Semana 0 - Week 0
 *** DONE L0.1 Binary numeration system (19:10)
@@ -50,7 +50,7 @@
 
 ** [[https://class.coursera.org/digitalsystems-002/wiki/semana_week_3][Semana 3 / Week 3]]
 *** TODO L3.1. Combinational circuit synthesis tools (21:33) 
-    SCHEDULED: <2015-03-05 Thu>
+    SCHEDULED: <2015-03-06 Fri>
 ***  L3.2. Propagation time (14:46)
 ***  L3.3. Other logic blocks (24:06)
 ***  L3.4. Programming language structures (14:28)

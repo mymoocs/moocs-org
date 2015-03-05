@@ -1,4 +1,4 @@
-* [[https://class.coursera.org/nanotech-001/lecture][Nanotechnology: The Basics]]
+﻿* [[https://class.coursera.org/nanotech-001/lecture][Nanotechnology: The Basics]]
 
 ** Week 1: Nanotechnology Introduction
 *** Lecture 1.1: About this class (9:06)
@@ -69,6 +69,6 @@
 *** DONE Lecture 2.6 Nanoelectronics: spin-off technologies (12:19)
     CLOSED: [2015-03-04 Wed 07:17] SCHEDULED: <2015-03-04 Wed>
 *** TODO Lecture 2.X Optional Background: Semiconductors and Doping (18:13)
-    SCHEDULED: <2015-03-05 Thu>
-*** TODO Lecture 2.Y Optional Background: Transistors, FETs and MOSFETs (12:45)
     SCHEDULED: <2015-03-06 Fri>
+*** TODO Lecture 2.Y Optional Background: Transistors, FETs and MOSFETs (12:45)
+    SCHEDULED: <2015-03-07 Sat>

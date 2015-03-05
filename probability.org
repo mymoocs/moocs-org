@@ -1,0 +1,6 @@
+﻿* [[https://class.coursera.org/probability-001][Probability]]                                               :Penn:statistics:
+  :AUTHOR: Dr. Santosh S. Venkatesh
+  :UNIVERSITY:  University of Pennsylvania
+ 
+** TODO Learn course structure and how to start.
+   SCHEDULED: <2015-03-08 Sun>

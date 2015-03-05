@@ -5,4 +5,4 @@
 ** GOING [[https://class.coursera.org/digitalsystems-002][Digital Systems - Sistemas Digitales]]
 ** [[https://www.coursera.org/course/maththink][Introduction to Mathematical Thinking]]
 ** [[https://www.coursera.org/course/designbiz][Design Thinking for Business Innovation]]
-** [[https://class.coursera.org/probability-001/wiki/syllabus][Probability]]
+** NEXT [[https://class.coursera.org/probability-001/wiki/syllabus][Probability]]

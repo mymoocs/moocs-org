@@ -1,20 +1,20 @@
-* [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/658085dbe8d24fd3a7c334d77a76dfc0/b6f960db8b5746b3b330cbcf584b1f4e/][D003x.1 Applications of Linear Algebra (Part 1)]]
+﻿* [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/658085dbe8d24fd3a7c334d77a76dfc0/b6f960db8b5746b3b330cbcf584b1f4e/][D003x.1 Applications of Linear Algebra (Part 1)]]
 
 ** Unit 1: Entering the Matrix
-   RECAP:
-        -  Gain an overview perspective of applications of linear algebra
-        -  Be able to distinguish between linear and nonlinear equations
-        -  Learn terminology of related to matrices
-        -  Learn an algorithm that uses a matrix to visually approximate
-           an image using ASCII characters.
+   1. Gain an overview perspective of applications of linear algebra
+   2. Be able to distinguish between linear and nonlinear equations
+   3. Learn terminology of related to matrices
+   4. Learn an algorithm that uses a matrix to visually approximate
+      an image using ASCII characters.
+   [[http://math365.org/lifeislinear/ASCIIart/ASCIIart.html][Online app to create ASCII images]]
 
 *** DONE Introduction to Unit 1 (01:44)
     CLOSED: [2015-02-24 Tue 06:40]
 *** DONE 1.1 - When Life is Linear  (04:08)
     CLOSED: [2015-02-28 Sat 05:35]
-    INFO: will gain an appreciation for how linear processes can model 
-          or approximation the world.  We will also look specifically 
-          at wireframe models that create 3D models.
+    will gain an appreciation for how linear processes can model 
+    or approximation the world.  We will also look specifically 
+    at wireframe models that create 3D models.
 *** DONE 1.1 Exploratory Activity: When Life is Linear (03:17)
     CLOSED: [2015-02-28 Sat 05:44]
 
@@ -34,10 +34,23 @@
     CLOSED: [2015-03-04 Wed 06:52] SCHEDULED: <2015-03-04 Wed>
 
 ** [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/863d7f9887b7473ca182829a4db2d984/f169d4a1595e4d7597dc687f71d122e5/][Unit 2: Sum Matrices]]
-*** TODO Introduction to Unit 2 (02;23)
-    SCHEDULED: <2015-03-05 Thu>
-*** TODO 2.1.1 Get Inverted
-    SCHEDULED: <2015-03-05 Thu>
-*** TODO 2.1.2 Exploratory Activity: Get Inverted 
-    SCHEDULED: <2015-03-05 Thu>
+   In this unit, you will learn the following: 
+    1. To compute matrix addition
+    2. To compute scalar multiplication
+    3. To compute a convex combination of matrices
+    4. Image manipulation using matrix arithmetic 
+   [[http://math365.org/lifeislinear/Inversion/Inversion.html][online app for Inversion online]]
+   [[http://math365.org/lifeislinear/BlendPhoto/BlendPhoto.html][online app to Combine pictures]]
+
+*** DONE Introduction to Unit 2 (02;23)
+    CLOSED: [2015-03-05 Thu 07:57] SCHEDULED: <2015-03-05 Thu>
+*** DONE 2.1.1 Get Inverted (07:48)
+    CLOSED: [2015-03-05 Thu 08:07] SCHEDULED: <2015-03-05 Thu>
+*** DONE 2.1.2 Exploratory Activity: Get Inverted (06:04)
+    CLOSED: [2015-03-05 Thu 08:11] SCHEDULED: <2015-03-05 Thu>
+*** TODO 2.2.1 Take the Combo (04:37)
+    SCHEDULED: <2015-03-06 Fri>
+    To combine two images with matrix arithmetic
+*** TODO 2.2.2 Activity: Blended Photos
+    SCHEDULED: <2015-03-06 Fri>
 

@@ -108,14 +108,69 @@
 
       - 
      
-*** TODO 1.2.3 The Material Conditional & Biconditional (11:50)
-    SCHEDULED: <2015-03-06 Fri>
-***  1.3.1 Classifying Propositions (11:18)
+*** DONE 1.2.3 The Material Conditional & Biconditional (11:50)
+    CLOSED: [2015-03-06 Fri 06:28] SCHEDULED: <2015-03-06 Fri>
+    - տրամաբանական հետևություն
+        
+        | A | B | (A -> B) |
+        |---+---+----------|
+        | 0 | 0 |        1 |
+        | 0 | 1 |        1 |
+        | 1 | 0 |        0 |
+        | 1 | 1 |        1 |
+        |---+---+----------|
+
+        (A->B) համարժեք է ~(A & ~B)
+
+    - տրամաբանական նույնություն
+        
+        | A | B | (A = B)  |
+        |---+---+----------|
+        | 0 | 0 |        1 |
+        | 0 | 1 |        0 |
+        | 1 | 0 |        0 |
+        | 1 | 1 |        1 |
+        |---+---+----------|
+      (A=b) համարժեք է (A->B)&(B->A)
+
+
+
+*** DONE 1.3.1 Classifying Propositions (11:18)
+    CLOSED: [2015-03-07 Sat 07:20] SCHEDULED: <2015-03-07 Sat>
+    1. Տավտալոգիա (tautology)
+      Ա ասույթային բանաձևը կանվանենք տավտոլոգիա, եթե միշտ ընդունում է 1 արժեքը
+       - Օրինակ. 
+         * (p V ~p),
+         * (pVq)=~(~p&~q) (p&q)=~(~pV~q) (de Morgan's lows)
+         * ((p->q)&~q)->~p (Modus tollens)
+         * (p->q)=(~q->~p) ()
+
+    2. Հակասություն (Contradiction) 
+       ասույթային բանաձևը կանվանենք տավտոլոգիա, եթե միշտ ընդունում է 0 արժեքը
+       - Օրինակ. 
+         * (p & ~p),
+         * (p->q)&(p->~q)
+         * 
+    3. Կատարելի (satisfiable)
+       ունի առնվազմն մեկ հատ 1 իր ճշմարտության աղյուսակում
+    4. Դիպվածային (contingent)
+       Եթե Կատարելի է բայգ տավտոլոգիա չէ
+    5. ասույթային բանաձևը տավտոլոգիա է 
+       - միայն ու միայն այն դեպում եթե ~A is not satisfiable
+       - միայն ու միայն այն դեպում եթե ~A is a contradiction
+
+*** TODO 1.3.2 Relationships Between Propositions (14:26)
+    SCHEDULED: <2015-03-08 Sun>
+              
 ***  1.3.2 Relationships Between Propositions (14:26)
-*** TODO Graded Quiz 1a: The Propositional Language
-    SCHEDULED: <2015-03-06 Fri>
-*** Graded Quiz 1b: Models of Propositional Logic
-*** Practice Quiz: 1a The Propositional Language
-*** Practice Quiz: 1b Models of Propositional Logic
+*** DONE Graded Quiz 1a: The Propositional Language
+    CLOSED: [2015-03-06 Fri 06:45] SCHEDULED: <2015-03-06 Fri>
+*** DONE Graded Quiz 1b: Models of Propositional Logic
+    CLOSED: [2015-03-07 Sat 07:28] SCHEDULED: <2015-03-07 Sat>
+*** TODO Practice Quiz: 1a The Propositional Language
+    SCHEDULED: <2015-03-08 Sun>
+*** DONE Practice Quiz: 1b Models of Propositional Logic
+    SCHEDULED: <2015-03-07 Sat>
 *** Practice Quiz: 2a Using Truth Tables to Check for Logical Relations and Validity 
 *** Practice Quiz: 2b Trees for Propositional Logic
+

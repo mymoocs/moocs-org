@@ -41,6 +41,8 @@
     4. Image manipulation using matrix arithmetic 
    [[http://math365.org/lifeislinear/Inversion/Inversion.html][online app for Inversion online]]
    [[http://math365.org/lifeislinear/BlendPhoto/BlendPhoto.html][online app to Combine pictures]]
+   [[http://math365.org/lifeislinear/BlendingGIF/BlendingGIF.html][online app to generate blending gifs]]
+   [[http://gifmaker.me/][make animation from gif images sequence]]
 
 *** DONE Introduction to Unit 2 (02;23)
     CLOSED: [2015-03-05 Thu 07:57] SCHEDULED: <2015-03-05 Thu>
@@ -48,9 +50,31 @@
     CLOSED: [2015-03-05 Thu 08:07] SCHEDULED: <2015-03-05 Thu>
 *** DONE 2.1.2 Exploratory Activity: Get Inverted (06:04)
     CLOSED: [2015-03-05 Thu 08:11] SCHEDULED: <2015-03-05 Thu>
-*** TODO 2.2.1 Take the Combo (04:37)
-    SCHEDULED: <2015-03-06 Fri>
+*** DONE 2.2.1 Take the Combo (04:37)
+    CLOSED: [2015-03-06 Fri 05:55] SCHEDULED: <2015-03-06 Fri>
     To combine two images with matrix arithmetic
-*** TODO 2.2.2 Activity: Blended Photos
-    SCHEDULED: <2015-03-06 Fri>
+    αA+(1-α)B
+*** DONE 2.2.2 Activity: Blended Photos
+    CLOSED: [2015-03-06 Fri 05:58] SCHEDULED: <2015-03-06 Fri>
+*** DONE 2.3.1 Fade Away (06;23)
+    CLOSED: [2015-03-07 Sat 07:40] SCHEDULED: <2015-03-07 Sat>
+     to adapt the ideas of the last section to create an animation.
+*** DONE 2.3.2 Activity Overview: Creating Animated GIFS
+    CLOSED: [2015-03-07 Sat 07:47] SCHEDULED: <2015-03-07 Sat>
+
+
+** [[https://courses.edx.org/courses/DavidsonX/D003x.1/1T2015/courseware/a2f16292e84e45a1a07d6896a331394b/16aa8812b4fb4198a49cc0cacebb1af3/][Unit 3: Fitting the Norm]]
+   In this unit, you will learn the following: 
+    1. To compute the Euclidean norm on vectors
+    2. To compute the taxicab norm on vectors
+    3. An application of vector norms to data mining for movie recommendations
+    4. An application of vector norms to reading handwritten numbers
+*** TODO Introduction to Unit 3 (01:18)
+    SCHEDULED: <2015-03-08 Sun>
+*** TODO The Norm in Movies (13:11)
+    SCHEDULED: <2015-03-08 Sun>
+   * How to compute the Euclidean norm
+   * How to compute the taxicab norm
+   * How to apply vector norms to data mining in the context of a movie recommendation system
+
 

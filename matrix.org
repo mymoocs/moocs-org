@@ -56,11 +56,11 @@
     CLOSED: [2015-02-20 Fri 07:12]
 *** DONE 2.2 The Vector Space: Span (07:44)
     CLOSED: [2015-02-20 Fri 07:23]
-    INFO: Generator Բազիս
-          Span վեկտորների բազմություն որոնք ստացվում են 
-          բազիսի վեկտորների բոլոր հնարավոր գծային կոմբինացիաներից:
-          Օրինակ՝ [(1,0,0), (0,1,0), (0,0,1)] այս բազիսի span-ը
-          եռաչափ տարածություն է:
+    Generator Բազիս
+    Span վեկտորների բազմություն որոնք ստացվում են 
+    բազիսի վեկտորների բոլոր հնարավոր գծային կոմբինացիաներից:
+    Օրինակ՝ [(1,0,0), (0,1,0), (0,0,1)] այս բազիսի span-ը
+    եռաչափ տարածություն է:
 *** DONE 2.3 The Vector Space: Geometry of Sets of Vectors(13:06)
     CLOSED: [2015-02-22 Sun 06:40]
 *** DONE 2.4 The Vector Space: Vector spaces (12:15)
@@ -105,11 +105,20 @@
     LINK: [[https://class.coursera.org/matrix-002/assignment/view?assignment_id=65][Error Correcting Code Lab: Instructions]]
 
 ** Week 4: The Basis
-*** TODO The Basis: Coordinate systems
-    SCHEDULED: <2015-03-06 Fri>
-*** The Basis: Lossy compression
-*** The Basis: Algorithms for finding a set of generators
-*** The Basis: Minimum spanning forest
+*** DONE The Basis: Coordinate systems (03:46)
+    CLOSED: [2015-03-06 Fri 07:23] SCHEDULED: <2015-03-06 Fri>
+*** DONE The Basis: Lossy compression (04:16)
+    CLOSED: [2015-03-07 Sat 08:05] SCHEDULED: <2015-03-07 Sat>
+*** DONE The Basis: Algorithms for finding a set of generators (04:58)
+    CLOSED: [2015-03-07 Sat 08:14] SCHEDULED: <2015-03-07 Sat>
+    Տված V վեկտորների բազմության համար գտնել բազիսի վեկտորների քանակըյ
+    այլ կերպ ասած V բազմության չափողականությունը:
+    Երկու ալգորիթմ նկարագրություն որոնք չեն երաշխավորում որ վերադարձնում են 
+    մինիմալ վեկտորները որպես բազիս:
+    - Grow
+    - Shrink to down
+*** TODO The Basis: Minimum spanning forest (12:12)
+    SCHEDULED: <2015-03-08 Sun>
 *** The Basis: Linear dependence
 *** The Basis: Basis
 *** The Basis: Unique representation

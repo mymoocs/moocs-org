@@ -1,12 +1,57 @@
-* [[http://www.seas.upenn.edu/~cis194/spring13/][cis194 Brent Yorgey]]
+﻿* [[http://www.seas.upenn.edu/~cis194/spring13/][cis194 Brent Yorgey]]
 
 
 
 * [[http://www.seas.upenn.edu/~cis194/fall14/][cis194 Richard Eisenberg]]
-** TODO Week 1: Introduction to Haskell
-   SCHEDULED: <2015-03-05 Հնգ>
-** Week 2: Working with Lists
-** 
+  [[https://github.com/goldfirere][Richard Eisenberg's github page]]
+
+** DONE [[http://www.seas.upenn.edu/~cis194/fall14/lectures/01-intro.html][Week 1: Introduction to Haskell]]
+   CLOSED: [2015-03-07 Sat 05:45] SCHEDULED: <2015-03-05 Thu>
+   Haskell is lazy, functional language.
+   Haskell is
+   1. Functional
+      1) functions are first-class
+      2) evaluating expressions rather than executing instructions.
+   2. Pure
+      - Haskell expression are always referentially transparent
+        * No mutations! Everything is immutable
+        * No side effcts.
+        * same input -> same output allways
+      - Purity mean also
+        * Equational reasoning and refactoring: In Haskell one can always "replace equals by equals", 
+          just like you learned in algebra class.
+        * Parallelism: Evaluating expressions in parallel is easy when they are guaranteed not to 
+          affect one another.
+        * Fewer headaches: Simply put, unrestricted effects and action-at-a-distance makes for programs
+          that are hard to debug, maintain, and reason about.
+   3. Lazy
+       expressions are not evaluated until their results are actually needed
+      * It is easy to define a new control structure just by defining a function.
+      * It is possible to define and work with infinite data structures.
+      * It enables a more compositional programming style (see wholemeal programming below).
+      * One major downside, however, is that reasoning about time and space usage becomes much more complicated!
+   4. Statically typed
+
+
+
+     
+
+
+
+** TODO Homework 1: 
+   SCHEDULED: <2015-03-06 Fri>
+*** DONE Add doctesting
+    CLOSED: [2015-03-07 Sat 06:35]
+     
+*** TODO HUnit testing
+    SCHEDULED: <2015-03-07 Sat>
+*** HSpec testing
+    SCHEDULED: <2015-03-07 Sat>
+
+** TODO Week 2: Working with Lists
+   SCHEDULED: <2015-03-07 Sat>
+** TODO Homework 2: 
+   SCHEDULED: <2015-03-07 Sat>
 
 
   

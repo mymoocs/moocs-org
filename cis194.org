@@ -1,7 +1,5 @@
 ﻿* [[http://www.seas.upenn.edu/~cis194/spring13/][cis194 Brent Yorgey]]
 
-
-
 * [[http://www.seas.upenn.edu/~cis194/fall14/][cis194 Richard Eisenberg]]
   [[https://github.com/goldfirere][Richard Eisenberg's github page]]
 
@@ -34,26 +32,19 @@
 
 
 
-     
-
-
-
 ** TODO Homework 1: 
    SCHEDULED: <2015-03-06 Fri>
+*** [[https://vimeo.com/6653485][Functional Pearl: La Tour D'Hanoi on vimeo]]
 *** DONE Add doctesting
     CLOSED: [2015-03-07 Sat 06:35]
-     
-*** TODO HUnit testing
-    SCHEDULED: <2015-03-07 Sat>
-*** HSpec testing
-    SCHEDULED: <2015-03-07 Sat>
-
+*** DONE Add HUnit testing
+    CLOSED: [2015-03-08 Sun 15:25] SCHEDULED: <2015-03-07 Sat>
+*** TODO HSpec testing
+    SCHEDULED: <2015-03-08 Sun>
 ** TODO Week 2: Working with Lists
-   SCHEDULED: <2015-03-07 Sat>
+   SCHEDULED: <2015-03-09 Mon>
 ** TODO Homework 2: 
-   SCHEDULED: <2015-03-07 Sat>
-
-
+   SCHEDULED: <2015-03-09 Mon>
   
 * [[http://www.seas.upenn.edu/~cis194/][cis194 Noam Zilberstein]]
 

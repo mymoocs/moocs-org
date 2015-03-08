@@ -118,7 +118,7 @@
     - Grow
     - Shrink to down
 *** TODO The Basis: Minimum spanning forest (12:12)
-    SCHEDULED: <2015-03-08 Sun>
+    SCHEDULED: <2015-03-09 Mon>
 *** The Basis: Linear dependence
 *** The Basis: Basis
 *** The Basis: Unique representation

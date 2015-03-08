@@ -159,10 +159,59 @@
        - միայն ու միայն այն դեպում եթե ~A is not satisfiable
        - միայն ու միայն այն դեպում եթե ~A is a contradiction
 
-*** TODO 1.3.2 Relationships Between Propositions (14:26)
-    SCHEDULED: <2015-03-08 Sun>
-              
-***  1.3.2 Relationships Between Propositions (14:26)
+*** DONE 1.3.2 Relationships Between Propositions (14:26)
+    CLOSED: [2015-03-08 Sun 08:52] SCHEDULED: <2015-03-08 Sun>
+    Հարաբերություններ ասույթների միջև
+    1. Տրամաբանական հետևություն (consequence)
+       կասենք Բ բանաձևը Ա բանաձևի տրամաբանական հետևություն է, եթե 
+       այն տողերում որտեղ Ա բանաձը ճիշտ է Բ էլ է ճիշտ:
+       A |= B
+       A logical implies B - ենթադրել
+       A logical entails B - հանգեցնել 
+      
+       Օրինակ. p & ~q |= ~p V ~q, քանի որ
+    
+       | p | q | p & ~q | ~p V ~q |
+       |---+---+--------+---------|
+       | 0 | 0 |      0 |       1 |    
+       | 0 | 1 |      0 |       1 |
+       | 1 | 0 |      1 |       1 |         
+       | 1 | 1 |      0 |       0 |
+       |---+---+--------+---------|
+
+    2. Տրամաբանական նույնություն (equivalence)
+       կասենք Ա բանաձևը տրամաբանորեն նույնական է  Բ բանաձևին, 
+       եթե բոլոր տողերում Ա և Բ բանաձևերը ընդունում են նույն արժեքները:
+       A =|= B
+       Թերորեմ: կամայական A և B ասույթային բանաձևեր հարաբերվում են որպես.
+       1) տրամաբանական նույնություններ A =|= B 
+          * միայն ու միայն այն դեպքում, երբ  A|= B և  B |= A:
+          * միայն ու միայն այն դեպքում, երբ  (A = B) տավտալոգիա է
+       2) տրամաբանական հետևություն A |= B
+          միայն ու միայն այն դեպքում, երբ  (A -> B) տավտալոգիա է
+    3. Տրամաբանական հակասություն (contradictories)
+       կասենք Ա բանաձևը տրամաբանորեն հակասական է  Բ բանաձևին, 
+       եթե բոլոր տողերում Ա և Բ բանաձևերը ընդունում են հակադիր արժեքներ:
+       A =|= B
+       Թերորեմ: կամայական A և B ասույթային բանաձևեր տրամաբանական հակասական են, եթտ
+       * միայն ու միայն այն դեպքում, երբ  A =|= ~B
+       * միայն ու միայն այն դեպքում, երբ  (A = ~B) տավտալոգիա է
+    4. Տրադիցիոն տրամաբանանակն հարաբերություններ
+       1) հակասություն contraries
+          Ա և Բ բանաձևերը հակասական են, եթե նրանք երկուսն էլ չեն կարող լինել ճշմարիտ՝
+          Բ սխալ է այն տողերում երբ Ա ճիշտ է, և Ա սխալ է երբ Բ ճիշտ է:
+          ~(pvq) p&q, these formulas are contraries but does not sub-contraries.
+          Թերորեմ: կամայական A և B ասույթային բանաձևեր հակասություններ են, եթե
+          * միայն ու միայն այն դեպքում, երբ  A |= ~B
+          * միայն ու միայն այն դեպքում, երբ  (A -> ~B) տավտալոգիա է
+
+       2) ենթահակասություն sub-contraries
+          Ա և Բ բանաձևերը ենթա-հակասական են, եթե նրանք երկուսն էլ չեն կարող լինել սխալ՝
+          Բ ճիշտ է այն տողերում երբ Ա սխալ է, և Ա ճիշտ է երբ Բ սխալ է:
+          Թերորեմ: կամայական A և B ասույթային բանաձևեր ենթա- հակասություններ են, եթե
+          * միայն ու միայն այն դեպքում, երբ  ~A |= B
+          * միայն ու միայն այն դեպքում, երբ  (~A -> B) տավտալոգիա է
+         
 *** DONE Graded Quiz 1a: The Propositional Language
     CLOSED: [2015-03-06 Fri 06:45] SCHEDULED: <2015-03-06 Fri>
 *** DONE Graded Quiz 1b: Models of Propositional Logic
@@ -174,3 +223,13 @@
 *** Practice Quiz: 2a Using Truth Tables to Check for Logical Relations and Validity 
 *** Practice Quiz: 2b Trees for Propositional Logic
 
+** 2: Proofs for Propositional Logic (Core)
+*** TODO 2.1.1 Validity of Arguments (9:38)
+    SCHEDULED: <2015-03-09 Mon>
+*** 2.1.2 Argument Forms, Instances and Soundness (16:42)
+*** 2.2.1 Why We Need Proof Trees (15:12)
+*** 2.2.2 Rules for Proof Trees for Propositional Logic (9:07)
+*** 2.2.3 Example Proof Trees for Propositional Logic (14:35)
+*** 2.2.4 Why Trees and Truth Tables Agree (14:02)
+*** Practice Quiz: 2a Using Truth Tables to Check for Logical Relations and Validity (5 marks)
+*** Practice Quiz: 2b Trees for Propositional Logic (15 marks) 

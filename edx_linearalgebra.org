@@ -70,9 +70,9 @@
     3. An application of vector norms to data mining for movie recommendations
     4. An application of vector norms to reading handwritten numbers
 *** TODO Introduction to Unit 3 (01:18)
-    SCHEDULED: <2015-03-08 Sun>
+    SCHEDULED: <2015-03-09 Mon>
 *** TODO The Norm in Movies (13:11)
-    SCHEDULED: <2015-03-08 Sun>
+    SCHEDULED: <2015-03-09 Mon>
    * How to compute the Euclidean norm
    * How to compute the taxicab norm
    * How to apply vector norms to data mining in the context of a movie recommendation system

@@ -51,14 +51,14 @@
 ** [[https://class.coursera.org/digitalsystems-002/wiki/semana_week_3][Semana 3 / Week 3]]
 *** DONE L3.1. Combinational circuit synthesis tools (21:33) 
     CLOSED: [2015-03-06 Fri 05:44] SCHEDULED: <2015-03-06 Fri>
-*** TODO L3.2. Propagation time (14:46)
-    SCHEDULED: <2015-03-07 Sat>
+*** DONE L3.2. Propagation time (14:46)
+    CLOSED: [2015-03-08 Sun 07:14] SCHEDULED: <2015-03-07 Sat>
 *** TODO L3.3. Other logic blocks (24:06)
-    SCHEDULED: <2015-03-08 Sun>
-*** TODO L3.4. Programming language structures (14:28)
     SCHEDULED: <2015-03-09 Mon>
-***  P3.1. Structural specification (continuation) (9:12)
-     SCHEDULED: <2015-03-10 Tue>
-*** Assignments
+*** TODO L3.4. Programming language structures (14:28)
     SCHEDULED: <2015-03-10 Tue>
+*** TODO P3.1. Structural specification (continuation) (9:12)
+    SCHEDULED: <2015-03-10 Tue>
+*** TODO Week 3 exercises
+    DEADLINE: <2015-03-10 Tue> SCHEDULED: <2015-03-10 Tue>
 *** Discussion free exercise

@@ -32,20 +32,25 @@
 
 
 
-** TODO Homework 1: 
-   SCHEDULED: <2015-03-06 Fri>
+** DONE Homework 1: 
+   CLOSED: [2015-03-08 Sun 20:37] SCHEDULED: <2015-03-06 Fri>
 *** [[https://vimeo.com/6653485][Functional Pearl: La Tour D'Hanoi on vimeo]]
 *** DONE Add doctesting
     CLOSED: [2015-03-07 Sat 06:35]
 *** DONE Add HUnit testing
     CLOSED: [2015-03-08 Sun 15:25] SCHEDULED: <2015-03-07 Sat>
-*** TODO HSpec testing
-    SCHEDULED: <2015-03-08 Sun>
+*** TODO research the papaer "functional pearl: la tour d'hanoi" 
+    DEADLINE: <2015-03-11 Wed> SCHEDULED: <2015-03-09 Mon>
 ** TODO Week 2: Working with Lists
    SCHEDULED: <2015-03-09 Mon>
 ** TODO Homework 2: 
-   SCHEDULED: <2015-03-09 Mon>
+   DEADLINE: <2015-03-11 Wed> SCHEDULED: <2015-03-09 Mon>
+** TODO HSpec testing
+   DEADLINE: <2015-03-15 Sun>
+** TODO learn testy
+   DEADLINE: <2015-03-15 Sun>
   
+
 * [[http://www.seas.upenn.edu/~cis194/][cis194 Noam Zilberstein]]
 
 

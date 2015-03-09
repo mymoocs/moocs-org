@@ -95,7 +95,7 @@
 *** DONE The Matrix: Matrix inverse (14:44)
     CLOSED: [2015-03-02 Mon 05:31]
 *** TODO The Matrix problems 
-    SCHEDULED: <2015-03-06 Fri> DEADLINE: <2015-03-15 Sun>
+    SCHEDULED: <2015-03-10 Tue> DEADLINE: <2015-03-15 Sun>
     LINK: [[https://class.coursera.org/matrix-002/assignment/view?assignment_id=97][The Matrix problems: Instructions]] 
 *** TODO Matrix Class Homework
     DEADLINE: <2015-03-15 Sun>
@@ -117,8 +117,11 @@
     մինիմալ վեկտորները որպես բազիս:
     - Grow
     - Shrink to down
-*** TODO The Basis: Minimum spanning forest (12:12)
-    SCHEDULED: <2015-03-09 Mon>
+*** DONE The Basis: Minimum spanning forest (12:12)
+    CLOSED: [2015-03-09 Mon 12:51] SCHEDULED: <2015-03-09 Mon>
+    :PROPERTIES:
+    :Effort:   12:12
+    :END:
 *** The Basis: Linear dependence
 *** The Basis: Basis
 *** The Basis: Unique representation

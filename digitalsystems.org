@@ -54,11 +54,11 @@
 *** DONE L3.2. Propagation time (14:46)
     CLOSED: [2015-03-08 Sun 07:14] SCHEDULED: <2015-03-07 Sat>
 *** TODO L3.3. Other logic blocks (24:06)
-    SCHEDULED: <2015-03-09 Mon>
+    SCHEDULED: <2015-03-11 Wed>
 *** TODO L3.4. Programming language structures (14:28)
-    SCHEDULED: <2015-03-10 Tue>
+    SCHEDULED: <2015-03-13 Fri>
 *** TODO P3.1. Structural specification (continuation) (9:12)
-    SCHEDULED: <2015-03-10 Tue>
+    SCHEDULED: <2015-03-13 Fri>
 *** TODO Week 3 exercises
     DEADLINE: <2015-03-10 Tue> SCHEDULED: <2015-03-10 Tue>
 *** Discussion free exercise

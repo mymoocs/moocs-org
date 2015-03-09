@@ -93,7 +93,50 @@
        - ստացողի խտագումը
        - ջերմաստիճանը
 
+*** DONE Lecture 2.Y Optional Background: Transistors, FETs and MOSFETs (12:45)
+    CLOSED: [2015-03-09 Mon 17:37] SCHEDULED: <2015-03-09 Mon>
+    Նախորդւոմ խոսվեց կիսահաղորդիչների մասին նանոչափաերի դեպքում, այս մասում խոսք կգնա 
+    տրազիստորների մասին, այսինքն թե ինչպես պետք է օգտագործենք այդ կիսահաղորդիչները որպեսզի
+    ստանանք նանոտրազիստորներ:
+    1. Ի՞նչ տեղի կունենա եթե իրար կցենք n-տիպի և  p- տիպի սիլիցիում, կզման սահման անվանում են pn հանգույց:
+       n-տիպի կա էլեկտորնների ավելցուկ իսկ  p- տիպում դրական լիգխավորվաղ անցքերի, հետևաբար տեղի կունենա 
+       էլեկտորնների հոսք, որը կանգ կառնի երբ հավասարակշրություն ստեղծվի: Հանգույցի մոտակայքում առաջանում է 
+       սպառման շրջան(depletion region), որում չկան կամ համարյա թե չկան ազատ էլեկտրոններ և փոսեր: 
+       Սպառման լարում, դա այն լարումն է, որը տարերայնորեն հայտվում է սպարման շրջանում դիֆուզիայի ընթացքում, այն 
+       է ինչը հնարավոր է դարձնում սարքեր պատրաստել: Առտաքին լարում կիռարելով հնարավոր է կառավարել սպարման լարումը:
+       Սա էլ նշանակում, որ կարող ենք կառավարել սպառման շրջանի հաստությունը կիրառելով արտաքին լարում pn հանգույցի
+       երկյանքով, հետևաբար կառավարել էլեկտրական հոսանքի շարժը ամոբող n-տիպի և  p- տիպի սիլիցիումի միացումում:
+       Սա հենց  տրազիստորների և դիոդների աշխատանքի սկզբունքն է:
+    2. FET (the field effect transistor)
+       FET is voltage controlled resistor 
+       a transistor is a three-terminal device (three wires)
+       p-type gate - negative biased
+       n-type channel
+       Vgs - gate voltage
+       * if Vgs = 0, the cahnnel between source and drain is larger and current can flow.
+       * if Vgs decreases < 0, the depletion region is grows making channel smaller. 
+         Current flows less easyily from source to drain.
+       * if Vgs negative enought the channel is pinched off (no channel) Vgs < Vpinch no current flow from source to drain.
+    3. MOSFET - Metal-oxide-silicon FET
+       gate - metal
+       insulating later - oxide e.g. silicon di-oxide = glass: prevent current flow from gate to channel
+       
+       MOSFET vs FET
+       * in MOSFET  replaced the droped silicon  gate with  a metal and a thin insulati(oxide)
+       * opereting principle is similar
+       * MOSFET are most commonly used form of  transistors
 
+*** DONE Golf Ball: Current Flow (02:13)
+    CLOSED: [2015-03-09 Mon 17:41] SCHEDULED: <2015-03-09 Mon>
+*** TODO SMALL TALK: Interview with Physicist Doug Natelson
 
-*** TODO Lecture 2.Y Optional Background: Transistors, FETs and MOSFETs (12:45)
-    SCHEDULED: <2015-03-07 Sat>
+**  [[https://class.coursera.org/nanotech-001/lecture][Week 3: Nanomagnetics]]
+*** Lecture 3.1 Week Preview and Magnetism Basics (9:32)
+*** Lecture 3.2: Size Dependent Trends in Magnetism (19:08)
+*** Lecture 3.3: Magnetic Data Storage - Reaching Its Limits (13:39)
+*** Lecture 3.4: Cleaning Water (Pt 1) Nano-Magnetic Separation (14:59)
+*** Lecture 3.5: Cleaning Water (Pt 2) Nano-Sorbent Chemistry (14:24)
+*** Lecture 3.6: MRI Imaging and Contrast Agents (10:06)
+*** Lecture 3.7: Nanoscale MRI Contrast Agents (14:52)
+*** SMALL TALK: Interview with MRI Imaging Researcher, Gary Stinnett
+*** DEMO: Crowdsourcing Size Dependent Magnetism

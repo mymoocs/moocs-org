@@ -128,11 +128,38 @@
 
 *** DONE Golf Ball: Current Flow (02:13)
     CLOSED: [2015-03-09 Mon 17:41] SCHEDULED: <2015-03-09 Mon>
-*** TODO SMALL TALK: Interview with Physicist Doug Natelson
+*** DONE SMALL TALK: Interview with Physicist Doug Natelson
+    CLOSED: [2015-03-11 Wed 06:55] SCHEDULED: <2015-03-11 Wed>
 
 **  [[https://class.coursera.org/nanotech-001/lecture][Week 3: Nanomagnetics]]
-*** Lecture 3.1 Week Preview and Magnetism Basics (9:32)
-*** Lecture 3.2: Size Dependent Trends in Magnetism (19:08)
+*** DONE Lecture 3.1 Week Preview and Magnetism Basics (9:32)
+    CLOSED: [2015-03-13 Fri 08:58] SCHEDULED: <2015-03-13 Fri>
+    1. Magnetic Field
+       measure field strength in Tesla, 10000 gauss = 1T
+       The earth's magnetic field strength is 0.4 gauss or 50 milligauss.
+       magnetic moment, the 'spin' unpaired electrons. 
+       not every material has unpaire spin will become magnetic
+       E = -μ*B0 a magnetic moment will align with field
+       * Diamagnet - has not unpaired spin
+         Bismuth
+       * Paramagnet
+         Tantaliume
+       * Ferroamgnet
+         Magnetite
+       Ferromagnet vs Paramagnet - Lattice symmetry is the difference. if material has unpaired spins 
+       then we need to know something about the crystal symmetry in order to determine wheather it is 
+       a ferromagnet or not.
+       
+       
+    1. Nanomagnetic materials
+    2. Applications
+       - Hard Disk Drives
+       - Nanomagnets and water Treatment
+         magnetic nanoparticle bind to contaminants, later we can move that from water appling 
+         external magnetic field.
+
+*** TODO Lecture 3.2: Size Dependent Trends in Magnetism (19:08)
+    SCHEDULED: <2015-03-15 Sun>
 *** Lecture 3.3: Magnetic Data Storage - Reaching Its Limits (13:39)
 *** Lecture 3.4: Cleaning Water (Pt 1) Nano-Magnetic Separation (14:59)
 *** Lecture 3.5: Cleaning Water (Pt 2) Nano-Sorbent Chemistry (14:24)

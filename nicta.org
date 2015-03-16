@@ -38,13 +38,12 @@ After this, the following progression of modules is recommended:
    CLOSED: [2015-02-28 Sat 09:06]
 ** DONE Course.Applicative
    CLOSED: [2015-02-28 Sat 09:06]
-** DONE Course.Bind
-   CLOSED: [2015-03-04 Չրք 21:45] SCHEDULED: <2015-03-02 Mon>
+** TODO Course.Bind
+   SCHEDULED: <2015-03-17 Tue>
    [[file:d:/%3D%3DOnlineLearning/nicta/src/Course/Bind.hs::join%20%3D][Bind.hs]]
 ** DONE Course.Monad (please see this issue)                          :monad:
    CLOSED: [2015-03-06 Fri 08:22] SCHEDULED: <2015-03-05 Հնգ>
 ** TODO Course.FileIO
-   SCHEDULED: <2015-03-06 Fri>
 ** Course.State
 ** Course.StateT
 ** Course.Extend

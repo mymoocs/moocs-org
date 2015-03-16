@@ -231,10 +231,10 @@
 
     - պնդումը կապում է նախադրյալները(premises) եզրահանգմանը: Կան լավ և ոչ այնքան լավ պնդումներ:
       Տրամաբաններին հետաքրքրում է ինչով է պայմանավորված տարբերությունը:
-    - պնդում վավերական է եթե բոլոր նախադրյալները ճիշտ են ապա եզրահանգումը նույնպես ճիշտ է:
-      Պնդում որոնք պարունկաում է A1, A2, ..., An նախադրյլանե և B եզրահանգումշ մենք կգրենք
-      A1, A2, ..., An |= B , եթե 
-      պնդումը որ A1, A2, ..., An հետևում է B վավերական է: arguemnt from premisies to conclusion B is valid.
+    - պնդումը վավերական է եթե բոլոր նախադրյալները ճիշտ են ապա եզրահանգումը նույնպես ճիշտ է:
+      Պնդում որոնք պարունկաում է A1, A2, ..., An նախադրյլանե և B եզրահանգումը մենք կգրենք
+      A1, A2, ..., An |= B, պնդումը որ A1, A2, ..., An հետևում է B վավերական է: 
+      arguemnt from premisies to conclusion B is valid.
     - օրինակ.
      A1 = (p&~q)->r
      A2 = ~r
@@ -275,14 +275,266 @@
 
            
 
-*** TODO 2.1.2 Argument Forms, Instances and Soundness (16:42)
-    SCHEDULED: <2015-03-10 Tue>
-*** TODO 2.2.1 Why We Need Proof Trees (15:12)
-    SCHEDULED: <2015-03-12 Thu>
-*** TODO 2.2.2 Rules for Proof Trees for Propositional Logic (9:07)
-    SCHEDULED: <2015-03-14 Sat>
-*** 2.2.3 Example Proof Trees for Propositional Logic (14:35)
-*** 2.2.4 Why Trees and Truth Tables Agree (14:02)
-*** TODO Practice Quiz: 2a Using Truth Tables to Check for Logical Relations and Validity (5 marks)
-    SCHEDULED: <2015-03-10 Tue>
-*** Practice Quiz: 2b Trees for Propositional Logic (15 marks) 
+*** DONE 2.1.2 Argument Forms, Instances and Soundness (16:42)
+    CLOSED: [2015-03-10 Tue 07:45] SCHEDULED: <2015-03-10 Tue>
+    Խոսակցական լեզվով արտահայտված պնդումը կարելի է ներկայացնել
+    տրամաբանական ձևերով որպես տրամաբանական պնդում և ստուգել վավերականուլյունը, 
+    այդ ներկայացում միարժեք չէ:
+    պնդումը դա բանաձևերի ցուցակ է՝ մեկ և ավել նախադրյլաների և մեկ եզրահանգման:
+    1. Soundness of Argument
+       An argument is sound if and only if it is an instance of a valid argument form,
+       and in addition, the premises are in fact all true.
+    2. Sound arguments are instances of valid argument forms whose promises are also true.
+    3. But, some instances of invalid argument forms can still be valid arguments.
+    4. For an argument to be invalid, there has to be at least one situation in which the 
+       premises are all true, but the conclusion is false at the same time.
+    
+*** DONE 2.2.1 Why We Need Proof Trees (15:12)
+    CLOSED: [2015-03-12 Thu 07:16] SCHEDULED: <2015-03-12 Thu>
+    previous lessons was introduced Truth tables to classify formulas and relationsheeps between them.
+    in this and nex lessons we will introduce Proof trees is another way to analyse formulas 
+    and their logical relationsheeps between them.
+    Երբ պնդման մեջ ասուլձների քանակ շատանում էշ ճշմարտության աղյուսակներ նույնպես մեծանում են և գործնականում
+    անհնարին է դառնում դրանց հետ օգտագործումը վավերականությունը ստուգելիս:
+    A Proof tree is a graphical and mechianical way of determining wheather an argument form is valid, 
+    or wheather a formula is a tautology.
+    A tree for a set of formulas Closes if and only if each if its branches contains a contradiction. 
+    Then There is no way for these formulas to be true together. 
+    
+*** DONE 2.2.2 Rules for Proof Trees for Propositional Logic (9:07)
+    CLOSED: [2015-03-12 Thu 07:34] SCHEDULED: <2015-03-12 Thu>
+    Positive and negative rues for connectives
+    1. A & B = True, mean
+         |
+         A
+         B
+    2. ~(A & B) = True, mean
+        /   \
+      ~A    ~B
+    3. (A v B) = True, mean
+         / \    
+        A   B
+    4. ~(A v B) = True, mean A = B = False, since we write ~A, ~B in proof tree we write only True forms of atoms
+           |
+          ~A
+          ~B
+    5. A -> B  = True, mean
+        / \ 
+       ~A  B
+    6. ~(A -> B)
+            |
+            A
+            ~B
+    7. A = B
+       /   \
+       A   ~A 
+       B   ~B
+    8. ~(A = B)
+        /   \ 
+        A   ~A
+       ~B    B
+    9. ~~A
+         |
+         A
+    10.  A  closure rule
+        ~A
+         x   close this branch
+
+*** DONE 2.2.3 Example Proof Trees for Propositional Logic (14:35)
+    CLOSED: [2015-03-14 Sat 06:22] SCHEDULED: <2015-03-14 Sat>
+*** DONE 2.2.4 Why Trees and Truth Tables Agree (14:02)
+    CLOSED: [2015-03-14 Sat 06:36] SCHEDULED: <2015-03-14 Sat>
+*** DONE Graded Quiz 2a: Using Truth Tables to Check for Logical Relations and Validity (5 marks) 
+    CLOSED: [2015-03-10 Tue 08:40] SCHEDULED: <2015-03-10 Tue>
+*** DONE Graded Quiz 2b: Trees for Propositional Logic (15 marks) 
+    CLOSED: [2015-03-14 Sat 10:14] SCHEDULED: <2015-03-14 Sat>
+*** DONE Practice Quiz: 2a Using Truth Tables to Check for Logical Relations and Validity (5 marks)
+    CLOSED: [2015-03-10 Tue 08:48] SCHEDULED: <2015-03-14 Sat>
+*** DONE Practice Quiz: 2b Trees for Propositional Logic (15 marks) 
+    CLOSED: [2015-03-14 Sat 10:15] SCHEDULED: <2015-03-14 Sat>
+
+
+** 3: Combinational Digital Systems (Application: Engineering)
+
+*** Brief history of digital systems
+    1. George Bool (1815-1864)
+       founder of propositional logic and boolean algebra
+    2. Charles Sander Peirce (1839-1914)
+       Truth tables, not-or/or connectives(Peirce arrow)
+       Pragmatic theory of language of truth.
+       first use Boolean algebra and propositional logic  to analyse relay and switching circuits.
+    3. Claude Elwood Shannon (1916-2001) 
+       Information theory, define what is mean digitize analog signal and deconstruct it to analog.
+    4. Years
+       1937: first binary adder
+       1947: first poin-contact transistor
+       1958: first integrated circuit
+       1969: birth of ARPANET, precursor of internet
+       1991: first digital mobile phones
+*** 2008: first memristor produced
+    memristor can implement both
+    - comninational digital system
+    - sequential digital system
+       
+       
+       
+
+*** DONE 3.1 Digital Signals & Systems (17:55)
+    CLOSED: [2015-03-15 Sun 17:34] SCHEDULED: <2015-03-15 Sun>
+   1. Combinational digital systems: memoryless
+      The current value of each output signal is a function of the current value of the input signals
+      -and does not depend on past value of input signals.
+     Examples of usage or key classes of job done by combinational digital systems:
+      - Encoding and decoding
+      - Selecting and distibuting 
+        multiplexers (MUX) is data selector
+        and demultiplexers(DEMUX)  is data distributor
+      - Binary arithmetic
+      - Comparison and classifications
+   2. Sequential digital systems: contain memporu via combinational and delat components in 
+      feedback loops, plus digital clock.
+      Memory registers are used to keep track of past values of input signals, with values in memory
+      recorded by internal state signals, together with clock imput  signal to keep time.
+      in second oart of this course will learn about this kind of systems.
+
+*** DONE 3.2 Logic Gates & Logic Circuits (13:23)
+    CLOSED: [2015-03-15 Sun 18:17] SCHEDULED: <2015-03-15 Sun>
+    Combinational digital system  is a digital system such that each output can be expressed
+    as a propositional logic formula in terms of the inputs (using only AND, OR and NOT)
+    (A&B) - A.B or AB in boolean algebra
+    (AvB) - A+B notation in boolean algebra
+    ~A - A' 
+    ~(p v q) - NOR gate  also known as Peirce arrow (1881)
+    ~(p & q) - (|)  NAND gate also known as Sheffer strole (1913)
+    ~(p≡q) ≡ (p&~q)v(~p&q)  - XOR Exclusive or 
+    
+    All classic propositional connectives can be expressed in terms fo NAND (or NOR)
+    ~A ≡ (A|A)
+    (AvB) ≡ ((A|A)|(B|B))
+    (A&B) ≡ ((A|B)|(A|B))
+
+**** Logic Circuit diagrams for Combinational Systems
+     Basic Constructors: 
+     - AND, OR, NOT gates
+     - NAND only
+     - NOR only
+
+     
+*** DONE 3.3 Truth Tables, Logic Formulas & Logic Circuits (28:54)
+    CLOSED: [2015-03-16 Mon 09:10] SCHEDULED: <2015-03-16 Mon>
+    Different representation of combinational digital systems
+    1. Functional descriptions
+    2. Truth tables
+    3. Logic formulas
+    4. Logic Circuit diagrams
+    How to transfor one representation to another.
+
+**** Binary Coded Decimal (BCD) Encoder 
+    Functional Description - pushing the button on cell phone
+     system has: 
+     10 inputs: p0,p1,p2,p3,p4,p5,p6,p7,p8,p9
+     4 data outputs: m3, m2, m1, m0
+     1 error signal: r such that: if exactly one on the inputs pi is active then r = 0 and q is 4bit value of decimal i,
+                     while if either zero or more of the imputs are active, then r is 1 and m=0000.
+     
+   Truth Table                
+     rows = 2 * 10, only 10 row is matter, when r=0, others do not care -no matter
+     |    | p0 | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 |   | r | m3 | m2 | m1 | m0 |
+     |----+----+----+----+----+----+----+----+----+----+----+---+---+----+----+----+----|
+     | s0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |   | 0 |  0 |  0 |  0 |  0 |
+     | s1 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |   | 0 |  0 |  0 |  0 |  1 |
+     | s2 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |   | 0 |  0 |  0 |  1 |  0 |
+     | s3 |  0 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |  0 |   | 0 |  0 |  0 |  1 |  1 |
+     | s4 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |  0 |  0 |  0 |   | 0 |  0 |  1 |  0 |  0 |
+     |    |    |    |    |    |    |    |    |    |    |    |   |   |    |    |    |    |
+     
+     
+  
+   Introduce intermediate signals for 10-input AND gates:
+   s0 ≡ (p0 & ~p1 & ~p2 & ~p3 & ~p4 & ~p5 & ~p6 ~p7 & ~p8 & ~p9)
+   s1 ≡ (~p0 & p1 & ~p2 & ~p3 & ~p4 & ~p5 & ~p6 ~p7 & ~p8 & ~p9)
+   ..............
+   From truth tables to logical formula, we see
+    m3 ≡ (s8 v s9)
+    m2 ≡ (s4 v s5 v s6 v s7),  ≡ read if only if
+    m1 ≡ (s2 v s3 v s6 v s7)
+    m0 ≡ (s1 v s3 v s5 v s7 v s9)
+    r ≡ ~(s1 v s2 v s3 v s4 v s5 v s6 v s7 v s8 v s9)
+
+  Method:from truth table to logic formula  
+  From a truth table column for output z depending on inputs p1,p2, up to pn, (in truth table with 2 ^ n rows)
+  1) Look down column for output z and identify each of the rows in which output is 1.
+  2) For each such row, write down the size-n conjunction of inputs or negated inputs which uniquely describes that
+     row: if input pi is 0 on that row, include ~pi in conjunction; if input pi is 1 on that row, include pi in conjunction.
+  3) Output z is equivalent to the disjunction of all these row-conjunctions; if there are m-many rows in which output
+     z is 1, then it will be a size-m disjunction.
+
+
+  Disjunctive Normal Form
+  A logic formula A is in disjunctive normal form (DNF) iff A is a disjunction of conjunctions of literals,
+  where a literal is either an atomic proposition or the negation of an atomic proposition.
+  Called sum-of-products (SOP) form in digital systems and Boolean algebra literature.    
+     
+  
+  DNF circutir can be easily transfered to NAND only gates circuit.
+
+    
+**** 2-in multiplexer (MUX)
+     Functional description:
+     take as input two data input signals x and y, together with a select input signal s,
+     and produce as output data signal z such that z ≡ x if s is 0 and z ≡ y if s is 1.
+     input data: x, y
+     imput signal: s
+     output: z
+     3-inout, 1-output system
+     
+     Truth table
+     | row | x | y | s | z | s = 0 | s = 1 | row conjuction/minterm(product term) |
+     |-----+---+---+---+---+-------+-------+--------------------------------------|
+     |   0 | 0 | 0 | 0 | 0 | z ≡ x |       |                                      |
+     |   1 | 0 | 0 | 1 | 0 |       | z ≡ y |                                      |
+     |   2 | 0 | 1 | 0 | 0 | z ≡ x |       |                                      |
+     |   3 | 0 | 1 | 1 | 1 |       | z ≡ y | (~x&y&s)                             |
+     |   4 | 1 | 0 | 0 | 1 | z ≡ x |       | (x&~y&~s)                            |
+     |   5 | 1 | 0 | 1 | 0 |       | z ≡ y |                                      |
+     |   6 | 1 | 1 | 0 | 1 | z ≡ x |       | (x&y&~s)                             |
+     |   7 | 1 | 1 | 1 | 1 |       | z ≡ y | (x&y&s)                              |
+     
+     
+     Logical formula characterise the output signal 'z', expressed using bi-conditional.
+     z ≡ ((~x&y&s) v (x&~y&~s) v (x&y&~s) v  (x&y&s)) this is DNF formula
+     in the boolean algebra and digital system literature, minterms or product term, because logical 
+     onjuction is the boolean product operation.
+
+     Is that DNF is smallest??
+     
+     
+
+     
+     
+
+
+*** TODO 3.4 Minimizing Logic Circuits Using K-Maps (26:40)
+    SCHEDULED: <2015-03-17 Tue>
+*** TODO Practice Quiz: §3 Combinational Digital Systems
+    SCHEDULED: <2015-03-17 Tue>
+
+** 4: Vagueness (Application: Philosophy) - Անորոշություն
+*** 4.1 Vagueness: The Sorites Paradox (7:44)
+*** 4.2 Vagueness: One Option-Revising Our Logic (17:08)
+*** 4.3 Vagueness: Another Option-Resist the Premises (14:47)
+*** Practice Quiz: §4 Vagueness 
+
+** 5: Implicature and Implication (Application: Linguistics)
+*** 5.1 Linguistics: Introducing Language and Logic (7:52)
+*** 5.2 Linguistics: Entailment & Implicature (14:02)
+*** 5.3 Linguistics: Implicatures & Connectives (10:19)
+*** Practice Quiz: §5 Implication and Implicature 
+
+** 6: Propositional Logic Programming (Application: Computer Science) 
+*** 6.1 Logic, Computers & Automated Reasoning (12:47)
+*** 6.2 Logic Programming in PROLOG (13:00)
+*** 6.3 PROLOG Project: Sudoku Puzzles (15:52)
+*** 6.4 How PROLOG Answers Queries (17:08)
+*** 6.5 Negation in PROLOG (6:55)
+*** Practice Quiz: §6 Propositional Logic Programming 

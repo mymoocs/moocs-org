@@ -1,0 +1,75 @@
+﻿* [[https://class.coursera.org/introtoelectronics-002/lecture][Introduction to Electronics]]
+  :UNIVERSITY: Gerogia Institute of Technology
+  :AUTHOR: Dr. Bonnie H. Ferri, Dr. Robert Allen Robinson, Jr. 
+** Module 1 Overview and Background
+*** DONE 1.1 Overview (1:30)
+    CLOSED: [2015-03-10 Tue 06:14]
+*** DONE 1.2 Review of Circuit Elements (10:30)
+    CLOSED: [2015-03-10 Tue 09:56] SCHEDULED: <2015-03-10 Tue>
+   1) Passive Elements
+      do not need power supply to make characteristics
+      1. Resistor
+         V = i * R, Ohm's Low
+         Ω
+      2. Capacitor
+         i = C * dV/dt
+         Farads, 10 e-6 F (micro farads - μf) to 1 Farad
+         F
+      3. Inductor
+         V = L * di/dt
+         Henries, 10 e-3 (mH)
+         H
+   2) Series and Parallel Connections
+      
+      | element    | Series                     | Parallel                   | paralle for 2 short   |
+      |------------+----------------------------+----------------------------+-----------------------|
+      | Resistors  | R = R1 + R2                | R = 1/(1/R1 + 1/R2 + 1/R3) | R = R1 * R2 / (R1+R2) |
+      | Inductors  | L = L1 + L2                | L = 1/(1/L1 + 1/L2 + 1/L3) |                       |
+      | Capacitors | C = 1/(1/C1 + 1/C2 + 1/C3) | C = C1 + C2 + C3           |                       |
+      |------------+----------------------------+----------------------------+-----------------------|
+   3) Connections and soruces
+      * Ground - reference for 0 volts
+      * Node   - Voltage level the same everywhere on the node
+      * Voltage Source - Independent/Dependent
+      * Current Source - Independent/dependent
+*** DONE 1.3 Review of Kirchhoff's Laws (10:06)
+    CLOSED: [2015-03-12 Thu 07:54] SCHEDULED: <2015-03-12 Thu>
+    1. Kirchoff's Current Low (KCL)
+       A Current entering a node equal to the current leaving the node.
+    2. Kirchoff's Voltage Low (KVL)
+       the sum of voltages around any closed loop is zero. 
+
+*** DONE 1.4 Review of Impedance (11:04)
+    CLOSED: [2015-03-15 Sun 19:10] SCHEDULED: <2015-03-14 Sat>
+    in general Impedance is complex resistance
+    1. Impedances for steady-state sinusoidal imputs (AC)
+    2. Frequency Hz = 1/T = f
+    3. Frequency radian - rad/sec = 2πT = ω
+    4. Define Impedances from simple elements R, C, L
+       - Zr = R - In-phase, Frequencey invariant
+         if i have sinusodial voltage along resister then my current will be sinusodial as well,
+         0 -crossing same time
+         pick - happened in same time
+
+       - Zc = 1/jωC - Current leads voltage, where ω-frequency radian per second, j = sqrt(-1)
+         current leads the votlate means come before voltage, shift to left in plot
+       - ZL = jωL - Current lags voltage, where ω-frequency radian per second, j = sqrt(-1)
+         current come after, delayed
+    5. Impedances in series
+       Z = z1+z2+z3
+    6. Impedances in parallel
+       Z = 1/(1/z1 + 1/z2+1/z3)
+    [[http://tel-spb.ru/impedance/][Электрический импеданс]]
+
+*** DONE 1.5 Review of Transfer Functions (4:34)
+    CLOSED: [2015-03-16 Mon 15:06] SCHEDULED: <2015-03-16 Mon>
+    Transfer functions
+    * To Characterise Circuit
+    
+    Transfer function any function as anything that multiplies by input to give me my output.
+
+
+*** TODO 1.6 Review of Frequency Response Plots (13:56)
+    SCHEDULED: <2015-03-17 Tue>
+    transfer function to find frequency response curve
+

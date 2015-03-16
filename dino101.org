@@ -1,14 +1,22 @@
-﻿* Dino 101: Dinosaur Paleobiology
+﻿* Dino 101: [[https://class.coursera.org/dino101-004][Dinosaur Paleobiology]]
   :UNIVERSITY: Alberta
   :LECTOR: Philip John Currie, PhD
 
 **  Lesson 9: Stratigraphy and Geologic Time
-*** TODO The Age of Dinosaurs (12:10)
-    SCHEDULED: <2015-03-10 Tue>
-*** TODO Quize for lesson 9
+*** DONE The Age of Dinosaurs (12:10)
+    CLOSED: [2015-03-10 Tue 08:24] SCHEDULED: <2015-03-10 Tue>
+*** DONE Quize for lesson 9
+    CLOSED: [2015-03-10 Tue 08:24]
 
 ** Lesson 10: Paleogeography and Plate Tectonics
-***  Paleogeography (7:46)
-***  Continental Movement (8:19)
-***  Paleoclimates (10:09)
-***  Dinosaur Diversity (32:52)
+*** DONE Paleogeography (7:46)
+    CLOSED: [2015-03-12 Thu 08:08] SCHEDULED: <2015-03-12 Thu>
+*** DONE Continental Movement (8:19)
+    CLOSED: [2015-03-15 Sun 20:50] SCHEDULED: <2015-03-15 Sun>
+*** TODO Paleoclimates (10:09)
+    SCHEDULED: <2015-03-16 Mon>
+*** TODO Dinosaur Diversity (32:52)
+    SCHEDULED: <2015-03-18 Wed>
+*** TODO Quize for lesson 10
+    SCHEDULED: <2015-03-18 Wed>
+

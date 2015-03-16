@@ -1,0 +1,64 @@
+* UTAustinX: UT.5.02x LAFF: [[https://courses.edx.org/courses/UTAustinX/UT.5.02x/1T2015/courseware/46e747ace4b54c94bb04af4c07123931/aee06a0ad35c4c38991676d23f375b0f/][Linear Algebra - Foundations to Frontiers]]
+  :UNIVERSITY:  The University of Texas at Austin
+  :AUTHOR: 
+  :MOOC: edX
+** [[https://courses.edx.org/courses/UTAustinX/UT.5.02x/1T2015/courseware/46e747ace4b54c94bb04af4c07123931/aee06a0ad35c4c38991676d23f375b0f/][Week 0: Getting Started]]
+*** DONE Welcome to LAFF (06:00)
+    CLOSED: [2015-03-13 Fri 08:16] SCHEDULED: <2015-03-13 Fri>
+*** DONE How to Navigate LAFF (09:27)
+    CLOSED: [2015-03-15 Sun 16:14] SCHEDULED: <2015-03-14 Sat>
+*** DONE Homework and LAFF (05:33)
+    CLOSED: [2015-03-15 Sun 16:14]
+*** DONE Software to LAFF - MATLAB Basics (07:00)
+    CLOSED: [2015-03-15 Sun 16:14]
+*** DONE Enrichmnets - [[http://www.mathworks.com/videos/origins-of-matlab-70332.html][The Origins of MATLAB (08:25)]]
+    CLOSED: [2015-03-15 Sun 16:42]
+** Week 1: Vectors in Linear Algebra
+*** What will learn
+    • Represent quantities that have a magnitude and a direction as vectors.
+    • Read, write, and interpret vector notations.
+    • Visualize vectors in R2.
+    • Perform the vector operations of scaling, addition, dot (inner) product.
+    • Reason and develop arguments about properties of vectors and operations defined on them.
+    • Compute the (Euclidean) length of a vector.
+    • Express the length of a vector in terms of the dot product of that vector with itself.
+    • Evaluate a vector function.
+    • Solve simple problems that can be represented with vectors.
+    • Create code for various vector operations and determine their cost functions in terms of the size of the vectors.
+    • Gain an awareness of how linear algebra software evolved over time and how our programming assignments fit into this. (enrichment)
+    • Become aware of overflow and underflow in computer arithmetic. (enrichment)
+
+*** DONE [[https://www.youtube.com/watch?v=aTfKDxsjZNU][What is a vector]]
+    CLOSED: [2015-03-16 Mon 07:00] SCHEDULED: <2015-03-16 Mon>
+    vector is column vector, indexed order list
+*** DONE [[https://www.youtube.com/watch?v=-EuhmfIMkXs][Unit Basis Vectors]]
+    CLOSED: [2015-03-16 Mon 07:05] SCHEDULED: <2015-03-16 Mon>
+    Standard basis vectors(can call the unit vector) 
+    e4 = [0,0,0,1,0,0,0], index of non zero element (e sub 4)
+    e0 = [1,0,0,0,...]
+    e1 = [0,1,0,0,...]
+*** DONE 1.3.1 Equality (=), Assignment (:=), and Copy
+    CLOSED: [2015-03-16 Mon 07:13] SCHEDULED: <2015-03-16 Mon>
+    Operatiorns on vectors
+    - x = y, equality, corresponding elements x and y are equal
+    - x := y, assignment, xi:=yi
+*** DONE 1.3.2 Vector Addition
+    CLOSED: [2015-03-16 Mon 07:19] SCHEDULED: <2015-03-16 Mon>
+    [1,2] + [4,5] = [1+4, 2+5]
+    x+y = y+x
+*** DONE 1.3.3 Scaling
+    CLOSED: [2015-03-16 Mon 07:21] SCHEDULED: <2015-03-16 Mon>
+    x+x
+    2x
+    2*[1,2] = [2,4]
+*** DONE 1.3.4 Vector Subtraction 
+    CLOSED: [2015-03-16 Mon 07:23] SCHEDULED: <2015-03-16 Mon>
+     [1,2] - [4,5] = [1-4, 2-5]
+*** TODO 1.4 Advanced Vector Operations 
+    SCHEDULED: <2015-03-17 Tue>
+    - Scaled Vector Addition (AXPY)
+    - Linear Combinations of Vectors
+    - Dot or Inner Product (DOT)
+    - Vector Length (norm2)
+    - Vector Functions
+    - Vector Functions That Map a Vector to a Vector 

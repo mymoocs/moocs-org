@@ -1,2 +1,32 @@
-﻿* [[https://www.coursera.org/course/nanosensors][Nanotechnology and Nanosensors]]
+﻿* [[https://class.coursera.org/nanosensors-002/lecture][Nanotechnology and Nanosensors]]
+  :UNIVERSITY: Israel Institute of Technology
+  :AUTHOR: Prof. Hossam Haick
+  :START: Sun 15 Mar 2015 
 
+** Week 1: Introduction to Nanotechnology, Part 1
+*** TODO 1.1 Definitions and Nanomaterials [15:36]
+    SCHEDULED: <2015-03-17 Tue>
+    :PROPERTIES:
+    :Effort:   15:36
+    :END:
+*** 1.2 Nanostructures: 0-D and 1-D [9:47]
+    :PROPERTIES:
+    :Effort:   9:47
+    :END:
+*** 1.3 Nanostructures: 2-D and 3-D [8:01]
+    :PROPERTIES:
+    :Effort:   8:01
+    :END:
+
+
+** Week 2: Introduction to Nanotechnology, Part 2
+*** 2.1 Characterization Tools for Nanotechnology [29:31]
+*** 2.2 Fabrication in the Nano-scale–Top Down Fabrication [18:59]
+*** 2.3 Fabrication of nano-scale structures and devices – Bottom Up Fabrication [20:50]
+
+
+** 
+
+** 
+
+** 

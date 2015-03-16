@@ -69,12 +69,64 @@
     2. To compute the taxicab norm on vectors
     3. An application of vector norms to data mining for movie recommendations
     4. An application of vector norms to reading handwritten numbers
-*** TODO Introduction to Unit 3 (01:18)
-    SCHEDULED: <2015-03-10 Tue>
-*** TODO The Norm in Movies (13:11)
-    SCHEDULED: <2015-03-10 Tue>
+  [[http://lifeislinear.davidson.edu/movieV1.html][a dataset of movie ratings]]     
+*** DONE Introduction to Unit 3 (01:18)
+    CLOSED: [2015-03-10 Tue 06:35] SCHEDULED: <2015-03-10 Tue>
+*** DONE The Norm in Movies (13:11)
+    CLOSED: [2015-03-10 Tue 07:06] SCHEDULED: <2015-03-10 Tue>
    * How to compute the Euclidean norm
    * How to compute the taxicab norm
    * How to apply vector norms to data mining in the context of a movie recommendation system
+
+*** DONE Activity: Finding Similar Movies (03:38)
+    CLOSED: [2015-03-12 Thu 06:01] SCHEDULED: <2015-03-12 Thu>
+
+*** DONE Reading the mail -Fitting the Norm (05:28)
+    CLOSED: [2015-03-12 Thu 06:01] SCHEDULED: <2015-03-12 Thu>
+    * How to apply vector norms to compare images 
+    * An algorithm for identify handwritten digits
+
+*** DONE Activity: Learning Where Algorithms Work and Don't Work (02:11)
+    CLOSED: [2015-03-12 Thu 06:08] SCHEDULED: <2015-03-12 Thu>
+
+** Unit 4: Go Forth and Multiply
+    * To multiply two vectors
+    * To find the dot product between two vectors
+    * To find the angle between two vectors
+    * An application of the dot product to data mining for movie recommendations 
+    * To multiply two matrices
+    * When multiplication cannot be performed between two matrices
+    * How to rotate, translate, and reflect points with matrix multiplication
+    * Applications of matrix multiplication to image creation and manipulation
+   [[http://math365.org/lifeislinear/Spirograph/Spirograph.html][Spinograph application]]
+
+*** DONE Introduction to Unit 4 (01:34)
+    CLOSED: [2015-03-12 Thu 06:09] SCHEDULED: <2015-03-12 Thu>
+*** DONE Scaly Byproduct
+    CLOSED: [2015-03-12 Thu 06:29] SCHEDULED: <2015-03-12 Thu>
+    How to multiply two vectors 
+    How to compute the dot product of two vectors
+    How to find the angle between two vectors
+    How to apply the dot product to data mining in the context of a movie recommendation system
+*** DONE Activity: Finding Similar Movies (Again, But Different) (03:37)
+    CLOSED: [2015-03-14 Sat 05:37] SCHEDULED: <2015-03-14 Sat>
+*** DONE Spinning Out With Multiplication (06:16)
+    CLOSED: [2015-03-14 Sat 05:49] SCHEDULED: <2015-03-14 Sat>
+    How to multiply two matrices 
+    When two matrices cannot be multiplied
+    How to use matrix multiplication to rotate a point about the origin
+    A way to create an image by rotating points with matrix multiplication
+    How to apply vector norms to data mining in the context of a movie recommendation system
+*** DONE Activity: Creating Spirographs With Linear Algebra (02:09)
+    CLOSED: [2015-03-14 Sat 05:58] SCHEDULED: <2015-03-14 Sat>
+*** TODO Seeing Double: Symmetry (10:30)
+    SCHEDULED: <2015-03-16 Mon>
+    How to convert a Cartesian coordinate to a homogeneous coordinate
+    How to convert a homogeneous coordinate to a Cartesian coordinate
+    How to rotate, translate, and reflect homogeneous coordinates with matrix multiplication
+    An application of rotation, translation and reflection to the artwork of puzzle master Scott Kim
+
+*** TODO Activity: Linear Transformations
+    SCHEDULED: <2015-03-16 Mon>
 
 

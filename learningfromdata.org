@@ -1,0 +1,50 @@
+* [[http://work.caltech.edu/telecourse.html][Learning From Data]]
+  :BRIEF: Machine Learning course - recorded at a live broadcast from Caltech
+  :UNIVERSITY: Caltech
+  :PREREQUISITIES: Machine Learning course - recorded at a live broadcast from Caltech
+
+* Resources
+  [[http://amlbook.com/slides/][Slides]]
+* Overview
+
+** Outline
+   This is an introductory course in machine learning (ML) that covers the basic theory, algorithms, and applications. 
+   ML is a key technology in Big Data, and in many financial, medical, commercial, and scientific applications. It enables 
+   computational systems to adaptively improve their performance with experience accumulated from the observed data. ML has 
+   become one of the hottest fields of study today, taken up by undergraduate and graduate students from 15 different majors 
+   at Caltech. This course balances theory and practice, and covers the mathematical as well as the heuristic aspects. 
+   The lectures below follow each other in a story-like fashion:
+    * What is learning?
+    * Can a machine learn?
+    * How to do it?
+    * How to do it well?
+    * Take-home lessons.
+
+
+
+** DONE schedule this course to learn
+   CLOSED: [2015-03-15 Sun 21:22] SCHEDULED: <2015-03-15 Sun>
+
+** TODO [[http://work.caltech.edu/paper/CaltechNews.pdf][Read Yaser Abu-Mostafa article]]
+   SCHEDULED: <2015-03-16 Mon>
+** Lecture 1: [[https://www.youtube.com/watch?v=mbyG85GZ0PI&hd=1][The Learning Problem ]](01:27:21)               :conceptual:
+   [[http://work.caltech.edu/slides/slides01.pdf][Slide 01]]
+   Example of machine learning:
+   1. The esence of machine learning
+      1) A pattern exists
+      2) We cannot pin it (a pattern) down mathematically
+      3) We have data
+
+*** DONE 00:00 - 10:00 
+    CLOSED: [2015-03-15 Sun 21:43] SCHEDULED: <2015-03-15 Sun>
+*** DONE 10:00 - 20:00
+    CLOSED: [2015-03-16 Mon 06:54] SCHEDULED: <2015-03-16 Mon>
+*** TODO 20:00 - 30:00
+    SCHEDULED: <2015-03-17 Tue>
+*** 
+
+** Lecture 2: Is Learning Feasible?
+   [[http://work.caltech.edu/slides/slides02.pdf][Slide 2]]
+
+   
+   

@@ -1,6 +1,50 @@
-﻿* [[https://class.coursera.org/probability-001][Probability]]                                               :Penn:statistics:
+﻿* [[https://class.coursera.org/probability-001][Probability:The theory of chance]]                          :Penn:statistics:
   :AUTHOR: Dr. Santosh S. Venkatesh
   :UNIVERSITY:  University of Pennsylvania
  
-** TODO Learn course structure and how to start.
-   SCHEDULED: <2015-03-08 Sun>
+** DONE Learn course structure and how to start.
+   CLOSED: [2015-03-11 Wed 07:11] SCHEDULED: <2015-03-08 Sun>
+
+** Pre-Course Video Lectures: Introductory Material and Background Review 
+*** 0. [[https://class.coursera.org/probability-001/wiki/Preamble][Preamble]] - Prelude to a theory of chance
+**** DONE The flowering of a mathematical science [07:21]
+     CLOSED: [2015-03-15 Sun 19:24] SCHEDULED: <2015-03-11 Wed>
+     Andrei Kolmogorov - "Foundation of probability", 1933
+**** DONE The requisite background [04:48]
+     CLOSED: [2015-03-15 Sun 19:31] SCHEDULED: <2015-03-15 Sun>
+**** DONE Table d'hote: the topics of the course [03:26]
+     CLOSED: [2015-03-15 Sun 19:39] SCHEDULED: <2015-03-15 Sun>
+     1. Towards an axiomatic theory of chance
+     2. From side information to conditional probabilities.
+     3. Independence-the warp and the woof in the fabric of chance
+     4. From polls to bombs and queque-enter the binomial and the Poisson.
+     5. The fabulus limit laws-the bell curve pirouettes into the picture.
+
+     Topics->Tableaux->{prelude, body, dessert}
+
+**** DONE On how to study mathematics [03:48]
+     CLOSED: [2015-03-15 Sun 19:44] SCHEDULED: <2015-03-15 Sun>
+     Read, pause, think, pause, read, pause, write, .... Alan Turing (1936)
+*** 1. [[https://class.coursera.org/probability-001/lecture][Prelude to a theory of chance]]
+**** TODO Chance around us [04:37]
+     SCHEDULED: <2015-03-16 Mon>
+**** The amazing aspects of fluctuations and the hot hand phenomenon
+***** The tosses of a coin [09:31]
+***** Success runs [09:25]
+***** The hot hand phenomenon [08:22]
+***** Summary of Tableau 1, Part 2 [02:12]
+*** 2. Combinatorial elements
+**** Elements of counting
+***** Finite sets, ordered samples, subpopulations [11:56]
+***** Sampling with replacement, powers [08:36]
+***** Sampling without replacement, falling factorials [12:15]
+***** Subpopulations, binomial coefficients [07:25],   
+***** Test your understanding, card problems [10:37]
+***** Summary of Tableau 2, Part 1 [01:06],    
+**** Basic properties of binomial coefficients
+***** Alternative forms for the falling factorial [04:19],   
+***** Equivalent expressions for binomial coefficients, algebraic and combinatorial arguments [04:11]
+***** Pascal's triangle [10:07]
+***** The binomial theorem [03:55]
+***** Test your understanding, binomial identities [02:38]
+***** Summary of Tableau 2, Part 2 [02:27]

@@ -70,6 +70,5 @@
 
 
 *** TODO 1.6 Review of Frequency Response Plots (13:56)
-    SCHEDULED: <2015-03-17 Tue>
     transfer function to find frequency response curve
 

@@ -1,0 +1,11 @@
+* [[https://class.coursera.org/webapplications-003/quiz][Web Application Architectures]]
+  :UNIVERISTY: The University of New Mexico
+  :AUTHOR: Greg Heileman
+
+**  Module 1: Introduction and Background
+*** TODO Module 1 Overview (0:28)
+*** TODO Module 1 Lecture 1: Historical Perspective (6:46)
+*** Module 1 Lecture 2: What is a Web Application? (6:39)
+*** Module 1 Lecture 3: Web 1.0, 2.0, 3.0 Application Architectures (9:21)
+*** Module 1 Lecture 4: Design Patterns (10:27)
+*** Module 1 Lecture 5: Setting Up Your Development Environment (6:20)

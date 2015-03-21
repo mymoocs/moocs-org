@@ -123,14 +123,19 @@
     :PROPERTIES:
     :Effort:   12:12
     :END:
-*** TODO The Basis: Linear dependence
-    SCHEDULED: <2015-03-17 Tue>
-*** The Basis: Basis
-*** The Basis: Unique representation
-*** The Basis: Change of basis
-*** The Basis: Perspective rendering
-*** The Basis: Perspective rectification
-*** The Basis: The Exchange Lemma
-*** Geometry Lab
+*** DONE The Basis: Linear dependence (17:28)
+    CLOSED: [2015-03-17 Tue 20:35] SCHEDULED: <2015-03-17 Tue>
+*** DONE The Basis: Basis (08:14)
+    CLOSED: [2015-03-17 Tue 20:35] SCHEDULED: <2015-03-17 Tue>
+*** DONE The Basis: Unique representation (02:36)
+    CLOSED: [2015-03-17 Tue 20:38] SCHEDULED: <2015-03-17 Tue>
+*** DONE The Basis: Change of basis (04:53)
+    CLOSED: [2015-03-17 Tue 21:34] SCHEDULED: <2015-03-17 Tue>
+*** DONE The Basis: Perspective rendering (13:20)
+    CLOSED: [2015-03-20 Fri 07:02] SCHEDULED: <2015-03-18 Wed>
+*** TODO The Basis: Perspective rectification (10:41)
+    SCHEDULED: <2015-03-21 Sat>
+*** The Basis: The Exchange Lemma (09:04)
+*** TODO Geometry Lab
 *** The Basis problems
 

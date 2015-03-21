@@ -71,7 +71,6 @@
 *** DONE L4.2. Short introduction to VHDL (EN) (22:07)
     CLOSED: [2015-03-13 Fri 09:35] SCHEDULED: <2015-03-15 Sun>
 *** TODO L4.3. Short introduction to VHDL (EN) (18:30)
-    SCHEDULED: <2015-03-17 Tue>
 *** TODO L4.4. Short introduction to VHDL (EN) (32:37)
-    SCHEDULED: <2015-03-17 Tue>
+
 

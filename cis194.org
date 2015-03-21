@@ -104,12 +104,17 @@
 ** DONE Homework 3: Log file parsing
    CLOSED: [2015-03-16 Mon 14:34] SCHEDULED: <2015-03-15 Sun>
 
-** TODO [[http://www.seas.upenn.edu/~cis194/fall14/lectures/04-poly.html][Week 4 (18 September): Polymorphism]]
-   SCHEDULED: <2015-03-16 Mon>
-** TODO Homework 4: [[http://www.seas.upenn.edu/~cis194/fall14/hw/04-poly.pdf][Binary search trees]]
-   SCHEDULED: <2015-03-16 Mon>
+** DONE [[http://www.seas.upenn.edu/~cis194/fall14/lectures/04-poly.html][Week 4 (18 September): Polymorphism]]
+   CLOSED: [2015-03-21 Sat 08:26] SCHEDULED: <2015-03-20 Fri>
+** DONE Homework 4: [[http://www.seas.upenn.edu/~cis194/fall14/hw/04-poly.pdf][Binary search trees]]
+   CLOSED: [2015-03-21 Sat 15:35] SCHEDULED: <2015-03-20 Fri>
+   [[file:d:/%3D%3DOnlineLearning/CIS194/reisenberg/homework/haskell/src/Hw04.hs][file:../../CIS194/reisenberg/homework/haskell/src/Hw04.hs]]
 
-
+** TODO [[http://www.seas.upenn.edu/~cis194/fall14/lectures/05-type-classes.html][Week 5 (25 September): Type Classes]]
+   SCHEDULED: <2015-03-22 Sun>
+   
+** TODO Homework 5: Rngs, Parser
+   SCHEDULED: <2015-03-22 Sun>
 * [[http://www.seas.upenn.edu/~cis194/][cis194 Noam Zilberstein]]
 
 

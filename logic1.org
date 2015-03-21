@@ -514,27 +514,124 @@
      
 
 
-*** TODO 3.4 Minimizing Logic Circuits Using K-Maps (26:40)
-    SCHEDULED: <2015-03-17 Tue>
-*** TODO Practice Quiz: §3 Combinational Digital Systems
-    SCHEDULED: <2015-03-17 Tue>
+*** DONE 3.4 Minimizing Logic Circuits Using K-Maps (26:40)
+    CLOSED: [2015-03-18 Wed 09:15] SCHEDULED: <2015-03-17 Tue>
+    CLOCK: [2015-03-18 Wed 07:16]--[2015-03-18 Wed 09:13] =>  1:57
+    :PROPERTIES:
+    :Effort:   26:40
+    :END:
+    Karnaugh map method is a systematic method for deriving a minimal DNF from the
+    truth table for a propositional logic formula or combinational system.
+*** DONE Practice Quiz: §3 Combinational Digital Systems
+    CLOSED: [2015-03-18 Wed 09:12] SCHEDULED: <2015-03-17 Tue>
+*** DONE Graded Quiz: §3 Combinational Digital Systems 
+    CLOSED: [2015-03-18 Wed 09:12] SCHEDULED: <2015-03-18 Wed>
 
 ** 4: Vagueness (Application: Philosophy) - Անորոշություն
-*** 4.1 Vagueness: The Sorites Paradox (7:44)
+*** TODO 4.1 Vagueness: The Sorites Paradox (7:44)
 *** 4.2 Vagueness: One Option-Revising Our Logic (17:08)
 *** 4.3 Vagueness: Another Option-Resist the Premises (14:47)
 *** Practice Quiz: §4 Vagueness 
 
 ** 5: Implicature and Implication (Application: Linguistics)
-*** 5.1 Linguistics: Introducing Language and Logic (7:52)
+*** TODO 5.1 Linguistics: Introducing Language and Logic (7:52)
 *** 5.2 Linguistics: Entailment & Implicature (14:02)
 *** 5.3 Linguistics: Implicatures & Connectives (10:19)
 *** Practice Quiz: §5 Implication and Implicature 
 
 ** 6: Propositional Logic Programming (Application: Computer Science) 
-*** 6.1 Logic, Computers & Automated Reasoning (12:47)
-*** 6.2 Logic Programming in PROLOG (13:00)
-*** 6.3 PROLOG Project: Sudoku Puzzles (15:52)
+*** DONE 6.1 Logic, Computers & Automated Reasoning (12:47)
+    CLOSED: [2015-03-20 Fri 08:43] SCHEDULED: <2015-03-20 Fri>
+    Logic and Computers
+    1. Computer Software
+       * used in semantics of programming languages
+       * analysis of programs
+       * automated reasoning intelligance
+    2. Computer Hardware - analysis and design digital circuits grounded in logic:
+       * combinational circuits = classical propositional logic
+       * sequential circuits = propositional temproal logic or predicate logic. 
+    
+    Pre-history of Automated Reasoning
+    * Thomas Hobbes (1588-1679) 
+      Human reasong or ratiocination
+    * Gottfried Wilhelm Leibniz (1646-1716)
+      characteritica universalis - a universal symbolic langugage for science, math and philosophy.
+    * David Hilbert (1862-1943)
+      Hilbert's mathematical program(1920): attempting to show that all of mathematics follows from
+      a correctly chosen finite system of axioms; and that some such axioms system can be shown to be
+      provably consistent.
+    * Kurt Godel(1906-1978) 
+      Godel's invompleteness theorems (1931):
+      any formal logic system expressive enough to describe arithmetic on the natural numbers
+      (1) is incomplete if it is consistent; and
+      (2) the consistency of the system cannot be proved within the system itself.
+    * Alan Turing (1912-954)
+      Turing formalised concepts of computation and algorithm with Logical Computing Machine
+      model, subsequently called Turing machine model.
+      Turing 1936: the Halting Problem for Turing machines is algorithmically undecidable:
+      it is not possible to decide algorithmically whether a given Turing machine will halt on a given input.
+
+    Computing logical consequence
+    to programm computer to think logically the core job to compute consequence 
+    given logical formulas A1, A2,..., An and B determine wheather or not:
+    A1, A2,..., An |= B
+    Direct semantic evaluation in Propositional Logic: k-many atomic propositions in A1, A2,..., An and B  gives
+    2 ^ k-many truth table rows/valuations, so an explicit check of all of these is dumb  and impractical.
+
+    Practical Automated Reasoning
+    To find decidable, and practically computable, classes of logical consequence problem:
+    ▶ restrict to a simple fragment of the language: program clauses and goals (together known as Horn clauses);
+    ▶ use a proof system with only one rule: keep it simple for dumb machines!
+
+    Logic Programming is a direct, declarative style of computer programming using logic-based languages such as
+    prolog or datalog.
+
+*** DONE 6.2 Logic Programming in PROLOG (13:00)
+    CLOSED: [2015-03-21 Sat 07:55] SCHEDULED: <2015-03-21 Sat>
+    1) Practical Automated Reasoning
+    To find decidable, and practically computable, classes of logical consequence problem:
+    ▶restrict to a simple fragment of the language: 
+    program clauses and goals;
+    * A program clause or definite clause is a formula of one of two kinds:
+      1) conditional rule - (p1 & p2 & ... & pn) => q, where n>=0, and p1, p2, ..., pn, q all atomic formulas.(case n=0 gives facts.)
+      2) fact             - q
+    * Logic program
+      A logic program P is a list A1, A2,...,An of program clauses. 
+    * Goals
+      A goal G is s list r1,r2,..,rk of atmos, and the corresponding goal formula is the conjuction 
+      B = (r1 & r2 & ... & rk)
+    * Automated reasoning task: determine wheather or not: 
+      P |= G that is, A1, A2,..., An |= B
+    ▶use a proof system with only one rule: a resolution rule; keep it simple for dumb machines!
+    Logic Programming is a direct, declarative style of computer programming using logic-based languages such as
+    prolog or datalog.
+
+    
+
+    
+
+*** TODO 6.3 PROLOG Project: Sudoku Puzzles (15:52)
+    SCHEDULED: <2015-03-22 Sun>
 *** 6.4 How PROLOG Answers Queries (17:08)
 *** 6.5 Negation in PROLOG (6:55)
 *** Practice Quiz: §6 Propositional Logic Programming 
+
+** PROLOG programming languages
+   [[http://www.swi-prolog.org/download/stable][SWI-Prolog stable versions]]
+*** Program clauses and logic programs in PROLOG
+    A program clause or definite clause is written in prolog as:
+    q :- p_1, p_2,..., p_m.
+    or
+    q.
+    where m >= 0 and p_1, p_2,...,p_m, q are all atomic formulas. (Case m = 0 gives facts.)
+    Read ":-" as "if", and commas between p_i's as "and"
+    ":-" - reverse conditional
+*** Prolog idiosyncracies
+    ▶ Meaning of program clauses (m>=1): We can establish the atom q if we first establish all of
+    p_1,p_2, and up to p_m.
+    ▶Facts q. have no body, just a head.
+    ▶Atoms must have names starting with a lower-case letter, then followed by upper-case letters, 
+    lower-case letters, digits or an underscore _. 
+    ▶Program clauses must end with “.” .
+    ▶The order of atoms within a clause, and the order of program clauses in a program, both matter 
+    in how prolog runs.

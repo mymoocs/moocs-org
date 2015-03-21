@@ -1,4 +1,4 @@
-﻿* [[https://class.coursera.org/probability-001][Probability:The theory of chance]]                          :Penn:statistics:
+﻿* [[https://class.coursera.org/probability-001/lecture][Probability:The theory of chance]]                          :Penn:statistics:
   :AUTHOR: Dr. Santosh S. Venkatesh
   :UNIVERSITY:  University of Pennsylvania
  
@@ -26,11 +26,19 @@
      CLOSED: [2015-03-15 Sun 19:44] SCHEDULED: <2015-03-15 Sun>
      Read, pause, think, pause, read, pause, write, .... Alan Turing (1936)
 *** 1. [[https://class.coursera.org/probability-001/lecture][Prelude to a theory of chance]]
-**** TODO Chance around us [04:37]
-     SCHEDULED: <2015-03-16 Mon>
+**** DONE Chance around us [04:37]
+     CLOSED: [2015-03-18 Wed 06:47] SCHEDULED: <2015-03-16 Mon>
+     George Pólya(1887 -1985) - Дьёрдь По́йа
 **** The amazing aspects of fluctuations and the hot hand phenomenon
-***** The tosses of a coin [09:31]
-***** Success runs [09:25]
+***** DONE The tosses of a coin [09:31]
+      CLOSED: [2015-03-21 Sat 08:25] SCHEDULED: <2015-03-20 Fri>
+      ▶What is the simplest experiment once can think of involving chance?
+      Unquestionably, the toss of a coin.
+      ▶
+      ▶
+      ▶
+***** TODO Success runs [09:25]
+      SCHEDULED: <2015-03-22 Sun>
 ***** The hot hand phenomenon [08:22]
 ***** Summary of Tableau 1, Part 2 [02:12]
 *** 2. Combinatorial elements

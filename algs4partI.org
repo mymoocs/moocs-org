@@ -34,7 +34,7 @@
 *** DONE Memory (8:11)
     CLOSED: [2015-02-13 Fri 06:24]
 
-*** TODO Programming Assignment 1: Percolation: Instructions
+*** Programming Assignment 1: Percolation: Instructions
 
 ** Week 2: Stacks and Queues
 *** DONE Stacks (16:24)

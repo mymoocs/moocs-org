@@ -55,7 +55,7 @@
     CLOSED: [2015-02-13 Fri 05:31]
 *** DONE Choosing a Good Pivot (22min)
     CLOSED: [2015-02-14 Sat 05:42]
-*** TODO Programming Question - 2
+*** Programming Question - 2
 
 
 ** VI. QUICKSORT - ANALYSIS (Week 2)

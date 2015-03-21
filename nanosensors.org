@@ -4,12 +4,30 @@
   :START: Sun 15 Mar 2015 
 
 ** Week 1: Introduction to Nanotechnology, Part 1
-*** TODO 1.1 Definitions and Nanomaterials [15:36]
-    SCHEDULED: <2015-03-17 Tue>
+*** DONE 1.1 Definitions and Nanomaterials [15:36]
+    CLOSED: [2015-03-18 Wed 07:12] SCHEDULED: <2015-03-17 Tue>
+    CLOCK: [2015-03-18 Wed 06:51]--[2015-03-18 Wed 07:12] =>  0:21
     :PROPERTIES:
     :Effort:   15:36
     :END:
-*** 1.2 Nanostructures: 0-D and 1-D [9:47]
+    nano - 10 e-9
+    nanotechnology - 1-100nm
+    finger nail grows 1nm per second
+    red blood cell = 10000nm
+    1) In nanomateerials the surface/boundary/interface plays an important role!.
+       1x1 santimenter cube, total surface area is 6 sm ^ 2
+       1x1 mm cubes, area = 60 sm ^ 2
+       1x1 nm cubes, area = 60 000 000 sm ^ 2
+    2) Surface are to volume ratio
+       Silicon (Si) has diamond structure with a = 5.43A
+       10x10nm Si nanocube on a side is composed of: 6250 unit cells, 50000 atoms
+    3) Chemical active
+       Since many more molecules are located on the surface are in energetically unstable       
+
+
+       
+
+*** TODO 1.2 Nanostructures: 0-D and 1-D [9:47]
     :PROPERTIES:
     :Effort:   9:47
     :END:

@@ -26,7 +26,7 @@
    CLOSED: [2015-03-15 Sun 21:22] SCHEDULED: <2015-03-15 Sun>
 
 ** TODO [[http://work.caltech.edu/paper/CaltechNews.pdf][Read Yaser Abu-Mostafa article]]
-   SCHEDULED: <2015-03-16 Mon>
+   SCHEDULED: <2015-03-20 Fri>
 ** Lecture 1: [[https://www.youtube.com/watch?v=mbyG85GZ0PI&hd=1][The Learning Problem ]](01:27:21)               :conceptual:
    [[http://work.caltech.edu/slides/slides01.pdf][Slide 01]]
    Example of machine learning:
@@ -40,7 +40,7 @@
 *** DONE 10:00 - 20:00
     CLOSED: [2015-03-16 Mon 06:54] SCHEDULED: <2015-03-16 Mon>
 *** TODO 20:00 - 30:00
-    SCHEDULED: <2015-03-17 Tue>
+    SCHEDULED: <2015-03-20 Fri>
 *** 
 
 ** Lecture 2: Is Learning Feasible?

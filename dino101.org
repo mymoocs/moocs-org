@@ -13,10 +13,10 @@
     CLOSED: [2015-03-12 Thu 08:08] SCHEDULED: <2015-03-12 Thu>
 *** DONE Continental Movement (8:19)
     CLOSED: [2015-03-15 Sun 20:50] SCHEDULED: <2015-03-15 Sun>
-*** TODO Paleoclimates (10:09)
-    SCHEDULED: <2015-03-16 Mon>
+*** DONE Paleoclimates (10:09)
+    CLOSED: [2015-03-21 Sat 08:48] SCHEDULED: <2015-03-21 Sat>
 *** TODO Dinosaur Diversity (32:52)
-    SCHEDULED: <2015-03-18 Wed>
+    SCHEDULED: <2015-03-22 Sun>
 *** TODO Quize for lesson 10
-    SCHEDULED: <2015-03-18 Wed>
+    SCHEDULED: <2015-03-22 Sun>
 

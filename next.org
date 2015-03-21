@@ -5,4 +5,15 @@
 ** GOING [[https://class.coursera.org/digitalsystems-002][Digital Systems - Sistemas Digitales]]
 ** [[https://www.coursera.org/course/maththink][Introduction to Mathematical Thinking]]
 ** [[https://www.coursera.org/course/designbiz][Design Thinking for Business Innovation]]
-** NEXT [[https://class.coursera.org/probability-001/wiki/syllabus][Probability]]
+** GOING [[https://class.coursera.org/probability-001/wiki/syllabus][Probability]]
+
+** [[https://class.coursera.org/textretrieval-001][Text Retrieval and Search Engines]]
+
+** [[https://www.coursera.org/course/nlangp][https://www.coursera.org/course/nlangp]]
+** [[https://www.coursera.org/course/humanlanguage][An Introduction to Linguistics]]
+
+* Logic
+** [[https://class.coursera.org/thinkagain-005/lecture][Think Again: How to Reason and Argue]]                               :logic:
+
+* Data Mining
+** [[https://www.coursera.org/course/patterndiscovery][Pattern Discovery in Data Mining]]

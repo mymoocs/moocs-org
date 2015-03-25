@@ -4,6 +4,17 @@
   :START: Sun 15 Mar 2015 
 
 ** Week 1: Introduction to Nanotechnology, Part 1
+   The cut-off limit of human eye to see is 10000nm. 
+   The size of red blood cells is 7000-8000nm.
+   2013 budget for the U.S. National Nanotechnology Initiative was 1.8 bilion.
+   DNA molecule  structure contain millions of atoms.
+   Carbon nanotubes are 100 times stronger than steel at one-sixth of the weight.
+   Carbon nanotubes (in air) have the ability to sustain temperature as high as 3000 digree of celsius
+   The use of nanotechnology reduces computer’s price and power consumption and enhances speed and performance.
+   Nanotechnology enabled printing of the Old Testimony on area of 100 square nanometers.
+   When the size of an object decreases, the ratio between atoms on the surface and atoms in the bulk increases.
+
+
 *** DONE 1.1 Definitions and Nanomaterials [15:36]
     CLOSED: [2015-03-18 Wed 07:12] SCHEDULED: <2015-03-17 Tue>
     CLOCK: [2015-03-18 Wed 06:51]--[2015-03-18 Wed 07:12] =>  0:21
@@ -26,16 +37,35 @@
 
 
        
-
-*** TODO 1.2 Nanostructures: 0-D and 1-D [9:47]
+    
+*** DONE 1.2 Nanostructures: 0-D and 1-D [9:47]
+    CLOSED: [2015-03-21 Sat 19:42] SCHEDULED: <2015-03-21 Sat>
     :PROPERTIES:
     :Effort:   9:47
     :END:
+    Nanostructure is a term that includes materials that has a size in 1, 2 or 3-dminensions of approx. 1-100nm.
+    1. 0D - Clusters
+       Nanoparticles; Quantum dots
+       Nanoclusters consisting of up to a couple of hundred atoms, but larger aggregates containing 
+       1000 or more atoms are called Nanoparticles.
+    2. 1D - Nanotubes, fibers and rods
+    Carbon nanotube   
+    Boron nitride nanotube
+    SiC nanotubes
+    
+    3. 2D - Films and coats
+       
+    4. 3D - Polycrystals
+       
+    
+    
+    
 *** 1.3 Nanostructures: 2-D and 3-D [8:01]
     :PROPERTIES:
     :Effort:   8:01
     :END:
-
+*** DONE Quizzes: week 1
+    CLOSED: [2015-03-21 Sat 19:41] SCHEDULED: <2015-03-21 Sat>
 
 ** Week 2: Introduction to Nanotechnology, Part 2
 *** 2.1 Characterization Tools for Nanotechnology [29:31]

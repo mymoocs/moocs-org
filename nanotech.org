@@ -158,9 +158,33 @@
          magnetic nanoparticle bind to contaminants, later we can move that from water appling 
          external magnetic field.
 
-*** TODO Lecture 3.2: Size Dependent Trends in Magnetism (19:08)
-    SCHEDULED: <2015-03-15 Sun>
-*** Lecture 3.3: Magnetic Data Storage - Reaching Its Limits (13:39)
+*** DONE Lecture 3.2: Size Dependent Trends in Magnetism (19:08)
+    CLOSED: [2015-03-22 Sun 17:10] SCHEDULED: <2015-03-15 Sun>
+     ▶Multiple Domain magnets - bulk ferromagnet
+     Remanent magnetization: magnetization M with no field
+     Magnetic Susceptibility(զգայունություն): how M grows with field applied
+     Saturation(հագեցում) magnetization: M when all aligned (large field)
+     with a lot of spins too much energy to flip magnetization
+
+     ▶Single Domain magnets - about 20-50nm they are hard to magnetize and demagentize.
+     single domain magnets has less saturation magnetization, because there is less volume.
+     so with fewer spins you can't have as much saturation.
+     saturation magnetization of single particle depend on volume.
+     Rotation of spins requires more energy than domain wal movement, since they are hard to magnetize
+     also hard to demagnetize
+     
+     ▶Supermagnets, tiny ferromagnets < 20nm
+     with only a few hundred spins, can get fluctuating(տատանվելով) magnetiation!
+     
+
+     ▶
+     ▶
+     ▶
+     ▶
+
+    
+*** TODO Lecture 3.3: Magnetic Data Storage - Reaching Its Limits (13:39)
+    SCHEDULED: <2015-03-23 Mon>
 *** Lecture 3.4: Cleaning Water (Pt 1) Nano-Magnetic Separation (14:59)
 *** Lecture 3.5: Cleaning Water (Pt 2) Nano-Sorbent Chemistry (14:24)
 *** Lecture 3.6: MRI Imaging and Contrast Agents (10:06)

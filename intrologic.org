@@ -51,10 +51,167 @@
     (1) Form a truth table for the proposition constants and add columns for each sentence in our set.
     (2) Evaluate each sentence for each of the rows ot the truth table.
     (3) Any row that satisfy al sentences int the set is a solution to the problem.
-*** TODO 2.5 Properties of Sentences (3 min)
-    SCHEDULED: <2015-03-21 Sat>
-*** TODO 2.6 Logical Entailment (6 min)
-    SCHEDULED: <2015-03-21 Sat>
-*** TODO 2.7 The Big Game (3 min)
-    SCHEDULED: <2015-03-21 Sat>
+*** DONE 2.5 Properties of Sentences (3 min)
+    CLOSED: [2015-03-21 Sat 17:28] SCHEDULED: <2015-03-21 Sat>
+    1. Double Negation: p <=> ~~p
+    2. deMorgan's Laws: 
+       ~(p&q) <=> (~p v ~q)
+       ~(p&q) <=> (~p & ~q)
+    3. Implication Introduction:
+       p => (q => p)
+    4. Implication Distribution:
+       (p => (q => r)) => ((p => q) => (p => r))
+       
+
+
+
+*** DONE 2.6 Logical Entailment (6 min)
+    CLOSED: [2015-03-21 Sat 17:38] SCHEDULED: <2015-03-21 Sat>
+    {p} |= (p v q)
+    p logicali entails (p v q)
+    logic1-ի վավերականույթուն ստուգելու նույն ալգորիթմով ստուգում ենք, if p entails (p v q)
+    | p | q | p | (p v q) |   |
+    |---+---+---+---------+---|
+    | 1 | 1 | 1 |       1 | + |
+    | 1 | 0 | 1 |       1 | + |
+    | 0 | 1 | 0 |       1 |   |
+    | 0 | 0 | 0 |       0 |   |
+    |---+---+---+---------+---|
+
+    {p,q} entails (p & q)
+    p,q, premises
+    (p & q) logical conclusion from promosies p and q
+    | p | q | p | q | (p & q) |   |
+    |---+---+---+---+---------+---|
+    | 1 | 1 | 1 | 1 |       1 | + |
+    | 1 | 0 | 1 | 0 |       0 |   |
+    | 0 | 1 | 0 | 1 |       0 |   |
+    | 0 | 0 | 0 | 0 |       0 |   |
+    |---+---+---+---+---------+---|
+
+
+*** DONE 2.7 The Big Game (3 min)
+    CLOSED: [2015-03-21 Sat 18:33] SCHEDULED: <2015-03-21 Sat>
+    Stanford people always tell the truth, and Berkeley people always lie.
+    Unfortunately, by looking at a person, you cannot tell whether he is 
+    from Stanford or Berkeley.
+    You came to a fork in the road and want to get to the football
+    stadium down one fork. However, you do not know which to take.
+    There is a person standing there. What single question you can 
+    ask him to help you decide which fork to take?
+
+    | left | from stanford | Question | Response |   |
+    |------+---------------+----------+----------+---|
+    |    1 |             1 |        1 |        1 | + |
+    |    1 |             0 |        0 |        1 |   |
+    |    0 |             1 |        0 |        0 |   |
+    |    0 |             0 |        1 |        0 |   |
+    |------+---------------+----------+----------+---|
+    Question: Is it the case that the left road the way to the stadium if and only if you are from Stanford?
+
+** Lesson 3 - Propositional Satisfiability (Իրագործելիություն)
+*** DONE 3.1 Propositional Satisfiability (16 min)
+    CLOSED: [2015-03-22 Sun 12:58] SCHEDULED: <2015-03-21 Sat>
+
+    [[http://www.boolsat.com/][Boolean Satisfiability Solver]]
+    
+    ▶SAT: determines wheather a set of propositional sentences is satisfiable.
+    Logic problems react as SAT problems (e.g entailment)
+    SAT solvers used in
+    - Haedware design
+    - Software analysis
+    - Planning
+    - Mathematics
+
+   
+    ▶Methods used in SAT
+    1. Complete methods
+    Guraranteed to give correct answer
+    Truth Tables
+    Backtracking search (Поиск с возвратом)
+
+    2. Incomplete methods
+    Not guraranteed to give correct answer
+    Local Search
+
+    ▶Example
+    Let Ψ = {p v q, p v ~q, ~p v q, ~p v ~q v ~r, ~p v r}
+    Q: is Ψ satisfiable? Thas there is exsit a truth assignment that satisfied every sentence in Ψ?
+    Assume each sentence in Ψ is a disjunction of atmos or negated atoms
+    Solution:
+    • Truth Table method - Complete method
+    | p | q | r | p v q | p v ~q | ~p v q | ~p v ~q v ~r | ~p v r | Ψ sat. |
+    |---+---+---+-------+--------+--------+--------------+--------+--------|
+    | 0 | 0 | 0 |     0 |      1 |      1 |            1 |      0 | no     |
+    | 0 | 0 | 1 |     0 |      1 |      1 |            1 |      1 | no     |
+    | 0 | 1 | 0 |     1 |      0 |      1 |            1 |      1 | no     |
+    | 0 | 1 | 1 |     1 |      0 |      1 |            1 |      1 | no     |
+    | 1 | 0 | 0 |     1 |      1 |      0 |            1 |      0 | no     |
+    | 1 | 0 | 1 |     1 |      1 |      0 |            1 |      1 | no     |
+    | 1 | 1 | 0 |     1 |      1 |      1 |            1 |      0 | no     |
+    | 1 | 1 | 1 |     1 |      1 |      1 |            0 |      1 | no     |
+    |---+---+---+-------+--------+--------+--------------+--------+--------|
+    Complete: thruth table method is complete, because we examine every single truth assignment
+    Impractical except for small examples
+    rows
+    * 2 ^ 3 = 8
+    * 2 ^ 10 = 1024
+    * 2 ^ 20 = 1 million (10 ^ 6)
+    * 2 ^ 30 = 1 billion (10 ^ 9)
+    * 2 ^ 40 = 1 trillion(10 ^ 12)
+      
+   • Partial assignments
+       | p | q | r | p v q | p v ~q | ~p v q | ~p v ~q v ~r | ~p v r | Ψ sat. |
+       |---+---+---+-------+--------+--------+--------------+--------+--------|
+       |   |   |   |       |        |        |              |        |        |
+       | 1 | 0 | ? |     1 |      1 |      0 |            1 |      ? | no     |
+       | 1 | 0 | ? |     1 |      1 |      0 |            1 |      ? | no     | 
+       |   |   |   |       |        |        |              |        |        | 
+       |   |   |   |       |        |        |              |        |        | 
+       |---+---+---+-------+--------+--------+--------------+--------+--------|
+       because we have already the False in row and we do not need to check other 
+       sentences, we already no that answer is no. 
+   
+   • Searching partial assignments instead of only complete assignments.
+     Tree like 
+                              ???
+                             /    \
+                       p false    p true
+                      0??
+                     /
+        this idea base rise to the basic backtracking search
+     
+    
+   ▶ Basic backtracking search
+   Essential backtracking search optiomization 
+   * Unit propagation
+   * Pure Literal elimination
+   Most modern complete SAT sovlers are based on variations of DPLL (Davis-Putman-Logemann-Loveland)
+   * Clause Learning
+   * Fast Propagation
+   * Proposition selection heuristicc
+     
+         
+   ➤ incomplete method 
+   Some SAT problems still impractical for complete SAT sovlers
+   Little opportunity for early pruning (Էտում)
+   Consider method that answer correctly most of the time, but not every time
+   
+   GSAT: a prototype incomplete SAT solver
+   WalkSAT: a modification of GSAT
+    
+
+
+    
+    
+      
+
+    
+** TODO Lesson 4 - Propositional Proofs (20 min)
+   SCHEDULED: <2015-03-22 Sun>
+*** 4.1 Propositional Proofs (2 min)
+*** 4.2 Linear Proofs (8 min)
+*** 4.3 Structured Proofs (5 min)
+*** 4.4 Fitch (3 min)
+*** 4.5 Soundness and Completeness (2 min)
 

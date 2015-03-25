@@ -35,11 +35,30 @@
       ▶What is the simplest experiment once can think of involving chance?
       Unquestionably, the toss of a coin.
       ▶
-      ▶
-      ▶
-***** TODO Success runs [09:25]
-      SCHEDULED: <2015-03-22 Sun>
-***** The hot hand phenomenon [08:22]
+***** DONE Success runs [09:25]
+      CLOSED: [2015-03-22 Sun 15:10] SCHEDULED: <2015-03-22 Sun>
+      What is the chance that one will see at least r consecutive heads (a success run of length r) 
+      somewhere in a sequence of n tosses of a fair coin?
+
+      n := number of tosses
+      r := length of success run
+      Sn(r) := probability that at least one success run of length r occurs on or before the n-th trial.
+      
+      |  r | S50(r) | S100(r) |
+      |----+--------+---------|
+      |  2 |   1.00 |    1.00 |
+      |  3 |   0.98 |    1.00 |
+      |  4 |   0.83 |    0.97 |
+      |  5 |   0.55 |    0.81 |
+      |  6 |   0.31 |    0.55 |
+      |  7 |   0.17 |    0.32 |
+      |  8 |   0.08 |    0.17 |
+      |  9 |   0.04 |    0.09 |
+      | 10 |   0.02 |    0.04 |
+      #+TBLFM: $1=@#-0 
+
+***** TODO The hot hand phenomenon [08:22]
+      SCHEDULED: <2015-03-23 Mon>
 ***** Summary of Tableau 1, Part 2 [02:12]
 *** 2. Combinatorial elements
 **** Elements of counting

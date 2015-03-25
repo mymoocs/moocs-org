@@ -133,9 +133,23 @@
     CLOSED: [2015-03-17 Tue 21:34] SCHEDULED: <2015-03-17 Tue>
 *** DONE The Basis: Perspective rendering (13:20)
     CLOSED: [2015-03-20 Fri 07:02] SCHEDULED: <2015-03-18 Wed>
-*** TODO The Basis: Perspective rectification (10:41)
-    SCHEDULED: <2015-03-21 Sat>
-*** The Basis: The Exchange Lemma (09:04)
+*** DONE The Basis: Perspective rectification (10:41)
+    CLOSED: [2015-03-21 Sat 16:56] SCHEDULED: <2015-03-21 Sat>
+*** DONE The Basis: The Exchange Lemma (09:04)
+    CLOSED: [2015-03-21 Sat 17:04] SCHEDULED: <2015-03-21 Sat>
 *** TODO Geometry Lab
 *** The Basis problems
+
+** Week 5: Dimension
+*** TODO Dimension: The size of a basis
+*** Dimension: Dimension and rank I
+*** Dimension: Dimension and rank II(17:47)
+*** Dimension: Direct sum
+*** Dimension: Dimension and linear functions I
+*** Dimension: Dimension and linear functions II
+*** Dimension: Two representations of vector spaces
+*** Dimension: Threshold secret sharing
+
+** Week 6: Gaussian Elimination and the Inner Product
+ 
 

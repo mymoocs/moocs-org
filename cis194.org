@@ -1,5 +1,6 @@
 ﻿* [[http://www.seas.upenn.edu/~cis194/spring13/][cis194 Brent Yorgey]]
 
+
 * [[http://www.seas.upenn.edu/~cis194/fall14/][cis194 Richard Eisenberg]]
 * [[https://github.com/goldfirere][Richard Eisenberg's github page]]
 
@@ -9,15 +10,15 @@
 *** DONE Add HUnit testing
     CLOSED: [2015-03-08 Sun 15:25] SCHEDULED: <2015-03-07 Sat>
 *** TODO HSpec testing
-    DEADLINE: <2015-03-22 Sun>
+    DEADLINE: <2015-03-29 Sun>
 *** TODO learn testy
-    DEADLINE: <2015-03-22 Sun>
+    DEADLINE: <2015-03-29 Sun>
 
 ** Rower of hanoi problem
 *** DONE research the papaer "functional pearl: la tour d'hanoi" 
     CLOSED: [2015-03-15 Sun 20:21] DEADLINE: <2015-03-15 Sun> SCHEDULED: <2015-03-09 Mon>
 *** TODO code and run the approach in the papaer "functional pearl: la tour d'hanoi" 
-    DEADLINE: <2015-03-22 Sun>
+    DEADLINE: <2015-03-29 Sun>
 ** [[https://vimeo.com/6653485][Functional Pearl: La Tour D'Hanoi on vimeo]]
 
 
@@ -110,13 +111,75 @@
    CLOSED: [2015-03-21 Sat 15:35] SCHEDULED: <2015-03-20 Fri>
    [[file:d:/%3D%3DOnlineLearning/CIS194/reisenberg/homework/haskell/src/Hw04.hs][file:../../CIS194/reisenberg/homework/haskell/src/Hw04.hs]]
 
-** TODO [[http://www.seas.upenn.edu/~cis194/fall14/lectures/05-type-classes.html][Week 5 (25 September): Type Classes]]
-   SCHEDULED: <2015-03-22 Sun>
+** DONE [[http://www.seas.upenn.edu/~cis194/fall14/lectures/05-type-classes.html][Week 5 (25 September): Type Classes]]
+   CLOSED: [2015-03-23 Mon 19:08] SCHEDULED: <2015-03-22 Sun>
+   ▶Language Pragma
+   {-# LANGUAGE FlexibleInstances #-}
+   That’s a so-called language pragma. GHC includes many features which are not part of the standardized Haskell language. 
+   To enable these features, we use language pragmas. 
+   
+   ▶Two different forms of polymorfism
+   (1). parametric polymorphism, which we can also call universal polymorphism
+   A function like length :: [a] -> Int works for any type a.
+   
+   (2).ad-hoc polymorphism - 
+   But, sometimes we don’t want to be universal. Sometimes, we want a function to work for several types, but not every type.
+   A great example of this is (+). We want to be able to add Ints and Integers and Doubles, but not Maybe Chars. 
+   • This sort of polymorphism – where multiple types are allowed, but not every type – is called ad-hoc polymorphism. 
+   Haskell uses type classes to implement ad-hoc polymorphism.
+   A Haskell type class defines a set of operations. We can then choose several types that support those operations via class instances. 
+   (Note: These are not the same as object-oriented classes and instances!) Intuitively, type classes correspond to sets of types 
+   which have certain operations defined for them.
+   
+   ▶derivable classes
+   This deriving mechanism is baked into Haskell – you can’t make your own class and tell GHC how to derive instances. 
+   GHC does provide extensions that allow other classes to be derived; see the GHC manual for details.
+    * Eq
+    * Ord
+    * Enu
+    * Ix
+    * Bounded
+    * Show
+    * Read
+      
+
+   ▶
    
 ** TODO Homework 5: Rngs, Parser
    SCHEDULED: <2015-03-22 Sun>
+
+** 
+
+** Week 6 (2 October): Monoids, I/O
+** Homework 6: due Friday, 17 October
+** Week 7 (16 October): Lazy evaluation
+** Homework 7: 
+** Week 8 (23 October): Monads
+** Homework 8:
+** Week 9 (30 October): Testing
+** Homework 9: BST, Rings
+** Week 10 (5 November): Gloss 
+** Homework 10: Pong.jar, Tetris
+** Week 11 (13 November): Template Haskell
+** The final projec
+** Week 12 (20 November): Concurrency & Parallelism 
+** Week 13 (25 November): Types
+** Week 14 (4 December): Haskell and Java
+
 * [[http://www.seas.upenn.edu/~cis194/][cis194 Noam Zilberstein]]
 
-
-
-
+** Week 1 (Wednesday, 21 January): Introduction to Haskell 
+** Homework 
+** Week 2 (Wednesday, 28 January): Polymorphism and Functional Programming 
+** Homework 2:
+** Week 3 (4 February): Algebraic Data Types
+** Homework 3:
+** Week 4 (11 February): Typeclasses
+** Homework 4
+** Week 5 (18 February): I/O
+** Homework 5:
+** Week 6 (25 February): Lazy Evaluation
+** Homework 6:
+** Week 7 (4 March): Monads
+** Week 8 (18 March): Monads II
+** Homework 7-8:

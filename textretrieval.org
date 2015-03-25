@@ -1,0 +1,19 @@
+* [[https://class.coursera.org/textretrieval-001/lecture][Text Retrieval and Search Engines]]
+  :UNIVERSITY: University of Illinois at Urbana-Champaign
+  :AUTHOR: ChengXiang Zhai
+
+** Orientation
+*** DONE Course Introduction (00:03:11)
+    CLOSED: [2015-03-21 Sat 16:08]
+*** TODO Course Welcome (00:10:45)
+** Week 1
+*** 1.1 Natural Language Content Analysis (00:21:05)
+*** 1.2 Text Access (00:09:24)
+*** 1.3 Text Retrieval Problem (00:26:18)
+*** 1.4 Overview of Text Retrieval Methods (00:10:10)
+*** 1.5 Vector Space Model: Basic Idea (00:09:44)
+*** 1.6 Vector Space Model: Simplest Instantiation (00:17:30)
+*** 1.7 Vector Space Model: Improved Instantiation (00:16:52)
+*** 1.8 TF Transformation (00:18:56)
+*** 1.9 Doc Length Normalization (00:18:56)
+

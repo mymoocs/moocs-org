@@ -1,4 +1,4 @@
-* [[https://class.coursera.org/intrologic-004/lecture][oduction to Logic]]
+﻿* [[https://class.coursera.org/intrologic-004/lecture][oduction to Logic]]
   :UNIVERSITY: Stanford
   :AUTHOR: Michael Genesereth
 
@@ -201,17 +201,43 @@
    WalkSAT: a modification of GSAT
     
 
+** DONE Lesson 4 - Propositional Proofs (20 min)
+   CLOSED: [2015-03-28 Sat 22:13] SCHEDULED: <2015-03-22 Sun>
+*** DONE 4.1 Propositional Proofs (2 min)
+    CLOSED: [2015-03-28 Sat 21:24]
+*** DONE 4.2 Linear Proofs (8 min)
+    CLOSED: [2015-03-28 Sat 21:24]
+    [[https://spark-public.s3.amazonaws.com/intrologic/exercises/exercise_03_02_01.html][Excerise]]
+*** DONE 4.3 Structured Proofs (5 min)
+    CLOSED: [2015-03-28 Sat 21:42]
+    [[https://spark-public.s3.amazonaws.com/intrologic/exercises/exercise_03_03_01.html][exercise]]
+*** DONE 4.4 Fitch (3 min)
+    CLOSED: [2015-03-28 Sat 22:08]
+    [[https://spark-public.s3.amazonaws.com/intrologic/exercises/exercise_03_04_01.html][Video inline quize]]
+*** DONE 4.5 Soundness and Completeness (2 min)
+    CLOSED: [2015-03-28 Sat 22:08]
 
-    
-    
-      
+** TODO Lesson 5 - Propositional Resolution
+   SCHEDULED: <2015-03-29 Sun>
+*** 5.1 Propositional Resolution (2 min)
+*** 5.2 Clausal Form (5 min)
+*** 5.3 Resolution Principle (5 min)
+*** 5.4 Resolution Method (7 min)
+*** 5.5 Box Logic (out of focus)
 
-    
-** TODO Lesson 4 - Propositional Proofs (20 min)
-   SCHEDULED: <2015-03-22 Sun>
-*** 4.1 Propositional Proofs (2 min)
-*** 4.2 Linear Proofs (8 min)
-*** 4.3 Structured Proofs (5 min)
-*** 4.4 Fitch (3 min)
-*** 4.5 Soundness and Completeness (2 min)
-
+** TODO Lesson 6 - Relational Logic
+*** 6.1 Relational Logic (2 min)
+*** 6.2 Syntax (9 min)
+*** 6.3 Semantics (8 min)
+*** 6.4 Example - Sorority World (5 min)
+*** 6.5 Example - Blocks World (4 min)
+*** 6.6 Example - Modular Arithmetic (5 min)
+*** 6.7 Example - Peano Arithmetic (6 min)
+*** 6.8 Example Linked Lists (4 min)
+*** 6.9 Example - Pseudo-English (5 min)
+*** 6.10 Example - Metalevel Logic (6 min)
+*** 6.11 Properties of Sentences (3 min)
+*** 6.12 Logical Entailment (4 min)
+*** 6.13 (Optional) Finite Relational Logic (7 min)
+*** 6.14 (Optional) Omega Relational Logic (9 min)
+*** 6.15 (Optional) General Relational Logic (4 min)

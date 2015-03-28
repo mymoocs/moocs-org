@@ -25,8 +25,14 @@
 ** DONE schedule this course to learn
    CLOSED: [2015-03-15 Sun 21:22] SCHEDULED: <2015-03-15 Sun>
 
-** TODO [[http://work.caltech.edu/paper/CaltechNews.pdf][Read Yaser Abu-Mostafa article]]
-   SCHEDULED: <2015-03-20 Fri>
+** DONE [[http://work.caltech.edu/paper/CaltechNews.pdf][Read Yaser Abu-Mostafa article]]
+   CLOSED: [2015-03-25 Wed 15:38] SCHEDULED: <2015-03-20 Fri>
+   "Just be youtself," his
+   father told him. "If it works out, then it's
+   great and effortless. If it doesn't work
+   out, then you need to do something else.
+   But at least explore the possibility that
+   everything will go well." 
 ** Lecture 1: [[https://www.youtube.com/watch?v=mbyG85GZ0PI&hd=1][The Learning Problem ]](01:27:21)               :conceptual:
    [[http://work.caltech.edu/slides/slides01.pdf][Slide 01]]
    Example of machine learning:

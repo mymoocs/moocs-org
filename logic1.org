@@ -737,7 +737,8 @@
      ▶for treatment of negation in PROLOG, extinctions use a concept called the close world assumption,
      or alternatively going to what's  called non monotonic logic's.
     
-*** Practice Quiz: §6 Propositional Logic Programming 
+*** DONE Practice Quiz: §6 Propositional Logic Programming 
+    SCHEDULED: <2015-03-27 Fri>
 
 ** PROLOG programming languages
    [[http://www.swi-prolog.org/download/stable][SWI-Prolog stable versions]]

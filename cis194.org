@@ -1,4 +1,53 @@
 ﻿* [[http://www.seas.upenn.edu/~cis194/spring13/][cis194 Brent Yorgey]]
+  BFPG talks based n Yorgey course
+** Week 1: Introduction to Haskell ( html, lhs )
+   Speaker: David Laing
+   Video: http://vimeo.com/88540533
+   Homework 1:
+** Week 2: Algebraic Data Types ( html, lhs )
+   Speaker: Nick Partridge
+   Video: http://vimeo.com/90515452
+   Homework 2: [error.log, sample.log, Log.hs ]
+** Week 3: Recursion patterns, polymorphism, and the Prelude ( html, lhs )
+   Speaker: Matthew Brecknell
+   Video: http://vimeo.com/92976563
+   Homework 3: 
+** Week 4: Higher-order programming and type inference ( html, lhs )
+   Speaker: Christopher McKay
+   Video: http://vimeo.com/97015597
+   Homework 4:
+** Week 5: More polymorphism and type classes ( html, lhs )
+   Speaker: Fraser Tweedale
+   Video: http://vimeo.com/99034519
+   Homework 5: [ExprT.hs, Parser.hs, StackVM.hs ]
+** Week 6: Lazy evaluation ( html, lhs )
+   Speaker: Ben Kolera
+   Video: http://vimeo.com/101396464
+   Homework 6: 
+** Week 7: Folds and monoids ( html, lhs )
+   Speaker: George Wilson [[https://github.com/gwils?tab=repositories][github George Wilson]]
+   Video: http://vimeo.com/105047461
+   Slides: https://github.com/gwils/bfpg-slides-140826
+   Homework 7: [Editor.hs, Buffer.hs, Sized.hs, StringBuffer.hs, StringBufEditor.hs, carol.txt ]
+** Week 8: IO ( html, lhs )
+   Speaker: Jamie Cook
+   Video: http://vimeo.com/107081622
+   Homework 8: [Employee.hs, company.txt ]
+** Week 9: Functors ( html, lhs )
+   Speaker: Brenton Alker
+   Video: http://vimeo.com/110492903
+   Homework 9: due never (no HW this week).
+** Week 10: Applicative functors (part 1) ( html, lhs )
+   Speaker: Sean Chalmers (week 10 & 11)
+   Video: http://vimeo.com/112814183
+   Homework 10: [AParser.hs ]
+** Week 11: Applicative functors (part 2) ( html, lhs )
+   Speaker: Sean Chalmers (week 10 & 11)
+   Video: http://vimeo.com/112814183
+   Homework 11: [AParser.hs, SExpr.hs ]
+** Week 12: Monads ( html, lhs )
+   Homework 12: [Risk.hs ]
+
 
 
 * [[http://www.seas.upenn.edu/~cis194/fall14/][cis194 Richard Eisenberg]]
@@ -24,6 +73,7 @@
 
 ** DONE [[http://www.seas.upenn.edu/~cis194/fall14/lectures/01-intro.html][Week 1: Introduction to Haskell]]
    CLOSED: [2015-03-07 Sat 05:45] SCHEDULED: <2015-03-05 Thu>
+   [[https://vimeo.com/88540533][1. Introduction to Haskell - BFPG talk based on BYorgey course]]
    Haskell is lazy, functional language.
    Haskell is
    1. Functional
@@ -48,18 +98,22 @@
       * It enables a more compositional programming style (see wholemeal programming below).
       * One major downside, however, is that reasoning about time and space usage becomes much more complicated!
    4. Statically typed
-
-
 ** DONE Homework 1: CCard Number, Hanoi 
    CLOSED: [2015-03-08 Sun 20:37] SCHEDULED: <2015-03-06 Fri>
+
 ** DONE Week 2: Working with Lists
    CLOSED: [2015-03-10 Tue 22:34] SCHEDULED: <2015-03-09 Mon>
+   [[https://vimeo.com/92976563][3. Recursion patterns, polymorphism, and the Prelude - BFPG talk based on BYorgey course]]
+   
+   [[http://matthew.brecknell.net/post/difference-lists/][Difference lists]]  video [[https://vimeo.com/album/2805119/video/107040097][from author]]
+   
 ** DONE Homework 2: Scrabble 
    CLOSED: [2015-03-10 Tue 22:35] DEADLINE: <2015-03-11 Wed> SCHEDULED: <2015-03-09 Mon>
    [[file:d:/%3D%3DOnlineLearning/CIS194/reisenberg/homework/haskell/src/Hw02.hs::---%20Exercise%207.][file:../../CIS194/reisenberg/homework/haskell/src/Hw02.hs::--- Exercise 7.]]
+
 ** DONE Week 3: [[http://www.seas.upenn.edu/~cis194/fall14/lectures/03-ADTs.html][Algebraic data types]]  
    CLOSED: [2015-03-15 Sun 20:02] SCHEDULED: <2015-03-11 Wed>
-   
+   [[https://vimeo.com/90515452][2. Algebraic data types - BFPG talk based on BYorgey course]]
    * Algebraic data types in general
      In general, an algebraic data type has one or more data constructors, and each data constructor 
      can have zero or more arguments.
@@ -107,12 +161,14 @@
 
 ** DONE [[http://www.seas.upenn.edu/~cis194/fall14/lectures/04-poly.html][Week 4 (18 September): Polymorphism]]
    CLOSED: [2015-03-21 Sat 08:26] SCHEDULED: <2015-03-20 Fri>
+   [[https://vimeo.com/97015597][4. Higher-order programming and type inference - BFPG talk based on BYorgey course]]
 ** DONE Homework 4: [[http://www.seas.upenn.edu/~cis194/fall14/hw/04-poly.pdf][Binary search trees]]
    CLOSED: [2015-03-21 Sat 15:35] SCHEDULED: <2015-03-20 Fri>
    [[file:d:/%3D%3DOnlineLearning/CIS194/reisenberg/homework/haskell/src/Hw04.hs][file:../../CIS194/reisenberg/homework/haskell/src/Hw04.hs]]
 
 ** DONE [[http://www.seas.upenn.edu/~cis194/fall14/lectures/05-type-classes.html][Week 5 (25 September): Type Classes]]
    CLOSED: [2015-03-23 Mon 19:08] SCHEDULED: <2015-03-22 Sun>
+   [[https://vimeo.com/99034519][5. More polymorphism and type classes - BFPG talk based on BYorgey course]]
    ▶Language Pragma
    {-# LANGUAGE FlexibleInstances #-}
    That’s a so-called language pragma. GHC includes many features which are not part of the standardized Haskell language. 
@@ -143,15 +199,22 @@
     * Read
       
 
-   ▶
-   
+   ▶pattern guards
+   parse str
+    | Just rest <- stripPrefix "True" str = Just (True, rest)   
+    | Just rest <- stripPrefix "False" str = Just (False, rest) 
+    | otherwise = Nothing                                          
+    
 ** TODO Homework 5: Rngs, Parser
    SCHEDULED: <2015-03-22 Sun>
 
 ** 
 
-** Week 6 (2 October): Monoids, I/O
-** Homework 6: due Friday, 17 October
+** TODO Week 6 (2 October): [[http://www.seas.upenn.edu/~cis194/fall14/lectures/06-monoid-io.html][Monoids, I/O]]
+   [[https://vimeo.com/105047461][BFPG video]] 
+   00-14min - seen
+   14-30min - 
+** [[http://www.seas.upenn.edu/~cis194/fall14/hw/06-monoid-io.pdf][Homework 6]]
 ** Week 7 (16 October): Lazy evaluation
 ** Homework 7: 
 ** Week 8 (23 October): Monads

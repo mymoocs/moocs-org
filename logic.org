@@ -1,5 +1,5 @@
 ﻿* [[https://class.coursera.org/logic1-002/lecture][Logic: Language and Information 1]]
-
+  ⊃ 
 ** [[http://www.inf.ed.ac.uk/teaching/courses/lp/][Logic Programming Fall term 2014 ]]
 ** [[https://d396qusza40orc.cloudfront.net/logic1%2Fnotes%2Flogic1notes.pdf][logic Language & Information volume 1]]
 
@@ -528,6 +528,14 @@
     CLOSED: [2015-03-18 Wed 09:12] SCHEDULED: <2015-03-18 Wed>
 
 ** 4: Vagueness (Application: Philosophy) - Անորոշություն
+   * If a statement is contradictory in classical two-valued logic, then it is super-false in every supervaluation model.
+   * All classical two-valued tautologies are super-true in all supervaluation models.
+   * The fuzzy logic analysis of the sorties paradox takes the sorties argument to be invalid, but with all premises true to a high degree.
+   * f a statement is super-false in a supervaluation model M, it will remain super-false in a model found by deleting one or more valuations from M.
+   * In the supervaluationist analysis of the sorties paradox, in a typical sorties argument, no premise is super-false, but they aren't all super-true.
+   * The epistemicist analysis of the sorties paradox takes the sorties argument to be valid but not sound.
+     
+
 *** DONE 4.1 Vagueness: The Sorites Paradox (7:44)
     CLOSED: [2015-03-22 Sun 16:34] SCHEDULED: <2015-03-22 Sun>
     Sorites paradox - Ancient Greek: σωρίτης sōritēs means "heap" (from 'soros': Greek for heap)
@@ -571,10 +579,53 @@
     
 
     
-*** 4.2 Vagueness: One Option-Revising Our Logic (17:08)
-*** 4.3 Vagueness: Another Option-Resist the Premises (14:47)
-*** Practice Quiz: §4 Vagueness 
+*** DONE 4.2 Vagueness: One Option-Revising Our Logic (17:08)
+    CLOSED: [2015-04-02 Thu 16:55] SCHEDULED: <2015-03-30 Mon>
+    2. Logic does apply, and the argument is not valid.
+    Jan Łukasiewicz: Famous for Many-Valued Logics
+    ▶ A ⊃ B
+    If i(A) <= i(B) then i(A⊃B) = 1
+    If i(A) > i(B) then i(A⊃B) = 1 - i(A) + i(B)
+    ▶ A & B = min(i(A), i(B))
+    ▶ A v B = max(i(A), i(B))
+    ▶ ~A = 1 - i(A)
 
+    i(∼A)=1−i(A).
+    i(A⊃B)=1 if i(B)≥i(A), and i(A⊃B)=1−i(A)+i(B) if i(A)>i(B).
+    i(A&B) is the smaller value of i(A) and i(B).
+    i(A∨B) is the larger value of i(A) and i(B).
+
+    ▶ When is argument valid?
+    An argument from Σ to B t-valid iff whenever i(A) >= t for each A in Σ then i(B) >= t too. (Think of t as the 
+    threshold to count as true.)
+    ▶ if the argument from Σ to A is t-valid we we'll write 'Σ |=t A'
+    ▶ An argument is absolutely valid iff it is t-valid for every t.
+    
+
+*** DONE 4.3 Vagueness: Another Option-Resist the Premises (14:47)
+    CLOSED: [2015-04-03 Fri 15:01] SCHEDULED: <2015-04-03 Fri>
+    ▶two value logic to approach vagueness
+    3. Logic does apply, the argument is valid but one of the premises is false.
+
+       
+    ▶ Supervaluations
+    super-true
+    super-false
+    gap
+    
+    ▶Epistemicism
+    
+*** DONE Practice Quiz: §4 Vagueness 
+    CLOSED: [2015-04-03 Fri 15:01] SCHEDULED: <2015-04-03 Fri>
+    ▶Are there formulas composed out of p, q or r which we can choose for A and B to show that (A&(A⊃B))⊃B does 
+      not get the value 1?
+      i(p)=1, i(q)=2/3, i(r)=1/4
+      ----------------------
+      Yes, for example: i((q&(q⊃r))⊃r)=4/12
+
+    ▶If A⊃B isn't super true, then B isn't super-true either.?
+      Yes
+      
 ** 5: Implicature and Implication (Application: Linguistics)
 *** DONE 5.1 Linguistics: Introducing Language and Logic (7:52)
     CLOSED: [2015-03-22 Sun 17:25] SCHEDULED: <2015-03-22 Sun>
@@ -582,9 +633,19 @@
     Implicature - the phenomenon by which we can say one thing by way of saying another different thing.
     Implication - Կցորդություն, մասնակցություն, խառնում, ակնարկություն, լռելեայն իմաստ, իմաստարկություն
     
-*** 5.2 Linguistics: Entailment & Implicature (14:02)
-*** 5.3 Linguistics: Implicatures & Connectives (10:19)
-*** Practice Quiz: §5 Implication and Implicature 
+    ▶linguistics: the study of language in all its aspects.
+    * Phonetics and phonology
+    * Morphology
+    * Syntax
+    * Semantics
+    * Pragmatics
+    * Discourse analysis
+    * ...
+    
+*** TODO 5.2 Linguistics: Entailment & Implicature (14:02)
+    SCHEDULED: <2015-03-30 Mon>
+*** TODO 5.3 Linguistics: Implicatures & Connectives (10:19)
+*** TODO Practice Quiz: §5 Implication and Implicature 
 
 ** 6: Propositional Logic Programming (Application: Computer Science) 
 *** DONE 6.1 Logic, Computers & Automated Reasoning (12:47)

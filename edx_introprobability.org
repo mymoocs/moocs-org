@@ -1,0 +1,15 @@
+* [[https://courses.edx.org/courses/MITx/6.041x_1/1T2015/courseware/Unit_0_Overview/Lec__0_Course_overview/][MITx: 6.041x Introduction to Probability - The Science of Uncertainty]]
+
+** Unit 0: Overview
+*** DONE Course character and objectives
+    CLOSED: [2015-03-29 Sun 21:42]
+*** DONE Why study probability?
+    CLOSED: [2015-03-29 Sun 21:25]
+*** DONE Course contents
+    CLOSED: [2015-03-29 Sun 21:42]
+
+** Unit 1: Probability models 
+*** TODO Lec. 1: Probability models and axioms
+*** Mathematical background: Sets; sequences, limits, and series; (un)countable sets. 
+*** Solved problems
+*** Problem Set 1 

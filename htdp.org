@@ -1,0 +1,6 @@
+* [[https://class.coursera.org/programdesign-002/lecture][Introduction to Systematic Program Design - Part 1]]
+
+  https://class.coursera.org/programdesign-002/wiki/AllProblems
+
+** TODO BSL
+   SCHEDULED: <2015-04-04 Sat>

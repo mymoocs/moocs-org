@@ -217,13 +217,49 @@
 *** DONE 4.5 Soundness and Completeness (2 min)
     CLOSED: [2015-03-28 Sat 22:08]
 
-** TODO Lesson 5 - Propositional Resolution
-   SCHEDULED: <2015-03-29 Sun>
+** DONE Lesson 5 - Propositional Resolution
+   CLOSED: [2015-03-29 Sun 18:51] SCHEDULED: <2015-03-29 Sun>
+   Пра́вило резолю́ций — это правило вывода, восходящее к методу доказательства теорем через поиск противоречий; используется в логике 
+   высказываний и логике предикатов первого порядка. Правило резолюций, применяемое последовательно для списка резольвент, позволяет
+   ответить на вопрос, существует ли в исходном множестве логических выражений противоречие.Правило резолюций предложено в 1930 
+   году в докторской диссертации Жака Эрбрана для доказательства теорем в формальных системах первого порядка. Правило разработано 
+   Джоном Аланом Робинсоном в 1965 году.
 *** 5.1 Propositional Resolution (2 min)
 *** 5.2 Clausal Form (5 min)
+    [[https://spark-public.s3.amazonaws.com/intrologic/exercises/exercise_04_02_01.html][Exercise]]
 *** 5.3 Resolution Principle (5 min)
+    [[https://spark-public.s3.amazonaws.com/intrologic/exercises/exercise_04_03_01.html][Exercise]]
 *** 5.4 Resolution Method (7 min)
-*** 5.5 Box Logic (out of focus)
+    [[https://spark-public.s3.amazonaws.com/intrologic/exercises/exercise_04_04_01.html][Ex 1.]]
+    [[https://spark-public.s3.amazonaws.com/intrologic/exercises/exercise_04_04_02.html][Ex 2.]]
+    Clausal Form
+    Premises: {p, p => q, (p => q) => (q => r)}
+    Conlclusion: r
+    
+    | Premises:      | Clauses:  |
+    |----------------+-----------|
+    | p              | {p}       |
+    | p => q         | {~p,q}    |
+    | (p=>q)=>(q=>r) | {~p,~q,r} |
+    |                | {~q,r}    |
+    | ~r             | {~r}      |
+    |----------------+-----------|
+
+    Resolution proof:
+
+    |---+-----------+---------|
+    | 1 | {p}       | Premise |
+    | 2 | {~p,q}    | Premise |
+    | 3 | {~p,~q,r} | Premise |
+    | 4 | {~q,r}    | Premise |
+    | 5 | {~r}      | Premise |
+    | 6 | {q}       | 1,2     |
+    | 7 | {r}       | 4,6     |
+    | 8 | {}        | 5,7     |
+    |---+-----------+---------|
+    #+TBLFM: $1=vlen(@I$1..0);EN
+
+*** 5.5 Box Logic (out of focus) (04:21)
 
 ** TODO Lesson 6 - Relational Logic
 *** 6.1 Relational Logic (2 min)

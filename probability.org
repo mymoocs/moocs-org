@@ -57,12 +57,15 @@
       | 10 |   0.02 |    0.04 |
       #+TBLFM: $1=@#-0 
 
-***** TODO The hot hand phenomenon [08:22]
-      SCHEDULED: <2015-03-23 Mon>
-***** Summary of Tableau 1, Part 2 [02:12]
+***** DONE The hot hand phenomenon [08:22]
+      CLOSED: [2015-03-29 Sun 20:10] SCHEDULED: <2015-03-23 Mon>
+***** DONE Summary of Tableau 1, Part 2 [02:12]
+      CLOSED: [2015-03-29 Sun 20:15]
+      лат. Quo vadis — «куда идёшь»
 *** 2. Combinatorial elements
 **** Elements of counting
-***** Finite sets, ordered samples, subpopulations [11:56]
+***** TODO Finite sets, ordered samples, subpopulations [11:56]
+      SCHEDULED: <2015-03-30 Mon>
 ***** Sampling with replacement, powers [08:36]
 ***** Sampling without replacement, falling factorials [12:15]
 ***** Subpopulations, binomial coefficients [07:25],   

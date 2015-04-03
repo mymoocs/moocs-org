@@ -155,8 +155,34 @@
     3. replacing a row by the sum of a non-zero scalar multiple of that row and another row.
        
     An application of two of the elementary row operations to image manipulation
-*** TODO Activity: Gaussian Elimination (05:04)
+*** DONE Activity: Gaussian Elimination (05:04)
+    CLOSED: [2015-03-29 Sun 20:53]
     http://math365.org/lifeislinear/Flip/Flip.html
-    
+    http://math365.org/lifeislinear/RowMult/RowMult.html
+*** DONE Being Cryptic
+    CLOSED: [2015-03-29 Sun 20:53]
+*** DONE Activity: Shifting to the Cryptic
+    CLOSED: [2015-03-29 Sun 20:59]
+    http://math365.org/lifeislinear/CaesarDecode/CaesarDecode.html
+*** TODO 5.4 Deciphering Linear Systems 
+    SCHEDULED: <2015-03-30 Mon>
+    * A method of encryption that uses matrices
+    * The inverse of a matrix and how to use it to solve linear systems
+*** TODO Activity Overview: Encoding
+    SCHEDULED: <2015-03-30 Mon>
 
-
+** TODO Unit 6: Sports Ranking March MATHness
+   SCHEDULED: <2015-03-30 Mon>
+*** Introduction to Unit 6
+*** 6.1 Catching the Madness 
+*** 6.2 Who’s Number 1? Sports Ranking 
+*** 6.3 March MATHness
+*** 6.3 Exploratory Activity 
+** Unit 7: Least Squares
+*** Introduction and Learning Goals
+*** 7.1 Dash of Math
+*** 7.1 Exploratory Activity: John Brenkus Sports Question 
+*** End of Course Survey 
+**  More Resources 
+*** The Tech Museum 
+*** Pixar: Tony DeRose 

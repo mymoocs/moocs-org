@@ -1,0 +1,33 @@
+﻿* [[http://www.meetup.com/Brisbane-Functional-Programming-Group/events/104664052/][Brisbane Functional Programming Group (BFPG)]]
+
+
+  [[https://github.com/bfpg/cis194-yorgey-lectures][Brent Yorgey's CIS194 lectures]]
+** week 7: 
+   
+   [[https://github.com/gwils?tab=repositories][github George Wilson]]
+
+
+** [[http://www.meetup.com/Brisbane-Functional-Programming-Group/events/104664052/][Haskell in the Financial District & Building a LISP Machine]]
+   [[https://vimeo.com/67928329][video on vimeo]]
+   [[http://carlo-hamalainen.net/blog][author's blog page]]
+
+
+
+
+
+** A whirlwind tour of haskell tools - Chris McKay
+   [[http://www.meetup.com/Brisbane-Functional-Programming-Group/events/185383732/]]
+   [[https://www.youtube.com/watch?v=sd2WMGCc77w&feature=youtu.be]]
+   [[https://vimeo.com/album/2805119/video/119517120]]
+
+** George Wilson - Haskell Experience Report: An Implementation of Plausible Logic - BFPG
+   [[http://www.meetup.com/Brisbane-Functional-Programming-Group/events/185383732/]]
+   [[https://vimeo.com/119619624]]
+   [[https://github.com/gwils?tab=repositories][github George Wilson]]
+
+** Difference Lists
+   https://vimeo.com/album/2805119/video/107040097
+
+   
+
+

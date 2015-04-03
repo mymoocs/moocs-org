@@ -1,0 +1,21 @@
+* TODO Data Science Specialization
+  SCHEDULED: <2015-04-07 Tue>
+  
+* The Data Scientist’s Toolbox
+  
+
+* R Programming
+
+* Getting and Cleaning Data
+
+* Exploratory Data Analysis
+
+* Reproducible Research
+
+* Statistical Inference
+
+* Regression Models
+
+* Practical Machine Learning
+
+* Developing Data Products

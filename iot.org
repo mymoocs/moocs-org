@@ -1,0 +1,19 @@
+* [[https://class.coursera.org/fog-001/lecture][Fog Networks and the Internet of Things]]
+
+**  Lecture 1: Fog Networking
+*** DONE Part A (8:51)
+    CLOSED: [2015-04-03 Fri 07:47]
+*** TODO Part B (21:28)
+    SCHEDULED: <2015-04-04 Sat>
+*** Part C (8:29)
+*** Part D (10:37)
+** Lecture 2: From IT to IOT
+*** Part A (17:48) 
+*** Part B (14:23)
+*** Part C (19:05)
+*** Part D (16:08)
+** Lecture 3: Network Service Pricing
+*** Part A (21:28)
+*** Part B (10:01)
+*** Part C (11:03)
+*** Part D (17:54)

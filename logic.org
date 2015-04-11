@@ -1,5 +1,5 @@
 ﻿* [[https://class.coursera.org/logic1-002/lecture][Logic: Language and Information 1]]
-  ⊃ 
+  ⊃, ∨, ∧, ¬, ≡, ≠, ∀, ∃, λ, ≤, ≥, ∈, ∉, ∞,  
 ** [[http://www.inf.ed.ac.uk/teaching/courses/lp/][Logic Programming Fall term 2014 ]]
 ** [[https://d396qusza40orc.cloudfront.net/logic1%2Fnotes%2Flogic1notes.pdf][logic Language & Information volume 1]]
 

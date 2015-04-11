@@ -59,15 +59,15 @@
 *** DONE Add HUnit testing
     CLOSED: [2015-03-08 Sun 15:25] SCHEDULED: <2015-03-07 Sat>
 *** TODO HSpec testing
-    DEADLINE: <2015-04-05 Sun>
+    DEADLINE: <2015-04-12 Sun>
 *** TODO learn testy
-    DEADLINE: <2015-04-05 Sun>
+    DEADLINE: <2015-04-12 Sun>
 
 ** Rower of hanoi problem
 *** DONE research the papaer "functional pearl: la tour d'hanoi" 
     CLOSED: [2015-03-15 Sun 20:21] DEADLINE: <2015-03-15 Sun> SCHEDULED: <2015-03-09 Mon>
 *** TODO code and run the approach in the papaer "functional pearl: la tour d'hanoi" 
-    DEADLINE: <2015-04-05 Sun>
+    DEADLINE: <2015-04-12 Sun>
 ** [[https://vimeo.com/6653485][Functional Pearl: La Tour D'Hanoi on vimeo]]
 
 

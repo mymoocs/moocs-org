@@ -1,0 +1,43 @@
+﻿* [[https://class.coursera.org/fog-001/lecture][Fog Networks and the Internet of Things]]
+
+  http://www.gns3.com/
+  
+**  Lecture 1: Fog Networking
+*** DONE Part A (8:51)
+    CLOSED: [2015-04-03 Fri 07:47]
+*** DONE Part B (21:28)
+    CLOSED: [2015-04-11 Sat 07:33] SCHEDULED: <2015-04-04 Sat>
+    ▶ What is Fog network
+    A network architecture that uses one or a collaborative multitude of 
+    end-user clients (phones, laptops)
+    or
+    near-user edge devices (set-top boxes, Femto base stations, home gateways)
+    to carry out a substantial (էական, nor 100% but substential amount of something) amount of
+    1. storage  (rather than stored primarily in cloud data centers),
+    2. communication (rather than routed over wide-area so called backbone networks), 
+    3. control, configuration, measurement and management (rather than controlled primarily by network gateways such as those you can 
+    find in the so-called core network of 4G LTE). 
+    ▶ What is Fog network
+    Is the architecture who describes
+    * Who does What?
+    * How to connect them?
+    * Architecture - not allocating resources but allocating functions in network.
+    And Fog network is an architecture that use could be just one 
+    or 
+    could be more than one that work with each other - thet is what we mean by collaborative multitude.
+    
+
+*** Part C (8:29)
+    SCHEDULED: <2015-04-11 Sat>
+*** Part D (10:37)
+    SCHEDULED: <2015-04-11 Sat>
+** Lecture 2: From IT to IOT
+*** Part A (17:48) 
+*** Part B (14:23)
+*** Part C (19:05)
+*** Part D (16:08)
+** Lecture 3: Network Service Pricing
+*** Part A (21:28)
+*** Part B (10:01)
+*** Part C (11:03)
+*** Part D (17:54)

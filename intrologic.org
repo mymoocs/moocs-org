@@ -1,7 +1,8 @@
-﻿* [[https://class.coursera.org/intrologic-004/lecture][oduction to Logic]]
+﻿* [[https://class.coursera.org/intrologic-005/lecture][Ioduction to Logic]]
   :UNIVERSITY: Stanford
   :AUTHOR: Michael Genesereth
-
+  ⊃, ∨, ∧, ¬, ≡, ≠, ∀, ∃, λ, ≤, ≥, ∈, ∉, ∞,  
+  [[https://d396qusza40orc.cloudfront.net/intrologic/chapters/cover.html][Online Book]]
 ** Lesson 1 - Introduction
 *** DONE 1.1 Introduction to Logic (3 min) 
     CLOSED: [2015-03-14 Sat 10:42]
@@ -262,8 +263,107 @@
 *** 5.5 Box Logic (out of focus) (04:21)
 
 ** TODO Lesson 6 - Relational Logic
-*** 6.1 Relational Logic (2 min)
-*** 6.2 Syntax (9 min)
+   ⊃, ∨, ∧, ¬, ≡, ≠, ∀, ∃, λ, ≤, ≥, ∈, ∉, ∞,  
+*** DONE 6.1 Relational Logic (2 min)
+    CLOSED: [2015-04-11 Sat 06:53] SCHEDULED: <2015-04-11 Sat>
+    When we want to say things more generally, we find that Propositional Logic is
+    inadequate.
+    Suppose, for example, that we wanted to say that, in general, if one person knows a
+    second person, then the second person knows the first. 
+    
+    ▶Relational Logic is an extension of Propositional Logic that solves this problem.
+    The trick is to augment(ավելացնել) our language with two new linguistic features, viz.
+    1. variables
+    2. quantifiers
+    With these new features, we can express information about multiple objects without enumerating those
+    objects; and we can express the existence of objects that satisfy specified conditions without
+    saying which objects they are.
+
+    
+    ▶We will proceed through the same stages as we did for Propositional Logic.
+     1. syntax and semantics of our language.
+     2. properties of relational logic sentences
+     3. evaluation and satisfaction
+     4. logical entailment.
+     5. proofs (as with Propositional Logic, we leave the discussion of proofs to later chapters)
+    
+
+
+*** DONE 6.2 Syntax (9 min)
+    CLOSED: [2015-04-11 Sat 06:53] SCHEDULED: <2015-04-11 Sat>
+    ▶ Basic words of our language
+    1. Variables
+       u,w,x,y,z
+    2. Constants
+       a, b, c, 123, comp125
+       Types
+       * Object constants represent objects. e.g.  joe, stanford, usa
+       * Function constatns replresent functions. e.g. father, mother, age, plus, times
+       * Relation constants represent relations. e.g. knows, loves
+
+    3. Arity
+       the number of arguments a function constant or a relation constant it takes.
+       * Unary   - function or relation constant - 1 argument
+       * Binary  - function or relation constant - 2 argument
+       * Ternary - function or relation constant - 3 argument
+       * n-ary   - function or relation constant - n argument
+
+    4. Vocabulary(signature) of our language
+    consists of a set of object constants, a set of function constants, a set of relation
+    constants, and an assignment of arities for each of the function constants and relation constants in
+    the vocabulary. 
+    ▶ Terms - these words can be combined to form complex expressions called terms
+    1. A term is either a variable, an object constant, or a functional term
+       Terms represent objects.
+       Terms are analogues to noun phrases in natural language.
+    2. A functional expression, or functional term
+       is an expression formed from n-ary function constant and n terms enclosed in parenthesis and
+       spearated by commas.
+       g(a,a)
+       g(a,y)
+       g(y,y)
+       Funnctional terms are terms so can be nested
+       g(g(a,y), g(y,a))
+           
+    ▶ Sentences How terms can be combined to form sentences
+    Three type of sentences in relational logic.
+    ▶ Relational sentences - analogues to the simple sentences in natural language or  the analog of propositions in Propositional Logic
+     is an expression formed from n-ary relation constant and n terms enclosed in parenthesis and spearated by commas.
+     q(a,y)
+     Relational sentences are not terms and cannot be nested in terms or relational sentences
+    ▶ Logical sentences - analogous to the logical sentences in natural language or analogous to the logical sentences in Propositional Logic
+    Logical sentences in Relational logic are analogus to those in Propositional logic.
+    (~q(a,b))
+    (p(a) ∧ p(b))
+    (p(a) ∨ p(b))
+    (q(x,y) ⊃ q(y,x))
+    (q(x,y) ≡ q(y,x))
+    
+    ▶ Quantified sentences - sentences that express the significance(կարեւորություն) of variables(which have no analog in Propositional Logic)
+    1. Universally quantified sentences - assert fact about all objects. (∀)
+       Universal sentences used to assert that all object have a certain property
+       (∀x.p(x) ⊃ q(x,x)) 
+    2. Exsistentially quantified sentences - assert the existence of objects with given properties.(∃)
+       Existential sentences used to assert that there are  object have a certain property
+       (∃x.(p(x) ∧ q(x,x)))
+    3. Note that quantified sentences can be nested within other sentences
+       (∀x.p(x)) ∨ (∃x.q(x,x))
+       (∀x.(∃x.q(x,y)))
+       
+    4. The quantifiers have higher precedence than logical operations
+        ∀x.p(x) ⊃ q(x,x) 
+       
+    ▶ Ground and Non-Ground expressions
+    1. Ground
+       An expression is ground iff it contains no variables.
+       p(a)
+    2. Non-Ground
+       ∀x.p(x)
+    ▶ Bound and Free Variables
+    An occurence of variable is bound iff it lies in the scope of a quantifier of that  variable. Otherwise it is free.
+    ∃y.q(x,y) - in this example, x is free and y is bound.
+    
+
 *** 6.3 Semantics (8 min)
 *** 6.4 Example - Sorority World (5 min)
 *** 6.5 Example - Blocks World (4 min)

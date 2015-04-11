@@ -1,0 +1,33 @@
+* books
+  That said, it is one of the two books I encourage newcomers to Haskell to pick up. 
+  The other is Real World Haskell (RWH), which has complementary strengths and weaknesses to those of LYaH. 
+
+** Learn You a Haskell for Great Good!
+** Real World Haskell
+   
+   From there if you want to continue, you can dive deeper with
+
+** Pearls of Functional Algorithm Design
+** Parallel and Concurrent Programming in Haskell 
+** Purely Functional Data Structures
+** Types and Programming Languages Benjamin C. Pierce
+** Basic Category Theory for Computer Scientists 
+Benjamin C. Piercer
+* http://www.99haskell.org/2
+
+* Learning Haskell — A Racket programmer's documentation of her foray into the land of Haskell (inspired by Learning Racket)
+  http://lexi-lambda.github.io/learning-haskell/
+  http://www.reddit.com/r/haskell/comments/2ypdiv//
+  https://github.com/lexi-lambda
+
+* http://artyom.me/learning-racket-1
+
+
+* The problem of learning functional programming
+  http://bitemyapp.com/posts/2014-12-31-functional-education.html
+
+* Web development using Haskell
+  http://www.reddit.com/r/haskell/comments/2wfap0/web_development_using_haskell/
+
+* Turtle.Tutorial
+  

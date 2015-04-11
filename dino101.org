@@ -2,6 +2,8 @@
   :UNIVERSITY: Alberta
   :LECTOR: Philip John Currie, PhD
 
+  [[https://d396qusza40orc.cloudfront.net/dino101/timescale/timescale-101.html#/t00000000-0000-0000-0000-000000000000][Geologic Time Scale]]
+  [[https://d396qusza40orc.cloudfront.net/dino101%2Fpuzzle%2Fdinosauria-puzzlebox.html][Phylogenetic Tree]]
 **  Lesson 9: Stratigraphy and Geologic Time
 *** DONE The Age of Dinosaurs (12:10)
     CLOSED: [2015-03-10 Tue 08:24] SCHEDULED: <2015-03-10 Tue>
@@ -22,17 +24,21 @@
 
 
 ** Lesson 11: Dinosaur Origins
-*** TODO Origins (3:07)
-    SCHEDULED: <2015-04-04 Sat>
-*** TODO Diapsids (9:51)
-    SCHEDULED: <2015-04-04 Sat>
-*** TODO Rise of the Dinosaurs (6:18)
-    SCHEDULED: <2015-04-04 Sat>
-*** TODO Quizz for lesson 11
-    SCHEDULED: <2015-04-04 Sat>
+*** DONE Origins (3:07)
+    CLOSED: [2015-04-11 Sat 08:10] SCHEDULED: <2015-04-04 Sat>
+*** DONE Diapsids (9:51)
+    CLOSED: [2015-04-11 Sat 08:13] SCHEDULED: <2015-04-04 Sat>
+*** DONE Rise of the Dinosaurs (6:18)
+    CLOSED: [2015-04-11 Sat 08:13] SCHEDULED: <2015-04-04 Sat>
+*** DONE Quizz for lesson 11
+    CLOSED: [2015-04-11 Sat 08:13] SCHEDULED: <2015-04-04 Sat>
 
 ** Lesson 12: Dinosaur Extinction 
-*** Extinction (9:22)
-*** Causes of Extinction (5:13)
-*** Chicxulub Impactor (12:15)
-*** Resurrecting Dinosaurs (6:14)
+*** TODO Extinction (9:22)
+    SCHEDULED: <2015-04-12 Sun>
+*** TODO Causes of Extinction (5:13)
+    SCHEDULED: <2015-04-12 Sun>
+*** TODO Chicxulub Impactor (12:15)
+    SCHEDULED: <2015-04-12 Sun>
+*** TODO Resurrecting Dinosaurs (6:14)
+    SCHEDULED: <2015-04-12 Sun>

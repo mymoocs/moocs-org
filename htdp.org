@@ -1,3 +1,119 @@
+
+
+
+* Course Information 
+  :URL: https://class.coursera.org/programdesign-002/wiki/CourseInformation
+
+** Content Overview
+
+   Being able to design simple programs is a new form of literacy. Understanding how programs work will 
+   help you understand phones, web sites, banking systems, games, movies, social networks and many other 
+   computational systems you interact with. Being able to design programs will support your work as a 
+   scientist, engineer, artist and many other professions: programming will allow you to organize, store, 
+   analyze and visualize information; create animations, music, and online communities; control devices 
+   in our environment; develop computational models and simulations; and much much more.
+   The major goal of this course is to introduce students to a systematic method for designing programs—indeed 
+   for solving hard design problems in general. Previous students have said:
+   * Studying computer science inspired me to think about problems differently and take a more systematic  approach to them.
+   * Program design is applicable not only to computer science, but numerous areas of life. It is essential in the development of problem solving skills.
+   * As I began to learn about programs and how they work, I started to appreciate how "simple" programs like Microsoft Word, especially after building my own simpler version of NotePad. 
+   The course is designed to be interesting, accessible and useful for all —from students wanting to become expert 
+   programmers to students with only a passing interest. No prior programming experience is assumed, and very little 
+   math and science background is required. The course will also prepare you to learn more Computer Science skills and 
+   concepts in the future. The course builds on the  [[http://www.programbydesign.org/][How to Design Programs (aka Program by Design)]] curriculum and we 
+   are grateful to that community for their work and support. Particular thanks go to Matthias Felleisen, Kathi Fisler 
+   and Shriram Krishnamurthi for ongoing suggestions about our version of their material.
+   
+** Overall schedules/modules covered per week:
+
+*** Week 1: Modules: 
+    BSL, HTDF. Introduction and the structure of the course. The Beginning Student Language; expressions and
+    evaluation rules; primitive operations on numbers, strings and images. The How to Design Functions (HtDF) Recipe. 
+
+*** Week 2: Modules: 
+    HtDD. Representing information as data. The How to Design Data (HtDD) recipe. Atomic forms of data including 
+    intervals, enumerations, and itemizations. 
+
+*** Week 3: Modules: 
+    HtDW, Compound. The design of simple interactive programs. The big-bang user interface framework. The How to 
+    Design Worlds (HtDW) recipe. Representing information where two or more values naturally form a whole using compound data. 
+
+*** Week 4: Modules: 
+    Self-Ref, Ref. Representing arbitrary sized information using lists. Decomposition of information into multiple types.
+    
+*** Week 5: Modules: 
+    Naturals, Helpers. Functions operating on natural numbers. A parlor trick. Rules for decomposing functions.
+
+*** Week 6: Modules: 
+    BSTs, Mutual-Ref. List abbreviations. Mutual reference allows more complex arbitrary-sized data. Using binary trees 
+    to enable fast lookup of information. Using arbitrary arity trees to represent inherently hierarchical information.
+
+*** Week 7: Modules: 
+    2-One-Of, Local. Functions that consume two arguments that have 'one-of' in their types. Using local definitions to 
+    improve the structure of programs.
+
+*** Week 8: Modules: 
+    Abstraction. Using abstraction to control reduce repetition and complexity in programs.
+
+*** Week 9: Modules: 
+    Genrec, Search. Generative recursion, fractals and search problems.
+
+*** Week 10: Final exam.
+
+
+** Learning Goals
+   
+   The main learning goals for this course are:
+
+*** 1. Understand a systematic design process 
+    This is demonstrated by being able to write programs for a reasonably complex task, where the ability to use the "one task - one 
+    function" rule can be demonstrated.
+
+*** 2. Understand that programs are written both to run on computers and for people to read.
+    This is demonstrated by being able to to write code that is readable, well organized, documented, and tested.
+
+*** 3. Understand the relation between information and data.
+    This is demonstrated by being able to design the data representation for a reasonably complex problem, and to describe the 
+    information encoded in the given data.
+
+*** 4. Understand that the structure of the data a program operates on determines many elements of the program's structure. 
+    This is demonstrated by being able to identify correspondences between a data definition and a program that operates on that data. 
+    Also by being able to identify how potential changes to a data definition would affect a program.
+
+*** 5. Understand that one can replace repetitive code with an abstraction in a systematic way. Understand that this is at the heart of designing libraries. 
+    This is demonstrated by being able to produce examples of code before and after abstraction: before, where one can see the 
+    repeated code, and after, where one can see the abstraction and verify that it provides the solution to the original problem, as well 
+    as several other similar problems. Students should also be able to design a program that uses existing libraries or existing code to 
+    solve a new problem.
+
+*** 6. Understand that programs can be described using notations other than code, and that these models can facilitate program design. 
+    This is demonstrated by being able to identify correspondences between non-code models of a program and the program itself and 
+    by being able to use non-code models in program design.
+
+
+
+** Required Software
+
+   In part 1 of Systematic Program Design we will be using the Beginning and Intermediate Student Languages provided by DrRacket. 
+   The DrRacket download includes the languages as well as an editor and other tools we will use. Using these teaching languages 
+   in part 1 of the course allows us to spend less time on complexities of the language and more time on systematic design. But 
+   these languages form the core of nearly all "real world" languages and so you will easily be able to transfer your learning to 
+   other languages, either in part 2 of the course or independently.
+
+   We have cached downloads for the two most commonly installed versions of DrRacket on the Coursera site, links to those are below. 
+   If you need another version just follow the third link to the DrRacket download page:
+   
+   * [[https://spark-public.s3.amazonaws.com/programdesign/software/racket-5.3.4-bin-i386-osx-mac.dmg][Mac OS X - Intel 32 bit (hosted at Coursera).]]
+   * [[https://spark-public.s3.amazonaws.com/programdesign/software/racket-5.3.4-bin-i386-win32.exe][Windows - x86 32 bit (hosted at Coursera).]]
+   * [[http://racket-lang.org/download/][Main DrRacket download page]]
+
+
+
+** Supplementary Textbook
+   All the material required for this course is available through the video lectures, lecture notes and reference pages on the website.
+   For further reading, the supplementary textbook for the course is a combination of the 1st and 2nd edition of How to Design Programs,
+   by Felleisen, Findler, Flatt, Krishnamurthi. The first edition of the book is available online at  http://htdp.org. The second edition is 
+   available online only at http://www.ccs.neu.edu/home/matthias/HtDP2e/.
 * [[https://class.coursera.org/programdesign-002/lecture][Introduction to Systematic Program Design - Part 1]]
 
   https://class.coursera.org/programdesign-002/wiki/AllProblems

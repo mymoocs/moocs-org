@@ -1,0 +1,35 @@
+* [[https://class.coursera.org/nand2tetris1-001/wiki/week_0][From Nand to Tetris / Part I]]
+  :UNIVERSITY: The Hebrew University of Jerusalem
+  :AUTHOR: Shimon Schocken, Noam Nisan
+  
+  [[http://nand2tetris.org/software.php][Nand2Tetris Software Suite]]
+
+
+** Week 0: Introduction
+   In a nutshell: course introduction and overview, the roles of abstraction and implementation in systems design, the road ahead.
+*** DONE Unit 0.0: Introduction
+    CLOSED: [2015-04-12 Sun 08:12] SCHEDULED: <2015-04-12 Sun>
+*** Unit 0.1: The Road Ahead
+*** Unit 0.2: From Nand to Hack
+*** Unit 0.3: From Hack to Tetris
+*** Unit 0.4: Project 0 Overview
+*** read [[http://www.nand2tetris.org/chapters/intro.pdf][Introduction]] chapter of The Elements of Computing Systems (the course's textbook)
+
+** Week 1: Boolean Functions and Gate Logic
+   In a nutshell: We will start with a brief introduction of Boolean algebra, and learn how Boolean functions can be physically 
+   implemented using logic gates. We will then learn how to specify gates and chips using a Hardware Description Language (HDL), 
+   and how to simulate the behaviour of the resulting chip specifications using a hardware simulator. This background will set 
+   the stage for Project 1, in which you will build, simulate, and test 15 elementary logic gates. The chipset that you will 
+   build this week will be later used to construct the computer's Arithmetic Logic Unit (ALU) and memory system. This will be 
+   done in weeks 2 and 3, respectively.
+*** Unit 1.1: Boolean Logic
+*** Unit 1.2: Boolean Functions Synthesis
+*** Unit 1.3: Logic Gates
+*** Unit 1.4: Hardware Description Language
+*** Unit 1.5: Hardware Simulation
+*** Unit 1.6: Multi-Bit Buses
+*** Unit 1.7: Project 1 Overview
+*** Unit 1.8: Perspectives
+*** Project 1: Elementary Logic Gates.
+*** read [[http://www.nand2tetris.org/chapters/chapter%2001.pdf][Chapter 1]] of The Elements of Computing Systems.
+*** read [[http://www.nand2tetris.org/chapters/appendix%20A.pdf][Appendix A: Hardware Description Language (HDL)]] of The Elements of Computing Systems

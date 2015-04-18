@@ -2,7 +2,7 @@
 
   http://www.gns3.com/
   
-**  Lecture 1: Fog Networking
+**  Lecture 1: Fog Networking - Going from Cloud to Fog
 *** DONE Part A (8:51)
     CLOSED: [2015-04-03 Fri 07:47]
 *** DONE Part B (21:28)
@@ -27,14 +27,125 @@
     could be more than one that work with each other - thet is what we mean by collaborative multitude.
     
 
-*** Part C (8:29)
-    SCHEDULED: <2015-04-11 Sat>
-*** Part D (10:37)
-    SCHEDULED: <2015-04-11 Sat>
-** Lecture 2: From IT to IOT
-*** Part A (17:48) 
-*** Part B (14:23)
-*** Part C (19:05)
+*** DONE Part C - Use Cases (8:29)
+    CLOSED: [2015-04-15 Wed 07:04] SCHEDULED: <2015-04-11 Sat>
+    [[http://www.sit-com.ru/femtocell-megafon-mts.html][Что такое фемтосота(Femtocell)?]]
+    Use cases of fog networks
+    ▶OTT Service Charging
+    Clients can crowd-source network inference/measurement and overlay billing
+    ▶Client-Side HetNets Control - Clients can autonomously manage/control their own configuration
+    How car choose which line to go over 3 line?
+    HetNets - Hetergeneous Networks
+    WiFi AP - LTE
+    RNS(eNodeB) - 
+    HNS(Home Gateway, HomeNodeBN) - FemtoCell
+    ▶Client Resource Pooling
+    Idle resources on the edge pooled but shared unpredictably 
+*** DONE Part D Fog as a Network Architecture (10:37)
+    CLOSED: [2015-04-15 Wed 07:40] SCHEDULED: <2015-04-11 Sat>
+    ▶Fog as network architecture
+    5G, IoT, Big Data, EDD(Edge-driven "Data center"), EDC(Edge-Driven Control plane)
+    
+    ▶Examples
+    • Over The Top (OTT) content management and SDP
+    • Client-centric HetNets Control
+    • Client-controlled cloudstorage
+    • Session management and signaling load optimization
+    • Crowd-sensing inference of network states
+    • Edge analytics and real-time stream-mining
+    • Clients’ idle computing/storage/content pooling
+    • Edge caching/BW management at home gateway/small cell
+    • FlashLinQ/LTE Direct/WiFiDirect/AirDrop
+    • Cloudlets/Micro Datacenters/Mobile CDN
+    • Client-driven distributed beam-forming(Проектирование фазированных антенных решёток) 
+    ▶NFO - Network Function Optimization, there are several threads to rethinking
+    • Redefine Network Functions - CCN(Content Centric Network) or ICN(Information Centric Network)
+      Manipulating digital objects not packets, and this redefine a lot functions that we need to think about
+    • Virtualize the network not just computing infrastructure- NFV(Network Function Virtualization)
+    • Relocating the network functions - FOG
+
+    ▶Research Challenges
+    • Trustworthiness/ verification of client/edge software & hardware - Do I trust this cients or things or Edges?
+    • Incentivization(Խթանել) of client participation - maybe they do not want to participate on resource pooling, crows-sourcing, 
+      how do I Incentivization their participation?
+    • Interactions w. client/IoT OS and definition of network service APIs
+    • Interfaces: Cloud-to-cloud and cloud-to-fog
+    • Oscillation/divergence and global configuration consistency during the interactions of local actions
+    • Tradeoff of Local vs. Global architecture, Distributed vs. Centralized 
+    •
+    •
+    ▶Inter-Disciplinary Solutions - http://fogresearch.org
+    ▶Impact on Value Proposition along Ecosystem Food-chain
+    • End user experience providers?
+    • Network operators?
+    • Equipment vendors?
+    • Cloud service providers?
+    • System integrators?
+    • Edge device manufacturers?
+    • Client/IoT device manufacturers/OS?
+    • Chip suppliers? 
+    
+    
+
+** Lecture 2: From IT(information technology) to IOT
+*** DONE Part A (17:48) 
+    CLOSED: [2015-04-16 Thu 07:47] SCHEDULED: <2015-04-16 Thu>
+    5G, IoT, Big Data, EDD, EDC
+    IoT = I & T
+    • Internet
+    - Connected
+    • Things
+    * Communicate (port or antenna)
+    * Sense (sensors ...)
+    * Actuate - cahnge something in environment(embedded controllers...)
+    * Compute (processor)
+    * Store (memory)
+    * Interact (touchescreen)
+   
+   IoT Applications' Classification
+   ▶Consumer oriented
+   • Consumer & Wearable (virtual reallity devices, glasses, colothes)
+   • Home & Building 
+   
+   ▶Industrial Oriented
+   • Healthcare 
+   • Vehicular & Transportation
+   • Smart grids & Energy
+   • City & Urban
+   • Environment & Agriculture
+   • Industrial & Logistics
+
+*** DONE Part B (14:23) The heterogeneity of out IT application need, is a major chanllange that researchers in this filed have to tackle. 
+    CLOSED: [2015-04-18 Sat 09:24] SCHEDULED: <2015-04-16 Thu>
+    We should ask ourselves in this particular IoT application, What kind of energy, delay, throughput, 
+    signaling cost, and human in the loop conditions are required.
+    
+    ▶Heterogeneous needs
+    • Energy
+    • Delay - 
+    • Throughput  - has many order of magnitute variation within IoT applications.
+    • Signaling overhead - 
+    • Cost
+    • Human in the loop
+   
+    ▶ IoT use cases requirements
+    |                             | Smart meters(cities)          | eHealth                     | ITS*                               | Surveilance    |
+    |                             |                               |                             |  |                |
+    |-----------------------------+-------------------------------+-----------------------------+------------------------------------+----------------|
+    | Mobility                    | none                          | Pedestrian/vehicular        | Vehicular                          | none           |
+    | Message size                | Small(few Kb)                 | Medium?                     | Meduim                             | large          |
+    | Traffic Pattern             | Regular                       | Regular/irregular           | Regular/irregualr                  | Regular        |
+    | Device density              | Very high(10 000 per cell)    | Meduim                      | High                               | low            |
+    | Latency requirements        | low(up to hours)              | Meduim(seconds)             | Very high(few ms)                  | Meduim(<200ms) |
+    | Power efficency requirments | High (battery powered meters) | High(battery power devices) | Low                                | low            |
+    | Relialbility                | High                          | High                        | High                               | medium         |
+    | Security requirements       | High                          | Very high                   | Very high                          | medium         |
+    |-----------------------------+-------------------------------+-----------------------------+------------------------------------+----------------|
+    * ITS - Inteligent transportation system
+    
+    
+*** TODO Part C (19:05)
+    SCHEDULED: <2015-04-18 Sat>
 *** Part D (16:08)
 ** Lecture 3: Network Service Pricing
 *** Part A (21:28)

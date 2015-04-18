@@ -1,0 +1,11 @@
+* [[https://class.coursera.org/reactive-002/lecture][Principles of Reactive Programming]]
+  :UNIVERSITY: 
+  :AUTHORS: Martin Odersky, Erik Meijer, Roland Kuhn
+
+** Recap: Getting Started with Tools
+**  Week 1
+*** What is Reactive Programming? (11:42)
+*** Recap: Functions and Pattern Matching (19:56)
+*** Recap: Collections (12:54)
+*** Functional Random Generators (19:42)
+*** Monads (20:22)

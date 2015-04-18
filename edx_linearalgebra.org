@@ -186,3 +186,22 @@
 **  More Resources 
 *** The Tech Museum 
 *** Pixar: Tony DeRose 
+
+
+* [[https://courses.edx.org/courses/DavidsonX/D003x.2/2T2015/courseware/b15d9f7b792640d18fb2e49d11fa3e13/85f30699e66a4b7f9861027713be6c56/][D003x.2 Applications of Linear Algebra (Part 2)]]
+
+** Unit 1: Math To The Max – Least-Squares
+*** Unit 1 Introduction
+*** 1.1 Dash of Math
+*** 1.1 Exploratory Activity
+*** 1.2 Presidential Look-Alike
+*** 1.2 Exploratory Activity
+*** 1.3 Getting Correlated
+*** 1.3 Exploratory Activity
+
+** Unit 2: Time To Stretch – Eigenvectors
+** Unit 3: Zombie Math – Decomposing
+** Unit 4: What Are The Chances?
+** Unit 5: Mining For Meaning
+** Unit 6: Sports Ranking
+** 

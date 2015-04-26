@@ -193,8 +193,8 @@
     * DMux8Way
 *** DONE Unit 1.8: Perspectives(09:44)
     CLOSED: [2015-04-23 Thu 18:40] SCHEDULED: <2015-04-23 Thu>
-*** TODO DO Project 1: [[http://nand2tetris.org/01.php][Elementary Logic Gates.]]
-    DEADLINE: <2015-04-25 Sat>
+*** DONE DO Project 1: [[http://nand2tetris.org/01.php][Elementary Logic Gates.]]
+    CLOSED: [2015-04-26 Sun 21:53] DEADLINE: <2015-04-25 Sat>
 *** read [[http://www.nand2tetris.org/chapters/chapter%2001.pdf][Chapter 1]] of The Elements of Computing Systems.
 *** read [[http://www.nand2tetris.org/chapters/appendix%20A.pdf][Appendix A: Hardware Description Language (HDL)]] of The Elements of Computing Systems
 ** [[https://class.coursera.org/nand2tetris1-001/wiki/week_2][Week 2: Boolean Arithmetic and the ALU ]]

@@ -46,7 +46,7 @@
 *** DONE 10:00 - 20:00
     CLOSED: [2015-03-16 Mon 06:54] SCHEDULED: <2015-03-16 Mon>
 *** TODO 20:00 - 30:00
-    SCHEDULED: <2015-03-20 Fri>
+
 *** 
 
 ** Lecture 2: Is Learning Feasible?

@@ -54,7 +54,7 @@
 
 
 * [[http://www.seas.upenn.edu/~cis194/fall14/][cis194 Richard Eisenberg]]
-* [[https://github.com/goldfirere][Richard Eisenberg's github page]]
+** [[https://github.com/goldfirere][Richard Eisenberg's github page]]
 
 ** Testing in haskell
 *** DONE Add doctesting
@@ -62,15 +62,15 @@
 *** DONE Add HUnit testing
     CLOSED: [2015-03-08 Sun 15:25] SCHEDULED: <2015-03-07 Sat>
 *** TODO HSpec testing
-    DEADLINE: <2015-04-19 Sun>
+    DEADLINE: <2015-04-26 Sun>
 *** TODO learn testy
-    DEADLINE: <2015-04-19 Sun>
+    DEADLINE: <2015-04-26 Sun>
 
 ** Rower of hanoi problem
 *** DONE research the papaer "functional pearl: la tour d'hanoi" 
     CLOSED: [2015-03-15 Sun 20:21] DEADLINE: <2015-03-15 Sun> SCHEDULED: <2015-03-09 Mon>
 *** TODO code and run the approach in the papaer "functional pearl: la tour d'hanoi" 
-    DEADLINE: <2015-04-19 Sun>
+    DEADLINE: <2015-04-26 Sun>
 ** [[https://vimeo.com/6653485][Functional Pearl: La Tour D'Hanoi on vimeo]]
 
 
@@ -211,8 +211,6 @@
 ** TODO Homework 5: Rngs, Parser
    SCHEDULED: <2015-03-22 Sun>
 
-** 
-
 ** TODO Week 6 (2 October): [[http://www.seas.upenn.edu/~cis194/fall14/lectures/06-monoid-io.html][Monoids, I/O]]
    [[https://vimeo.com/105047461][BFPG video]] 
    00-14min - seen
@@ -248,4 +246,10 @@
 ** Homework 6:
 ** Week 7 (4 March): Monads
 ** Week 8 (18 March): Monads II
-** Homework 7-8:
+** Homework 7:
+** Week 9 (25 March): Testing ( html, lhs )
+** Week 10 (1 April): Type Wizardry ( html, lhs )
+** Homework 8:
+** Week 11 (8 April): GADTs in Action ( html, lhs ) [ Stlc.hs ]
+** Week 12 (15 April): Unsafe Haskell ( html, lhs )
+** Write the proposal for your [[http://www.seas.upenn.edu/~cis194/final.html][Final Project]]

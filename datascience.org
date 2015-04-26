@@ -1,5 +1,5 @@
 * TODO Data Science Specialization
-  SCHEDULED: <2015-04-07 Tue>
+
   
 * The Data Scientist’s Toolbox
   

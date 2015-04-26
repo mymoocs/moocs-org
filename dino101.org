@@ -34,11 +34,11 @@
     CLOSED: [2015-04-11 Sat 08:13] SCHEDULED: <2015-04-04 Sat>
 
 ** Lesson 12: Dinosaur Extinction 
-*** TODO Extinction (9:22)
-    SCHEDULED: <2015-04-12 Sun>
-*** TODO Causes of Extinction (5:13)
-    SCHEDULED: <2015-04-12 Sun>
-*** TODO Chicxulub Impactor (12:15)
-    SCHEDULED: <2015-04-12 Sun>
-*** TODO Resurrecting Dinosaurs (6:14)
-    SCHEDULED: <2015-04-12 Sun>
+*** DONE Extinction (9:22)
+    CLOSED: [2015-04-20 Mon 14:31] SCHEDULED: <2015-04-12 Sun>
+*** DONE Causes of Extinction (5:13)
+    CLOSED: [2015-04-20 Mon 14:31] SCHEDULED: <2015-04-12 Sun>
+*** DONE Chicxulub Impactor (12:15)
+    CLOSED: [2015-04-20 Mon 14:31] SCHEDULED: <2015-04-12 Sun>
+*** DONE Resurrecting Dinosaurs (6:14)
+    CLOSED: [2015-04-20 Mon 19:41] SCHEDULED: <2015-04-12 Sun>

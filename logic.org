@@ -828,7 +828,7 @@
 
     ⊃, ∨, ∧, ¬, ≡, ≠, ∀, ∃, λ, ≤, ≥, ∈, ∉, ∞,  
     ▶ • ‘ ’
-**  1: The Language of Predicate Logic (Core)
+** 1: The Language of Predicate Logic (Core)
 *** DONE 1.1 The Limitations of Propositional Logic (4:53)
     ▶
     All wombats are quadrupeds.
@@ -888,9 +888,357 @@
     | Clancy's love for Modison is unrequited | Lcm & ~Lmc |
     |-----------------------------------------+------------|
   
+*** DONE 1.3 Quantifiers, Names & Variables (13:24)
+    CLOSED: [2015-04-20 Mon 10:51] SCHEDULED: <2015-04-20 Mon>
+    ▶The quantifiers are ‘some’, ‘all’, ‘most’, ‘many’, and  ‘at least severn’.
+     
+*** DONE 1.4 The Language of Predicate Logic (8:14)
+    CLOSED: [2015-04-20 Mon 14:45] SCHEDULED: <2015-04-21 Tue>
+    ▶Class of Formulas
+    Formula is used to describe the shape or structure of a proposition.
+    • Atomic Formulas - They are constructed with predicates and names.
+    • 
+    ▶How predicates, name and connectives used to construct formulas.
+    • If F is a PREDICATEn (of arity n) and a1,a2,...,an are NAMES, 
+      then Fa1...an is a FORMULA.
+    • If A is FORMULA, then ~A is a FORMULA.
+    
+ 
+*** DONE 1.5 Translating into Predicate Logic (10:43)
+    CLOSED: [2015-04-20 Mon 19:33] SCHEDULED: <2015-04-20 Mon>
+    ⊃, ∨, ∧, ¬, ≡, ≠, ∀, ∃, λ, ≤, ≥, ∈, ∉, ∞,  
+    ▶Create a Dictionary.
+    ▶Find the logical form
+    • What are the quantifier scopes?
+    • What are the propositional connectives?
 
-*** TODO 1.3 Quantifiers, Names & Variables (13:24)
-    SCHEDULED: <2015-04-17 Fri>
-*** TODO 1.4 The Language of Predicate Logic (8:14)
-    SCHEDULED: <2015-04-17 Fri>
-*** 1.5 Translating into Predicate Logic (10:43)
+    ▶ ∀∃ vs ∃∀
+       • (∀x)(∃x)Lxy - Everyone loves someone. 
+         Choice for y dependes on each choice for x.
+       • (∃x)(∀x)Lxy - There is a someone loved by everyone.
+         One choice for y for all choices for x.
+
+    ▶ Example 1 - Some Victorian Englishwoman wrote a computer program.
+      • Create a Dictionary
+        Vx = x is Victorian.
+        Ex = x is English.
+        Wx = x is a woman.
+        Px = x is a computer program.
+        Rxy = x wrote y.
+    
+        (∃x)((Vx & (Ex & Wx)) & (∃y)(Rxy & Py)) 
+    
+    ▶ Example 2 - Every Victorian Englishwoman wrote a computer program.
+        Vx = x is Victorian.
+        Ex = x is English.
+        Wx = x is a woman.
+        Px = x is a computer program.
+        Rxy = x wrote y.
+    
+        (∀x)((Vx & (Ex & Wx)) & (∃y)(Rxy & Py)) - This means "Everything is a Victorian Englishwoman who wrote a computer program."
+        (∀x)((Vx & (Ex & Wx)) ⊃ (∃y)(Rxy & Py))
+
+     ▶ Example 3 - Every philosopher knows a linguist who owns a dog.
+        Px = x is a philosopher.
+        Lx = x is linguist.
+        Dx = x is a dog.
+        Kxy = x knows y.
+        Oxy = x owns y.
+        
+         (∀x)(Px ⊃ (∃y)(Ly & Kxy & (∃z)(Dz & Oyz)))
+     ▶ Example 4 - Every student has read some book on our reading list.
+        Sx = x is a student.
+        Bx = x is a book.
+        l = our reading list.
+        Rxy = x has read y.
+        Oxy = x is on y.
+        
+        (∀x)(Sx ⊃ (∃y)((By & Oyl) & Rxy))
+        
+
+*** Next Up: Interpreting this language
+    In the nex classes, we will take a look at how to interpret this language.
+    We'll look at what we need to see wheather a sentcence in this language is true or false.
+    And what it means for logical concepts, like 
+    * equivalence
+    * consistency
+    * logical consequence
+    to apply to sentences in the language of first order predicate logic.
+    
+
+    
+        
+
+** 2: Models for Predicate Logic (Core)
+*** DONE 2.1 Interpreting the Language of Predicate Logic (12:34)
+    CLOSED: [2015-04-24 Fri 13:37] SCHEDULED: <2015-04-23 Thu>
+    The basic task in interpreting a language is to provide the means to determine which sentences
+    or formulas are true and which are false.
+    
+    A model is some fragment of the world we want to talk about.
+    ▶Interpretation of Propositional  logic
+    • For proposition logic this was quite easy. Each valuation specifies the truth or falsity of atomic
+      which describes one row of a truth table.
+      For propositional logic we can simply specify which of the atomic sentences are true and which ones are false.
+    • Truth tables for the connectives do the rest.
+    • For predicate logic we need to do more
+    ▶Semantics and the Interpretation of predicate logic - Interpreting Fa
+    • A model has to give every formula a truth value.
+      Instead of valuations ans rows of a truth table, predicate logic uses models, and each model must contain
+      the ingredient to give every formula a truth value.
+    
+    ▶ How will we interpret Fa?
+    • Start with an atomic formula Fa where 'a' is a name and 'F' is a 1-place predicate.
+    • What is the interpretation of name a? - An object
+      The interpretation of name 'a' is an object named by that name.
+    • So, the interpretation of a 1-place predicate, F will need to addign a truth value to every pbject.
+    • (Similarly, to interpret a 2-place predicate, we assign a truth value to every pair of objects, etc.)
+    
+    ▶ Sudoku 4x4 game Example
+    different fragmetn of the world 
+    In this part of the world, the objects of interest are the 16 cells in the grid which we've name a,b,c,d,...,n,o,p   
+    As well as the number values of assigned to those cells.
+    
+    |   |     |     |     |     | formulas |
+    |---+-----+-----+-----+-----+----------|
+    |   | a   | b 1 | c   | d   |          |
+    |   | e   | f   | g 2 | h   |  Vg2     |
+    |   | i   | j   | k   | l 4 |  Rfg     |
+    |   | m 3 | n   | o   | p   |          |
+
+     • We can express the basic fact set such as cell g has value 2 with an atomic formula like "Vg2".
+     • We can epxress that cell "f" and cell "g" are in the same row, or row related, with an atmoic formula "Rfg"
+     • We can express more complex fact, that applies to all cells, and all number values in the puzzle, 
+       'for all "x" and for all "y", and for all "z", if "x" has value "y", and "x" is row related to "z" 
+       then it is not the case that "z" has value "y" '.
+       (∀x)(∀y)(∀z)((Vxy & Rxz) ⊃ ~ Vzy)
+       this formula will be true in 9x9 Sudoku puzzles as well as out little fours ones.
+       
+       
+    
+    ▶Talking about Numbers 
+    Let capital 'E' be a 1-place predicate meaning is an even number.
+    E2, ~E3 - are both truth in this model
+    Let capital 'O' be a 1-place predicate meaning is an odd number.
+    ~O2, O3 - are both truth in this model
+    This model of the natural numbers makes true the quantified formula for all x, either Ex or Ox.
+    (∀x)(Ex ∨ Ox)  - Since all natural numbers are either even or odd.
+    (∀x) ~(Ex & Ox) - Since no number can be both even and odd.
+   
+
+    While it is easy to see that the previous two quantifier formulas are true in this model of the natural numbers,
+    it is not hard to devise formulas whose truth or falsify is unknown or yet to be determined.
+    
+
+    ▶ Goldpack conjecture
+    One of the most famous unsolved probems in mathematics is the Goldbach conjecture in number theory, which assets that every 
+    even number greater than two can be expressed as ths sum of two prime numbers.
+    (∀x)((Ex & Gx2) ⊃ (∃y)(∃z)(Py & Pz & Sxyz)) - for all even numbers greater than two, there exists a y and z such that y and z are both prime
+    and x is the result of adding y and z.
+    e.g. 12 = 5  + 7
+         64 = 17 + 47
+    Where, 
+    'G' is two place redicate with Gxy meaning 's is greater thatn y'.
+    'P' is one place predicate meaining, 'is a prime number'.
+    'S' is three place predicate meaning 'x is the sum of y and z'.
+
+    Goldpach conecture empirically verified up to at least 4 e 18 (4 quintillion)
+    ... but there is not proof that it is tru for all natural numbers.
+    So it is still unknown whether the universally quantified formula here is true or false of the natural numbers.
+    
+    ▶The Domain of a Model
+    A model has a non-empty colelction of objects, D, its domain.
+    • Each model of the predicate logic must have non empty collection of objects called its domain.
+    • Each name in the language is interpreted by an object in domain. That is clear, names name objects.
+    • Each predicate is interpreted by a domain a truth value for each object (or pair, triple, ...) from the domain.
+     Each 1-place predicate is interpreted by a truth value of each object in the domain.
+     Each 2-place predicate is interpreted by a truth value for each ordered pair of objects in the domain.
+     And so on
+    • The quantifiers for all and there exists range over objects in the domain.
+    
+
+    ▶ Summary
+    A model of predicate logic consists of two parts
+    • a domain
+    • an interpretation
+      where the interpretation must interprets names as object int the domain.
+      And also interpret, predicate by distribution of truth values over objects int the domain.
+    
+    A model for predicate logic is analogous to one row of a truth table in propositional logic. In each case, they contain all the
+    information required, to determine the truth value of atomic formulas of the language. Predicate and proposition respectivelly.
+    
+    
+    A model consists of
+    • A domain - a non-empty collection of objects.
+    • An interpretation for every name - i.e. an object.
+    • An interpretation of every predicate - i.e. a distribution of truth values over the domain.
+    
+
+    Next
+    In the next lession we will formally define models and give more examples.
+*** DONE 2.2 Defining Models - I part (9:59) 
+    CLOSED: [2015-04-24 Fri 19:08] SCHEDULED: <2015-04-24 Fri>
+    Keep in mind, that a model for predicate logic is analogous to one row of a truth table in propositional logic.
+    In each case, they contain all the information required, to determine the truth value, of atomic formulas ot the languages.
+    ▶ Model
+    • A non-empty DOMAIN D of objects.
+    • An INTERPRETATION FUNCTION I(.), which interprets each name and predicate in the language.
+    
+    We will write a model M as a pair (D,I) to indicate these two parts.
+    
+    ▶ Example
+    • Model contains 3 objects, three scentiest
+    1) Ada Lovelace: the 19th century English mathematician
+    2) Kurt Godel: the Austrian Czech logician
+    3) Albert Einstein: German born physicist 
+    • Now, suppose our language includes two names, 'a' and 'b'. And they have to be met to some objects in the domain.
+    n ^ m
+    We could interpret 'a' = Godel, and 'b' ad Einstein.
+    Or have 'a' nad 'b' denote to Godel
+    Or both denoting Lovelace, and so on.
+    • The only requirement on an interpretation I, is that each name in the language, must be mapped to an object in the domain.
+    
+    • If 'a' is a name, then I of 'a' - I(a) is an object in the domain.
+    
+    • In our model we have 3 objects {Ada, Godel, Einstein}
+    How many different ways are there to assign objects to 'a' and 'b'?
+    
+    Now let's turn to interpreting predicates
+    • Let 'F' is 1-place predicate, if we interpret 'F' to mean he is a mathematician then 'I of F' will assign one or true to 
+    Lovelace and Godel and zero or false to the Einstein to to physicist Einstein.
+    
+    
+    ▶ Interpreting Predicates
+    In our domain D={l,g,e}, suppose the 1-place predicate F in interpreted to mean "is a physicist".
+    An interpretation I for F divides the domain in two.
+    |   | I(F) |
+    |---+------|
+    | I | 0    |
+    | g | 0    |
+    | e | 1    | 
+    
+    This 1-dminsional table describes the interpretation I(F) of the predicate symbol F.
+    
+    2 ^ n
+    
+       
+*** DONE 2.3 Truth in a Model (22:46)
+    CLOSED: [2015-04-25 Sat 18:17] SCHEDULED: <2015-04-25 Sat>
+    ▶2014 World leaders model
+    D={Obama,Xi,Merkle,Abe}
+    From model to truth
+    • atmoic formulas
+    Fa
+    we need the interretation of name 'a'
+    we need the interpretation of predicate simbol 'F'
+    suppose a=Xi
+    F 
+    I(F)
+    Rab - a is older than b
+
+    M=(D,I)
+    D={Obama,Xi,Merkle,Abe}
+    I(a)=Xi, I(b)=Merkel
+    
+    |        | I(F) | I(G) |
+    |--------+------+------|
+    | Obama  |    1 |    1 |
+    | Xi     |    1 |    0 |
+    | Merkel |    0 |    0 |
+    | Abe    |    0 |    1 |
+    |--------+------+------|
+
+
+    | I(R)   | Obama | Xi | Merkel | Abe |
+    |--------+-------+----+--------+-----|
+    | Obama  |     0 |  0 |      0 |   0 |
+    | Xi     |     1 |  0 |      1 |   1 |
+    | Merkel |     1 |  0 |      0 |   1 |
+    | Abe    |     1 |  0 |      0 |   0 |
+    |--------+-------+----+--------+-----|
+
+    
+    ▶
+▶
+▶
+*** DONE 2.4 Finite & Infinite Models (11:25)
+    CLOSED: [2015-04-26 Sun 06:12] SCHEDULED: <2015-04-26 Sun>
+    ▶ In a model with a finite domain, we can simplify the clauses for truth in a model for quantified formulas.
+    • In a finite model M, formula (∀x)A is true in M iff the conjuction of all its instances is true in the model M.
+    • In a finite model M, formula (∃x)A is true in M iff the disjunction of all its instances is true in model M.
+    
+    • Example
+    if D={o,i,m,e} is the domain of model M then 
+    (∀x)Rax is true in the model M iff
+    Rao & Rai & Ram & Rae is trye in M
+    
+    ----------------
+    This means that if we focus on a particular finite model, the quantifiers are useful, and let us be more concise,
+    but they do not give us anything we cannot say with '&' and 'V'.
+    But this change when we go infinite models.
+
+    ▶ Infinite model
+    We need our original definition of truth in a model because some models are infinite.
+    
+    • Consider arithmetic, with domain D={0,1,2,3,...}
+    • Look at the 2-place predicate S, interpreted as "is triclty smaller than"
+    | I(S) | 0 | 1 | 2 | 3 | 4 | ... |
+    |------+---+---+---+---+---+-----|
+    |    0 | 0 | 1 | 1 | 1 | 1 | ... |
+    |    1 | 0 | 0 | 1 | 1 | 1 | ... |
+    |    2 | 0 | 0 | 0 | 1 | 1 | ... |
+    |    3 | 0 | 0 | 0 | 0 | 1 | ... |
+    |    4 | 0 | 0 | 0 | 0 | 0 | ... |
+    |    . | . | . | . | . | . | .   |
+    |    . | . | . | . | . | . |  .  |
+    |    . | . | . | . | . | . |   . |
+
+     Let's evaluate some formula in this mdoel
+    
+    • (∀x)S0x is true iff all the instances are true, S00, S01, S02, ... are all true
+    But S00 is false
+    So (∀x)S0x evaluate to false.
+
+    • (∀x)(∃y)Sxy is true iff all the isntances are true (∃y)S0y, (∃y)S1y, (∃y)S2y ... are all true
+    Sxy mean x < y
+    
+    
+    
+*** DONE 2.5 Classifying Formulas (16:30)
+    CLOSED: [2015-04-26 Sun 06:45] SCHEDULED: <2015-04-26 Sun>
+    ▶ Using model to calssify
+    
+    ▶ ... what the world needs to be like for them to be true
+    ▶ Classifications
+    • TAUTOLOGY -  A formula A is a TAUTOLOGY iff is true in every model M.
+    • CONTRADICTION -
+    Ex.
+    (∃y)(∀x)Rxy & ~(∀y)(∃x)Rxy
+    • Contingent - A formula 'A' is contingent iff it is true in at least one mode, and false in another model.
+    In other words, 'A' is contingent iff is not a contradiction and it is not a tautology, etiher.
+*** DONE 2.6 Relationships Between Formulas & Validity of Arguments (16:11)
+    CLOSED: [2015-04-26 Sun 07:10] SCHEDULED: <2015-04-26 Sun>
+    ▶ Realtionsheeps 
+    • Logical consequence A |= B
+    Formula 'B' is Logical consequence of formula 'A' exactly when for every model in which 'A' is true, 'B' is true too.
+    We write this as A |= B.
+    Notice:
+    A |= B iff (A ⊃ B) is a tautlogoy.
+    
+    • Logical Equivalence A =|= B
+    Formula 'A' and 'B' are Logical equivalence iff for every model 'A' and 'B' have the same truth value.
+    Notice:
+    A =|= B iff (A ≡ B) is a tautology.
+    
+    • Contradictories 
+    Formula 'A' and 'B' are contradictories  iff for every model 'A' and 'B' have oposite  truth value.
+    Notice:
+    A =|= B iff (A ≡ ~B) is a tautology.
+    
+    ▶ Validity for arguments X |= A
+    Let X be a set of formulas, and let A be a single formula.
+    An argument from premises X to conclusion A is valid iff in every model M in which each formula in X is true, A is also true in M.
+    
+    •
+
+      

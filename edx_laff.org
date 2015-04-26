@@ -67,5 +67,5 @@
     CLOSED: [2015-03-29 Sun 20:30]
     Do in haskell
 *** TODO 1.6 Slicing and Dicing Vecotors
-    SCHEDULED: <2015-03-30 Mon>
+
 

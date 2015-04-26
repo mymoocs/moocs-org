@@ -1,0 +1,61 @@
+﻿* [[https://class.coursera.org/crypto-014/lecture][Cryptography I]]
+  :UNIVERSITY: Stanford
+  :AUTHORS: Dan Boneh
+
+** Introduction (week 1)
+*** DONE Course Overview (11 min)
+    CLOSED: [2015-04-24 Fri 21:39] SCHEDULED: <2015-04-21 Tue>
+    ▶ Cryptography is everywhere
+    • Secure Communication
+    * web traffic: HTTPS
+    * wireless traffic: 802.11i WPA2, GSM, Bluetooth
+    • Encrypted files on disk: EFS, TrueCrypt
+    • Content Protection (e.g. DVD, Blue-ray): CSS, AACS
+    • User Authentication
+
+    • Secure Communication
+    no eavesdroping
+    no tampering
+    Secure Socket Layer / TLS
+    the protocol used to secure Web traffic called TLS actually consists of two main parts.
+    1) Handshake Protocol: Established shared secret key using public-key cryptography (2nd part of course)
+    2) Record Layer: Transmit data using shared secret key. Ensure confidentality and integrity (1st part of course)
+    
+    • Protected file on disk
+    like communciation scenario, Alice encrypt files and send to Alice tommorow to read
+    ▶ Building blog: symmetric encryption systems
+    1) k     secret key(e.g. 128 bits) that share Alice and Bob
+    2) E,D   cipher algorithms
+       E     called an encryption algorithm, E(k,m)=c
+       D     called an decryption algorithm, D(k,c)=m
+    3) m,c   plain text, ciphertext
+    
+    Encryption algorithms (E,D) is publicy known, onbly thing that is kept secret is the secret key k.
+    
+    
+    ▶ Use cases
+    • Single use key: (one time key)
+    Key is obly used to encrypt one message
+    e.g. encrypted email: new key generated for every email
+    
+    • Multi use key: (many time key)
+    Key used to encryt multile messages - e.g. encrypted files: same key used to encrypt many files 
+    Need more machinery than for one-time key
+*** TODO What is cryptography? (15 min)
+    SCHEDULED: <2015-04-25 Sat>
+ ▶
+*** History of cryptography (19 min)
+*** Discrete probability (Crash course) (18 min)
+*** Discrete probability (crash course, cont.) (14 min)
+*** Week 1 - Problem Set
+    DEADLINE: <2015-05-10 Sun>
+** Stream Ciphers (week 1)
+*** Information theoretic security and the one time pad (19 min)
+*** Stream ciphers and pseudo random generators (20 min)
+*** Attacks on stream ciphers and the one time pad (24 min)
+*** Real-world stream ciphers (20 min)
+*** PRG Security Definitions (25 min)
+*** Semantic Security (16 min)
+*** Stream ciphers are semantically secure (11 min) [optional]
+*** Week 1 - Programming Assignment [optional: extra credit] 
+    DEADLINE: <2015-05-10 Sun>

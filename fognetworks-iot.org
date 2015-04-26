@@ -2,7 +2,7 @@
 
   http://www.gns3.com/
   
-**  Lecture 1: Fog Networking - Going from Cloud to Fog
+** Lecture 1: Fog Networking - Going from Cloud to Fog
 *** DONE Part A (8:51)
     CLOSED: [2015-04-03 Fri 07:47]
 *** DONE Part B (21:28)
@@ -86,7 +86,6 @@
     • Chip suppliers? 
     
     
-
 ** Lecture 2: From IT(information technology) to IOT
 *** DONE Part A (17:48) 
     CLOSED: [2015-04-16 Thu 07:47] SCHEDULED: <2015-04-16 Thu>
@@ -144,11 +143,50 @@
     * ITS - Inteligent transportation system
     
     
-*** TODO Part C (19:05)
-    SCHEDULED: <2015-04-18 Sat>
-*** Part D (16:08)
+*** DONE Part C (19:05) -  IoT Layers
+    CLOSED: [2015-04-19 Sun 09:42] SCHEDULED: <2015-04-18 Sat>
+    ▶ IoT API and Architecture
+*** DONE Part D (16:08) - Interview: Dr. Adam Drobot
+    CLOSED: [2015-04-20 Mon 10:28] SCHEDULED: <2015-04-20 Mon>
+
 ** Lecture 3: Network Service Pricing
+*** DONE Part A (21:28)
+    CLOSED: [2015-04-21 Tue 20:07] SCHEDULED: <2015-04-21 Tue>
+    ▶ "Dump" pricing
+    - Light users subsidizing heavy users
+    - Consumers subsidizing(large) businesses
+    - Bandwidth "hogs" damaging all other users
+    ▶ Smart Data Prcising(SDP)
+    - usage-based pricing (first problem is solved)
+    ▶SDP Dimensions
+    A. How to charge?
+    1. Usage-based, quota rollover/trading
+    2. Time/location/congestion - dependent
+    3. Prepaid vs. post-paid, Contract vs no contract
+    B. Whom to charge??(2-sided, 1-800, toll-free, zero rating, sponsored data, unlimited,...)
+    1. Closed
+    2. Open 
+    C. What service are you charged from?/ Coount byte
+    1. Paid Priority - queueing systems
+    2. Transaction-based (instead of counting bytes, we ask have you finished, Pioners are amazon->Kindle, you oay not for bytes)
+    3. Cloud service pricing 
+    4. IoT service pricing
+      
+
+*** Part B (10:01)
+*** Part C (11:03)
+*** Part D (17:54)
+** Lecture 4: Principles of P2P Networking
 *** Part A (21:28)
 *** Part B (10:01)
 *** Part C (11:03)
 *** Part D (17:54)
+** Lecture 5: Client-Driven Control & Configuration
+** Lecture 6: Client-based Measurement IoT Signaling
+** Lecture 7: Edge Pooling and Caching
+** Lecture 8: Fog/IoT Security and Privacy
+** Lecture 9: Consumer/Wearable/Home IoT
+** Lecture 10: Connected Cars
+** Lecture 11: Smart Grids
+** Lecture 12: Healthcare
+

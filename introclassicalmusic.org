@@ -1,0 +1,60 @@
+﻿* [[https://class.coursera.org/introclassicalmusic-001/lecture][Introduction to Classical Music]]
+  :UNIVERSITY:  Yale
+  :AUTHOR: Craig Wright
+
+** Week 1 - Part 1
+*** DONE 1.1 - Introduction - 5:50
+    CLOSED: [2015-04-29 Wed 09:14] SCHEDULED: <2015-04-29 Wed>
+*** DONE 1.2 - Popular Music and Classical Music Compared - 6:41
+    CLOSED: [2015-04-29 Wed 16:19] SCHEDULED: <2015-04-29 Wed>
+    | Pop music                                                   | classical music                                                                            |
+    |-------------------------------------------------------------+--------------------------------------------------------------------------------------------|
+    | often uses electronic instruments                           | usually uses acoustic instruments                                                          |
+    | often include lyrics that describe the emotion of the music | Greater prominence given to purely instrumental (untexted) music                           |
+    | often short and repitions                                   | Compositions are often longer and cast in broader forms                                    |
+    | often performed without musical notation                    | often performed with s score                                                               |
+    | Often features a strong sense of a regular beat             | A somewhat lesser emphasis on a strongly defined regular beat                              |
+    | Performances much less often rely on notated music          | Performances typically occur with and from notated music (or from memory of notated music) |
+  
+
+*** DONE 1.3 - Music and Emotions - 4:50
+    CLOSED: [2015-04-29 Wed 16:31] SCHEDULED: <2015-04-29 Wed>
+    J.S.Bach, BWV 578, 1703-07 (sony 1961) - make think
+    
+*** DONE 1.4 - How do We Hear Music? Sound Waves and the Ear - 6:51
+    CLOSED: [2015-04-29 Wed 16:46] SCHEDULED: <2015-04-29 Wed>
+    ողնօրորում
+    Sound waves larg ones generate low pitches
+    small ones generate large pitches 
+    A tonotopic region is one of the ear or the brain containing cilia or neurons that - Regions of the ear and brain that respond only to particular frequencies (vibrations) of pitch. 	Correct
+*** DONE 1.5 - Music Thrills Us, Music Chills Us - 2:02
+    CLOSED: [2015-04-29 Wed 17:17] SCHEDULED: <2015-04-29 Wed>
+*** DONE 1.6 - Why we Like what we Like? It's Nurture - 3:02
+    CLOSED: [2015-04-29 Wed 17:17] SCHEDULED: <2015-04-29 Wed>
+*** DONE 1.7 - It's nurture: The syntax of Western Music - 5:15
+    CLOSED: [2015-04-30 Thu 07:31] SCHEDULED: <2015-04-30 Thu>
+    ▶ Musical Syntax
+    • Leading Tone: Pulls toward the Home Pitch or Tonic
+    • Large Leap: A large leap is reversed by the following pitch
+    • Harmony: Tha Harmony must fit with the melody
+    • Chord PRogression: Tha Harmonies usually return hame to tonic
+    •
+    •
+
+*** DONE 1.8 - Why we Like what we Like? It's Nature - 8:18
+    CLOSED: [2015-04-30 Thu 07:51] SCHEDULED: <2015-04-30 Thu>
+    The beach boys, "Good Vibrations"
+    Strauss, "Also sprach Zarathustra"
+** Week 1 - Part 2
+*** DONE 2.1 - Beat, Meter, and Rhythm - 9:45
+    CLOSED: [2015-04-30 Thu 16:24] SCHEDULED: <2015-04-30 Thu> 
+    Meter is an organization of Musical time consistent groups  evenly spaced, regularly recurring beats (2, 3, or 4).
+
+*** TODO 2.2 - Introduction to Musical Notation - 5:43
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 2.3 - Rhythm: What is it? - 10:04
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 2.4 - Hearing the Downbeat, Feeling the Emotion - 12:20
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 2.5 - Tempo (and how we feel about it) - 5:37
+    SCHEDULED: <2015-05-01 Fri>

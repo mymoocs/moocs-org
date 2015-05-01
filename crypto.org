@@ -1,7 +1,7 @@
 ﻿* [[https://class.coursera.org/crypto-014/lecture][Cryptography I]]
   :UNIVERSITY: Stanford
   :AUTHORS: Dan Boneh
-
+  ≠, ∀, ∃, λ, ≤, ≥, ∈, ∉, ∞,
 ** Introduction (week 1)
 *** DONE Course Overview (11 min)
     CLOSED: [2015-04-24 Fri 21:39] SCHEDULED: <2015-04-21 Tue>
@@ -41,14 +41,256 @@
     • Multi use key: (many time key)
     Key used to encryt multile messages - e.g. encrypted files: same key used to encrypt many files 
     Need more machinery than for one-time key
-*** TODO What is cryptography? (15 min)
-    SCHEDULED: <2015-04-25 Sat>
- ▶
-*** History of cryptography (19 min)
-*** Discrete probability (Crash course) (18 min)
-*** Discrete probability (crash course, cont.) (14 min)
-*** Week 1 - Problem Set
-    DEADLINE: <2015-05-10 Sun>
+*** DONE What is cryptography? (15 min)
+    CLOSED: [2015-04-30 Thu 08:51] SCHEDULED: <2015-04-30 Thu>
+    ▶Crypto Core
+    • Secret Key establishment: 
+    shared key k.
+    Alice know that talking to Bob
+    Bob know that talking to Alice
+    attacker does not know secret key k.
+    
+    • Secure communication:
+    
+    ▶ Digital Signature
+    Digital signature is not constant like physical signature, digital signature is function of data in the document we signed.
+    We will how to construct digital signature in Part 2.
+    ▶ Anonymous communication 
+    mix net - 
+    ▶ Anonymous digital cash
+    Alice has 1$ dgital coin
+    • Can i send a "digital cash" without anyone knowing who I am?
+    Who ewas that?
+    • How to prevent double spending?
+    
+    ▶ Secure multi-party computation
+    inputs: x1, x2, x3, x4
+    goal: f(x1,x2,x3,x4)
+    Theorem: anything the can done with trusted auth. can also be done without
+    • Elections
+    indivitdual votes remain private but the result of election known
+    • Private auctions
+    
+    ▶ Cryto magic
+    • Privately outsourcing computation (Google search examle)
+    Alice has search query
+    Alice --> E[query] ---> Google 
+    Google run search algorithm without decrypting
+    
+    • Zero knowledge (rrof of knowledge)
+    Alice has the number N=p*q, and know the factorization
+    Bob know the number N, but does not know the factorization
+   
+    ▶ The 3 steps in cryptography
+    • precisely specify threat model - unforgeable
+    • Propose a construction - 
+    • Prove that breaking construction under threat mode will solve an underlying hard roblem. - 
+
+*** DONE History of cryptography (19 min)
+    CLOSED: [2015-04-30 Thu 13:27] SCHEDULED: <2015-04-30 Thu>
+    David Kahn, "The code breakers" (1996)
+    
+    ▶Symmetric Cipers
+    c := E(k,m)
+    m := D(k,c)
+    
+    Few Historic Examples (all badly broken)
+    ▶ Substitution cipher
+    k: = { a --> c
+           b --> w
+           c --> n
+           . . .
+           . . .
+           . . .
+           z --> a
+         }
+
+    c := E(k,"bcza") = "wnac"
+    D(k,c) = "bcza"
+    
+    ▶ Caesar Cipher (no key)
+    this is no ciher because there is no key, the key is fixed
+    Caesar ciher is basically s substitution cipher where the substitution is fixed. 
+    Namely, it's a shift by 3. It's a fixed substitution  that's applied to all plaintext messages.
+    k := { a --> d
+           b --> e
+           c --> f
+           .
+           .
+           .
+           y --> b
+           z --> c
+         }
+    
+    • if we assuming 26 letter the size of key space in the substitution cipher is 26!.
+    
+    • To break substitution cipher 
+    (1) Use frequency of English letters
+    "e": 12.7%
+    "t": 9.1%
+    "a": 8.11%
+    the other letter's frequenciesalmost the same
+    (2) Use frequency of pairs of letters (diagrams)
+    "he" "ar" "in" "th"
+
+    ****************************************************************************************
+    ▶ Vigener cipher (16'th century, Rome)
+    k = C R Y P T O C R Y P T O C R Y P T  
+                                           (+ mod 26)
+    m = W H A T A N I C E D A Y T O D A Y
+    ---------------------------------------
+    c = Z Z Z J U C L U D T U N W G C Q S
+    
+    • How break
+     * assume we know the length of k in this key is 6.
+     * the breake cipher text a bunch of groups of 6
+     * 
+       
+    • exmaine each first letter of each group
+    suppose most common letter = "H" --> first letter of key = 'H' - 'E' = 'C'
+    • looking second letter of every group
+    find most common letter = X --> X - 'E' = 'R'
+    
+    ****************************************************************************************
+    ▶ Rotor machines (1870 -1943)
+    • Early example: the Hebern machine (single rotor)
+                    1   2  3
+    A               K   E  N 
+    B               S   K  E 
+    C               T   S  K
+    .               .   T  S
+    .      KEY      .   .  T
+    .               .   .  .
+    X               R   .  .
+    Y               N   R  . 
+    Z               E   N  R 
+  
+    Each time type letter the rotor rotating and substitution shceme is changed.
+    we we hit lett 'C' 3 times, we got "TSK"
+    
+    * was broken using letter frequency and diagrams
+
+    • Most famous: the Enigma (3-5 rotors) the kinf of complicated roto machine
+    rotor positions = 26 ^ 4 = 2 ^ 18
+    total keys = 2 ^ 36 due to optional plugboard
+    
+    The secret key in the Enigma machine is the initial setting of the rotors. in case of 3 rotors there are 26 ^ 3 possible different keys.
+    When you type on the typewriter basically these rotors here rotate at the different rates and output the appropriate, letters of, the  ciphertext.
+    the key space for 4 rotor macine is 26^4 = 2 ^18, which is relatively a small key space. Today you can kind of, brute-force a search using a 
+    computer through 2 ^ 18 different keys very, very quickly.
+    
+    ****************************************************************************************
+     ▶ Data Encryption Standard (1974)
+     DES: # keys = 2 ^ 56, block size = 64 bits
+     Today: AES (2001), Sals20(2008), (and others)
+     
+    
+    
+    
+    
+    
+*** DONE Discrete probability (Crash course) (18 min)
+    CLOSED: [2015-04-30 Thu 14:51] SCHEDULED: <2015-04-30 Thu>
+    ≠, ∀, ∃, λ, ≤, ≥, ∈, ∉, ∞,
+    Modern cryphtographic construction are always accompanied by a proof of security.
+    Tha language used to describe security relies on discreet probability.
+    
+    Discret probability always defined over universe U
+    • U: finite set (e.g. U={0,1}^n) all n bit strings
+    n=2 U={00,01,10,11}
+
+
+    • Def: Probability distribution P over U is a function 
+    P : U -> [0,1] such that ΣP(x) =1, x <- U
+    
+    • Example of distribution
+    (1) Uniform distribution
+        ∀x ∈ U p(x) = 1/|U|, where |U| = lenght of set U.
+
+    (2) Point distribution at x0
+        P(x0) = 1,  ∀ x≠x0 : P(x)=0
+
+    Distribution vector: (P(x0), P(x1),...,P(xn))    
+    
+    ****************************************************************************************
+    ▶ Events
+    • for a set A ∈ U: Pr[A]=Σ P(x) ∈ [0,1], where x ∈ A
+    note: Pr[U]=1
+    • The set A is called an event
+    
+    • Example: U={0,1}^8
+    A = {x | x <- U, lsb2(x)=11} ∈ U
+    P - is uniform distribution on U
+    Pr[A]=64 * (1/256) = 1/4
+
+    • Union bound
+    For evetns A1 and A2 Pr[A1 U A2] ≤ Pr[A1] + Pr[A2] - probability of A1 occurs or A2 occures
+    Example:
+    A1={ x | x <- {0,1}^n, lsb2(x) = 11}
+    A2={ x | x <- {0,1}^n, msb2(x) = 11}
+    Pr[lsb2(x) = 11 or msb2(x) = 11] = Pr[A1 U A2] ≤ 1/4 + 1/4 = 1/2
+    
+    ****************************************************************************************
+    ▶ Random Variable
+    Def: a random variable X is a function X : U -> V
+    Example: X : {0,1}^n -> {0,1}; X(y) = lsb(y) ∈ {0,1}
+    For the uniform distribution on U:
+    Pr[X=0] = 1/2, Pr[X=1] = 1/2
+    
+    More generally:
+    rand variable X induces a distribution on V: Pr[X=v] := Pr[X^(-1)(v)]
+    
+    
+    ****************************************************************************************
+    ▶ The uniform random variable
+    Let U be some set, e.g. U={0,1}^n
+    We write r <-R- U to denote a uniform random variable over U
+    a ∈ U: Pr[r = a] = 1/|U|
+    (formally, r is the identity function: r(x)=x,  ∀x ∈ U)
+    Example: Let r be a uniform random variable on {0,1}^2
+    Define the random variable X = r1 + r2
+    Then Pr[X=2] = 1/4
+
+    ****************************************************************************************
+    ▶ Randomized algorithms
+    • Deterministic algorithm: y <- A(m)
+    • Randomized algorithm: y <- A(m; r) where r <-R- {0,1}^n
+    Example:
+    A(m;k) = E(k,m), Y <-R- A(m)
+    
+*** DONE Discrete probability (crash course, cont.) (14 min)
+    CLOSED: [2015-04-30 Thu 15:27] SCHEDULED: <2015-04-30 Thu>
+    ▶ Independence
+    Def: events A and B are independent if Pr[A and B] = Pr[A]*Pr[B]
+    random variables X,Y taking values in V are independent if 
+    ∀a,b ∈ V: Pr[X=a and Y=b] = Pr[X=a] * Pr[Y=b]
+
+    Example: U={00,01,10,11} and r <-R- U
+    Define random variable X and Y as: X=lsb(r), Y=msb(r)
+    Pr[X=0 and Y=0] = Pr[r=00] = 1/4 = Pr[X=0]*Pr[Y=0]
+    
+    ▶ XOR
+    Xor of two strings in{0,1}^n is their bit-wise addition mod 2
+    Theorem:
+    Y a random variable over {0,1}^n, X an independent uniform variable on {0,1}^n 
+    Then Z := Y ⨁ X is uniform variable on {0,1}^n
+    Proof:
+    n=1, Z = Y ⨁ X, p0+p1 = 1
+    Pr[Z=0] = Pr[(X,Y)=(0,0) or (X,Y) = (1,1)] =  Pr[(X,Y)=(0,0)] + Pr[(X,Y) = (1,1)]  = p0/2 + p1/2 = 1/2
+    
+    | Y | Pr |   | X | Pr  |   | Y | X | Pr       |
+    | 0 | p0 |   | 0 | 1/2 |   | 0 | 0 | p0 * 1/2 |
+    | 1 | p1 |   | 1 | 1/2 |   | 0 | 1 | P0 * 1/2 |
+    |   |    |   |   |     |   | 1 | 0 | p1 * 1/2 |
+    |   |    |   |   |     |   | 1 | 1 | p1 * 1/2 |
+
+    ▶ The birthday paradox
+    Let r1,...,rn  ∈ U be independent indentically distributed random vars.
+    Theorem: when n = 1.2*|U|^1/2 then Pr[∃ i ≠ j: ri = rj] ≥ 1/2
+    
+    • Example: Let U = {0,1}^128
+    |U| = 2^128
+    after sampleing about 2^64 random messages from U, some two sampled messages will likely be the same.
 ** Stream Ciphers (week 1)
 *** Information theoretic security and the one time pad (19 min)
 *** Stream ciphers and pseudo random generators (20 min)
@@ -57,5 +299,7 @@
 *** PRG Security Definitions (25 min)
 *** Semantic Security (16 min)
 *** Stream ciphers are semantically secure (11 min) [optional]
+*** TODO Week 1 - Problem Set
+    DEADLINE: <2015-05-10 Sun>
 *** Week 1 - Programming Assignment [optional: extra credit] 
     DEADLINE: <2015-05-10 Sun>

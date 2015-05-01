@@ -200,16 +200,164 @@
 ** [[https://class.coursera.org/nand2tetris1-001/wiki/week_2][Week 2: Boolean Arithmetic and the ALU ]]
 *** DONE Unit 2.1: Binary Numbers
     CLOSED: [2015-04-26 Sun 07:40] SCHEDULED: <2015-04-26 Sun>
-*** TODO Unit 2.2: Binary Addition
-    SCHEDULED: <2015-04-26 Sun>
-*** TODO Unit 2.3: Negative Numbers
-    SCHEDULED: <2015-04-26 Sun>
-*** TODO Unit 2.4: Arithmetic Logic Unit (ALU)
-    SCHEDULED: <2015-04-26 Sun>
-*** TODO Unit 2.5: Project 2 Overview
-    SCHEDULED: <2015-04-26 Sun>
-*** TODO Unit 2.6: Perspectives
-    SCHEDULED: <2015-04-26 Sun>
-*** TODO Do  Project 2: Boolean Arithmetic.
-    DEADLINE: <2015-05-03 Sun>
-*** 
+*** DONE Unit 2.2: Binary Addition
+    CLOSED: [2015-04-27 Mon 22:06] SCHEDULED: <2015-04-26 Sun>
+    ▶2 way to describe FUnctions 
+    • 
+    
+    Manipulating Binary numbers
+    • Addition - Implement
+    
+    • Subtraction - get fro "free"
+    • Which is Greater? - get for "free"
+    • Multiplication - Postphone to Software
+    • Division - Postphone to software
+    
+    • Half adder
+    input: a b
+    output: sum carry
+    
+    | a | b | sum | carry |
+    |---+---+-----+-------|
+    | 0 | 0 |   0 |     0 |
+    | 0 | 1 |   1 |     0 |
+    | 1 | 0 |   1 |     0 |
+    | 1 | 1 |   0 |     1 |
+    |---+---+-----+-------|
+   
+    • Full adder
+    input: a b c
+    output: sum carry
+    | a | b | c | sum | carry |
+    |---+---+---+-----+-------|
+    | 0 | 0 | 0 |   0 |     0 |
+    | 0 | 0 | 1 |   1 |     0 |
+    | 0 | 1 | 0 |   1 |     0 |
+    | 0 | 1 | 1 |   0 |     1 |
+    | 1 | 0 | 0 |   1 |     0 |
+    | 1 | 0 | 1 |   0 |     1 |
+    | 1 | 1 | 0 |   0 |     1 |
+    | 1 | 1 | 1 |   1 |     1 |
+    |---+---+---+-----+-------|
+
+    
+*** DONE Unit 2.3: Negative Numbers
+    CLOSED: [2015-04-28 Tue 08:22] SCHEDULED: <2015-04-28 Tue>
+    2's Complement
+    | bits | number |     2^n-x
+    |------+--------|
+    | 0000 |      0 |
+    | 0001 |      1 |
+    | 0010 |      2 |
+    | 0011 |      3 |
+    | 0100 |      4 |
+    | 0101 |      5 |
+    | 0110 |      6 |
+    | 0111 |      7 |
+    | 1000 |     -8 |
+    | 1001 |     -7 |
+    | 1010 |     -6 |
+    | 1011 |     -5 |
+    | 1100 |     -4 |
+    | 1101 |     -3 |
+    | 1110 |     -2 |
+    | 1111 |     -1 |
+    
+    ▶Computing -x
+    Input: x
+    Output: -x
+    Idea: 2^n-x=1+(2^n-1)-x
+    2^n-1 = 111111
+    
+    • Subtracting from 1111
+    1111 - 0100 = 1011 (we just flip the bits)
+    
+    • Add 1
+    fli the bits from right to left, stopping the first time 0 is flipped to 1
+    1011 + 1 = 1100
+
+*** DONE Unit 2.4: Arithmetic Logic Unit (ALU)
+    CLOSED: [2015-04-28 Tue 16:07] SCHEDULED: <2015-04-28 Tue>
+    ▶ The ALU coputes a function on the two inputs, and outputs the result
+    f: one out of a family of pre-defined arithmetic and logical functions.
+    some these functions are arithmetic and some of these functions are logical.
+    • Arithmetic operations
+    integer addition
+    multiplication
+    division
+    • logical operations
+    And
+    Or
+    Xor
+    
+    ▶ Whne building ALU should consider how much operations should provide
+    Which operations should the ALU perform?
+    A hardware/software tradeoff.
+
+    ▶ The Hack ALU
+    • imput: two 16 bit, two's complement values
+    • output: a 16 bit, two's complement values
+    • output: two 1-bit values zr,ng
+      * if out == 0, zr = 1; otherwise zr = 0;
+      * If out < 0, ng = 1; otherwise ng = 0.
+    • Which function to compute is set by six 1-bit inputs called zx,nx,zy,ny,f,no
+
+    IN  
+        x[16], y[16],  // 16-bit inputs        
+        zx, // zero the x input?
+        nx, // negate the x input?
+        zy, // zero the y input?
+        ny, // negate the y input?
+        f,  // compute out = x + y (if 1) or x & y (if 0)
+        no; // negate the out output?
+
+     OUT 
+        out[16], // 16-bit output
+        zr, // 1 if (out == 0), 0 otherwise
+        ng; // 1 if (out < 0),  0 otherwise
+
+   | zx | nx | zy | ny | f | no | Out  |
+   |----+----+----+----+---+----+------|
+   |  1 |  0 |  1 |  0 | 1 |  0 | 0    |
+   |  1 |  1 |  1 |  1 | 1 |  1 | 1    |
+   |  1 |  1 |  1 |  0 | 1 |  0 | -1   |
+   |  0 |  0 |  1 |  1 | 0 |  0 | x    |
+   |  1 |  1 |  0 |  0 | 0 |  0 | y    |
+   |  0 |  0 |  1 |  1 | 0 |  1 | !x   |
+   |  1 |  1 |  0 |  0 | 0 |  1 | !y   |
+   |  0 |  0 |  1 |  1 | 1 |  1 | -x   |
+   |  1 |  1 |  0 |  0 | 1 |  1 | -y   |
+   |  0 |  1 |  1 |  1 | 1 |  1 | x+1  |
+   |  1 |  1 |  0 |  1 | 1 |  1 | y+1  |
+   |  0 |  0 |  1 |  1 | 1 |  0 | x-1  |
+   |  1 |  1 |  0 |  0 | 1 |  0 | y-1  |
+   |  0 |  0 |  0 |  0 | 1 |  0 | x+y  |
+   |  0 |  0 |  0 |  1 | 1 |  1 | y-x  |
+   |  0 |  0 |  0 |  0 | 0 |  0 | x&y  |
+   |  0 |  1 |  0 |  1 | 0 |  1 | xory |
+
+    
+*** DONE Unit 2.5: Project 2 Overview
+    CLOSED: [2015-04-28 Tue 17:09] SCHEDULED: <2015-04-28 Tue>
+*** DONE Unit 2.6: Perspectives
+    CLOSED: [2015-04-28 Tue 17:27] SCHEDULED: <2015-04-28 Tue>
+*** DONE Do  Project 2: Boolean Arithmetic.
+    CLOSED: [2015-04-28 Tue 17:27] DEADLINE: <2015-05-03 Sun>
+
+** Week 3: Memory 
+*** TODO Unit 3.1: Sequential Logic
+    SCHEDULED: <2015-05-02 Sat>
+*** TODO Unit 3.2: Flip 
+    SCHEDULED: <2015-05-02 Sat>
+*** TODO Unit 3.3: Memory Units
+    SCHEDULED: <2015-05-02 Sat>
+*** TODO Unit 3.4: Counters
+    SCHEDULED: <2015-05-02 Sat>
+*** TODO Unit 3.5: Project 3 Overview
+    SCHEDULED: <2015-05-02 Sat>
+*** TODO Unit 3.6: Perspectives
+    SCHEDULED: <2015-05-02 Sat>
+*** TODO Project 3: Sequential Chips. 
+    DEADLINE: <2015-05-09 Sat>
+
+

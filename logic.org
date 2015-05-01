@@ -1121,7 +1121,6 @@
     
     2 ^ n
     
-       
 *** DONE 2.3 Truth in a Model (22:46)
     CLOSED: [2015-04-25 Sat 18:17] SCHEDULED: <2015-04-25 Sat>
     ▶2014 World leaders model
@@ -1203,7 +1202,6 @@
     Sxy mean x < y
     
     
-    
 *** DONE 2.5 Classifying Formulas (16:30)
     CLOSED: [2015-04-26 Sun 06:45] SCHEDULED: <2015-04-26 Sun>
     ▶ Using model to calssify
@@ -1242,3 +1240,20 @@
     •
 
       
+** 3: Proof Trees for Predicate Logic (Core)
+*** TODO 3.1 Why We Need Proof trees for Predicate Logic (5:52)
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 3.2 Tree Rules for Predicate Logic (7:35)
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 3.3 Development of Trees for Predicate Logic (13:24)
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 3.4 Trees for Predicate Logic: Simple Examples (12:48)
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 3.5 Trees for Predicate Logic: Complex Examples (17:46)
+    SCHEDULED: <2015-05-01 Fri>
+*** TODO 3.6 Trees for Predicate Logic: Soundness & Completeness (27:08)
+    SCHEDULED: <2015-05-01 Fri>
+
+** Applications
+*** TODO Where to Next? Introducing the Application Topics (14:44)
+    SCHEDULED: <2015-05-02 Sat>

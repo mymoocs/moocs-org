@@ -968,7 +968,6 @@
 
     
         
-
 ** 2: Models for Predicate Logic (Core)
 *** DONE 2.1 Interpreting the Language of Predicate Logic (12:34)
     CLOSED: [2015-04-24 Fri 13:37] SCHEDULED: <2015-04-23 Thu>
@@ -1239,21 +1238,123 @@
     
     •
 
-      
 ** 3: Proof Trees for Predicate Logic (Core)
-*** TODO 3.1 Why We Need Proof trees for Predicate Logic (5:52)
-    SCHEDULED: <2015-05-01 Fri>
-*** TODO 3.2 Tree Rules for Predicate Logic (7:35)
-    SCHEDULED: <2015-05-01 Fri>
-*** TODO 3.3 Development of Trees for Predicate Logic (13:24)
-    SCHEDULED: <2015-05-01 Fri>
-*** TODO 3.4 Trees for Predicate Logic: Simple Examples (12:48)
-    SCHEDULED: <2015-05-01 Fri>
-*** TODO 3.5 Trees for Predicate Logic: Complex Examples (17:46)
-    SCHEDULED: <2015-05-01 Fri>
-*** TODO 3.6 Trees for Predicate Logic: Soundness & Completeness (27:08)
-    SCHEDULED: <2015-05-01 Fri>
+*** DONE 3.1 Why We Need Proof trees for Predicate Logic (5:52)
+    CLOSED: [2015-05-01 Fri 13:33] SCHEDULED: <2015-05-01 Fri>
+    
+*** DONE 3.2 Tree Rules for Predicate Logic (7:35)
+    CLOSED: [2015-05-02 Sat 06:59] SCHEDULED: <2015-05-01 Fri>
+    ▶ Rules for quantifier formulas
+    • Exsitential (partial rule)
+    (∃x)A
+       |
+    A[x:=n] 'n' new
+    
+    • Negated Existential (general rule)
+    ~(∃x)A
+       |
+    ~A[x:=a] any 'a'
+    
+    • Universal (general rule)
+    (∀x)A
+       |
+    A[x:=a] any 'a'
+    
+    • Negated Universal (artial rule)
+    ~(∀x)A
+       |
+    ~A[x:=n] 'n' new
 
+    •
+    
+*** DONE 3.3 Development of Trees for Predicate Logic (13:24)
+    CLOSED: [2015-05-02 Sat 07:22] SCHEDULED: <2015-05-01 Fri>
+    
+*** DONE 3.4 Trees for Predicate Logic: Simple Examples (12:48)
+    CLOSED: [2015-05-02 Sat 07:53] SCHEDULED: <2015-05-01 Fri>
+    ▶ Ex 1. Is this tautology? |- (∀x)(Fx ⊃ (∃y)(Fy))
+    ~(∀x)(Fx ⊃ (∃y)(Fy)) a
+              |
+       ~(Fa ⊃ (∃y)(Fy))
+              |
+              Fa
+          ~(∃y)(Fy) \ a
+              |
+             ~Fa
+              x closed it is tautology
+              
+              
+    
+    ▶ Ex 2. (∀x)(Fx ∨ Gx) |/- (∀x)Fx ∨ (∀x)Gx
+
+    (∀x)(Fx ∨ Gx)   \a, b    (3)  (7 branch for b)
+    ~((∀x)Fx ∨ (∀x)Gx)      (1)
+             |
+        ~((∀x)Fx a            (2)
+        ~((∀x)Gx b            (5)
+              |
+             ~Fa
+              |
+           Fa ∨ Ga         (4)
+           /      \
+          Fa       Ga       
+           x        |    
+                   ~Gb      (6)
+                    |
+                 Fb ∨ Gb    (8)
+                 /      \
+               Fb       Gb 
+                         x
+
+    we will use open branch to cosntruct a Domain
+    D={a,b}
+    |   | I(F) | I(G) |
+    |---+------+------|
+    | a | 0    | 1    |
+    | b | 1    | 0    | 
+
+    ▶ Ex 3. (∃x)(Fx ∨ Gx) |- (∃x)Fx ∨ (∃x)Gx
+    (∃x)(Fx ∨ Gx)   a        (3)
+    ~((∃x)Fx ∨ (∃x)Gx)      (1)
+             |
+         ~(∃x)Fx  \a          (2) (5)
+         ~(∃x)Gx  \a          (2) (7)
+             |
+         Fa ∨ Ga              (4) (9)
+             |
+            ~Fa                (6)
+             |
+            ~Ga                (8)
+           /    \  
+         Fa      Ga            (10) 
+         x        x
+
+    
+    
+*** DONE 3.5 Trees for Predicate Logic: Complex Examples (17:46)
+    CLOSED: [2015-05-02 Sat 08:28] SCHEDULED: <2015-05-01 Fri>
+*** DONE 3.6 Trees for Predicate Logic: Soundness & Completeness (27:08)
+    CLOSED: [2015-05-03 Sun 06:46] SCHEDULED: <2015-05-01 Fri>
 ** Applications
-*** TODO Where to Next? Introducing the Application Topics (14:44)
-    SCHEDULED: <2015-05-02 Sat>
+*** DONE Where to Next? Introducing the Application Topics (14:44)
+    CLOSED: [2015-05-02 Sat 08:47] SCHEDULED: <2015-05-02 Sat>
+
+** 4: Identity and Functions (Core)
+*** DONE 4.1 Identity: Expressive Power (6:31)
+    CLOSED: [2015-05-08 Fri 08:31] SCHEDULED: <2015-05-07 Thu>
+    How to extend predicate logic syntax,semantix and proof tree to handle the notion of Identity and difference.
+*** DONE 4.2 Identity: Syntax & Models (14:39)
+    CLOSED: [2015-05-08 Fri 08:50] SCHEDULED: <2015-05-07 Thu>
+    ▶ Identity is a binary predicate. we use infix form 
+    • a = b, we do not write "= a b" like regular binary redicate
+    • a ≠ b
+    ▶ 
+    •
+    ▶ •
+
+*** TODO 4.3 Identity: Proof Trees (13:21)
+    SCHEDULED: <2015-05-08 Fri>
+*** TODO 4.4 Identity: Counting Quantifiers (12:02)
+    SCHEDULED: <2015-05-08 Fri>
+*** TODO 4.5 Functions & Other Extensions of Predicate Logic (16:14)
+    SCHEDULED: <2015-05-08 Fri>

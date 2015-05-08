@@ -50,10 +50,10 @@
     CLOSED: [2015-04-30 Thu 16:24] SCHEDULED: <2015-04-30 Thu> 
     Meter is an organization of Musical time consistent groups  evenly spaced, regularly recurring beats (2, 3, or 4).
 
-*** TODO 2.2 - Introduction to Musical Notation - 5:43
-    SCHEDULED: <2015-05-01 Fri>
-*** TODO 2.3 - Rhythm: What is it? - 10:04
-    SCHEDULED: <2015-05-01 Fri>
+*** DONE 2.2 - Introduction to Musical Notation - 5:43
+    CLOSED: [2015-05-05 Tue 08:38] SCHEDULED: <2015-05-01 Fri>
+*** DONE 2.3 - Rhythm: What is it? - 10:04
+    CLOSED: [2015-05-05 Tue 08:53] SCHEDULED: <2015-05-01 Fri>
 *** TODO 2.4 - Hearing the Downbeat, Feeling the Emotion - 12:20
     SCHEDULED: <2015-05-01 Fri>
 *** TODO 2.5 - Tempo (and how we feel about it) - 5:37

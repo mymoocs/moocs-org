@@ -1,10 +1,7 @@
 ﻿* [[http://www.seas.upenn.edu/~cis194/spring13/][cis194 Brent Yorgey]]
-  BFPG talks based n Yorgey course
-  http://talks.bfpg.org/
-** Week 1: Introduction to Haskell ( html, lhs )
-   Speaker: David Laing
-   Video: http://vimeo.com/88540533
-   Homework 1:
+  [[http://talks.bfpg.org/][BFPG talks based n Yorgey course]]
+** TODO [[http://www.seas.upenn.edu/~cis194/spring13/lectures/01-intro.html][Week 1: Introduction to Haskell ( html, lhs )]] - [[http://vimeo.com/88540533][David Laing (video,vimeo)]]
+*** TODO Homework 1:
 ** Week 2: Algebraic Data Types ( html, lhs )
    Speaker: Nick Partridge
    Video: http://vimeo.com/90515452
@@ -62,15 +59,13 @@
 *** DONE Add HUnit testing
     CLOSED: [2015-03-08 Sun 15:25] SCHEDULED: <2015-03-07 Sat>
 *** TODO HSpec testing
-    DEADLINE: <2015-05-10 Sun>
 *** TODO learn testy
-    DEADLINE: <2015-05-10 Sun>
+
 
 ** Rower of hanoi problem
 *** DONE research the papaer "functional pearl: la tour d'hanoi" 
     CLOSED: [2015-03-15 Sun 20:21] DEADLINE: <2015-03-15 Sun> SCHEDULED: <2015-03-09 Mon>
 *** TODO code and run the approach in the papaer "functional pearl: la tour d'hanoi" 
-    DEADLINE: <2015-05-10 Sun>
 ** [[https://vimeo.com/6653485][Functional Pearl: La Tour D'Hanoi on vimeo]]
 
 
@@ -231,7 +226,6 @@
 ** Week 14 (4 December): Haskell and Java
 
 * [[http://www.seas.upenn.edu/~cis194/][cis194 Noam Zilberstein]]
-
 ** Week 1 (Wednesday, 21 January): Introduction to Haskell 
 ** Homework 
 ** Week 2 (Wednesday, 28 January): Polymorphism and Functional Programming 

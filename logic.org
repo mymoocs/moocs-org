@@ -1352,9 +1352,37 @@
     •
     ▶ •
 
-*** TODO 4.3 Identity: Proof Trees (13:21)
-    SCHEDULED: <2015-05-08 Fri>
-*** TODO 4.4 Identity: Counting Quantifiers (12:02)
-    SCHEDULED: <2015-05-08 Fri>
-*** TODO 4.5 Functions & Other Extensions of Predicate Logic (16:14)
-    SCHEDULED: <2015-05-08 Fri>
+*** DONE 4.3 Identity: Proof Trees (13:21)
+    CLOSED: [2015-05-09 Sat 22:15] SCHEDULED: <2015-05-08 Fri>
+*** DONE 4.4 Identity: Counting Quantifiers (12:02)
+    CLOSED: [2015-05-09 Sat 22:29] SCHEDULED: <2015-05-08 Fri>
+*** DONE 4.5 Functions & Other Extensions of Predicate Logic (16:14)
+    CLOSED: [2015-05-09 Sat 22:47] SCHEDULED: <2015-05-08 Fri>
+** 5: Quantifiers in Mathematics (Application: Mathematics)
+*** 5.1 Mathematics & Logic (15:02)
+*** 5.2 The Real Number Line (28:52)
+*** 5.3 Distance Predicates on the Real Numbers (15:38)
+*** 5.4 Sequences of Real Numbers (10:31)
+*** 5.5 Convergence & Divergence of Sequences of Reals (30:32)
+** 6: Predicate Logic Programming (Application: Computer Science)
+*** TODO 6.1 Logic, Computers & Automated Reasoning (17:52)
+    SCHEDULED: <2015-05-15 Fri>
+*** TODO 6.2 Fragment of Predicate Logic used in Prolog (24:02)
+    SCHEDULED: <2015-05-15 Fri>
+*** TODO 6.3 Logic Programming in PROLOG (28:49)
+    SCHEDULED: <2015-05-15 Fri>
+*** 6.4 How PROLOG Answers Queries (29:00)
+** 7: Definite Descriptions and Free Logic (Application: Philosophy)
+*** 7.1 The Form of Definite Descriptions (18:33)
+*** 7.2 Russell's Analysis of Definite Descriptions (20:08)
+*** 7.3 Free Logic (26:46)
+** 8: Quantifiers and Language (Application: Linguistics)
+*** 8.1 What Quantifier Expressions mean (12:27)
+*** 8.2 Quantifiers & Pronouns (14:08)
+*** 8.3 Quantifiers & Ambiguity (19:53)
+** 9: Sequential Digital Systems
+*** 9.1 Digital Signals and Systems (28:21)
+*** 9.2 Time, Memory and Flip-Flops (16:33)
+*** 9.3 Feedback and State Signals (22:49)
+*** 9.4 Linear Temporal Logic (30:25)
+*** 9.5 Formal Verification of Digital Systems (17:53)

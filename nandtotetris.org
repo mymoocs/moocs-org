@@ -984,12 +984,6 @@
      (END)
      @END
      0;JMP
-     
-     
-     
-     
-     
-     
 
 *** DONE Unit 4.9: Project 4 Overview (19:03)
     CLOSED: [2015-05-08 Fri 19:14] SCHEDULED: <2015-05-07 Thu>
@@ -998,3 +992,42 @@
     CLOSED: [2015-05-08 Fri 19:14] SCHEDULED: <2015-05-07 Thu>
 *** DONE Project 4: Machine Language
     CLOSED: [2015-05-08 Fri 21:06] DEADLINE: <2015-05-10 Sun>
+    
+** Week 5
+*** DONE Unit 5.1: Von Neumann Architechture (9:07)
+    CLOSED: [2015-05-09 Sat 23:51] SCHEDULED: <2015-05-10 Sun>
+    ▶ Universality
+    • Same Hardware can run many different software programs
+     Theory: Universal Turing machine (Alan Turing)
+     Practice: von Neumann Architecture
+*** DONE Unit 5.2: The Fetch-Execute Cycle (8:18)
+    CLOSED: [2015-05-24 Sun 10:58] SCHEDULED: <2015-05-10 Sun>
+    ▶ The basic CPU loop
+     (1) Fetch an instruction from the Program memory
+     (2) Execute it
+     
+    • Fetching
+    - Put the location ot the next instruction into the "address" of the program memory
+    - Get the instruction code itself by reading the memory contents at that location
+*** DONE Unit 5.3: Central Processing Unit (27:26)
+    CLOSED: [2015-05-24 Sun 10:58] SCHEDULED: <2015-05-10 Sun>
+*** DONE Unit 5.4: The Hack Computer (27:59)
+    CLOSED: [2015-05-24 Sun 10:58] SCHEDULED: <2015-05-10 Sun>
+*** DONE Unit 5.5: Project 5 Overview (12:46)
+    CLOSED: [2015-05-24 Sun 10:58] SCHEDULED: <2015-05-10 Sun>
+*** DONE Unit 5.6: Perspectives (9:00)
+    CLOSED: [2015-05-24 Sun 10:58] SCHEDULED: <2015-05-10 Sun>
+
+
+
+** Week 6
+*** DONE Unit 6.1: Assembly Languages and Assemblers (15:28)
+    CLOSED: [2015-06-04 Thu 07:38]
+*** DONE Unit 6.2: The Hack Assembly Language (9:04)
+    CLOSED: [2015-06-04 Thu 07:51]
+*** Unit 6.3: The Assembly Process - Handling Instructions (11:28)
+*** Unit 6.4: The Assembly Process - Handling Symbols (20:13)
+*** Unit 6.5: Developing a Hack Assembler (13:56)
+*** Unit 6.6: Project 6 Overview: Programming Option (32:11)
+*** Unit 6.6B: Project 6 Overview: Without Programming (9:26)
+*** Unit 6.7: Perspectives (11:12)

@@ -1,16 +1,10 @@
 ﻿* [[http://www.meetup.com/Brisbane-Functional-Programming-Group/events/104664052/][Brisbane Functional Programming Group (BFPG)]]
-
-
   [[https://github.com/bfpg/cis194-yorgey-lectures][Brent Yorgey's CIS194 lectures]]
 ** week 7: 
-   
    [[https://github.com/gwils?tab=repositories][github George Wilson]]
-
-
 ** [[http://www.meetup.com/Brisbane-Functional-Programming-Group/events/104664052/][Haskell in the Financial District & Building a LISP Machine]]
    [[https://vimeo.com/67928329][video on vimeo]]
    [[http://carlo-hamalainen.net/blog][author's blog page]]
-
 
 
 

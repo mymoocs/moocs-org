@@ -201,7 +201,6 @@
    GSAT: a prototype incomplete SAT solver
    WalkSAT: a modification of GSAT
     
-
 ** DONE Lesson 4 - Propositional Proofs (20 min)
    CLOSED: [2015-03-28 Sat 22:13] SCHEDULED: <2015-03-22 Sun>
 *** DONE 4.1 Propositional Proofs (2 min)
@@ -288,7 +287,6 @@
      5. proofs (as with Propositional Logic, we leave the discussion of proofs to later chapters)
     
 
-
 *** DONE 6.2 Syntax (9 min)
     CLOSED: [2015-04-11 Sat 06:53] SCHEDULED: <2015-04-11 Sat>
     ▶ Basic words of our language
@@ -363,7 +361,6 @@
     An occurence of variable is bound iff it lies in the scope of a quantifier of that  variable. Otherwise it is free.
     ∃y.q(x,y) - in this example, x is free and y is bound.
     
-
 *** 6.3 Semantics (8 min)
 *** 6.4 Example - Sorority World (5 min)
 *** 6.5 Example - Blocks World (4 min)

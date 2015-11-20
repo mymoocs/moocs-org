@@ -1,27 +1,59 @@
+﻿* Haskell development environment setup
+** emcas
+** magit
+** cabal install hoogle
+   hoogle data -- init hoogle
+   hoogle getArgs
+   hoogle --info getArgs
+   :def search return . (":! hoogle") 
+   :def doc return . (":! hoogle --info") 
+   :def! -- overwrite any existing definition
+   --definde shortcut inside ghci to use hoogle, 
+   --put to ~/.ghci to not type each time you open ghci session
+   :script /home/arthur/.ghci --to reload the file
+   :search getArgs
+   to use advanced search args like (a->b)-> m a -> m b
+   -- ~/.ghci
+   let ghciEscapeShellArg arg = "'"++ concatMap(\c -> if c == '\'' then "'\"'\"'" else [c])arg ++"'"
+   :def search return . (":! hoogle").ghciEscapeShellArg
+   :def doc return . (":! hoogle --info").ghciEscapeShellArg
+* Course
+** [[http://www.seas.upenn.edu/~cis194/spring13/lectures.html][CIS 194 - BYorgey(spring 13) good for begginners]]
+** [[http://www.seas.upenn.edu/~cis194/fall14/][CIS 194 -  Richard Eisenberg (fall 14) more like intermediate]]
+** [[http://www.seas.upenn.edu/~cis194/][CIS 194 - Noam Zilberstein (spring 2015) more like intermediate]]
+** [[http://www.seas.upenn.edu/~cis552/schedule.html][CIS 552: Advanced Programming]]
+** [[http://cmsc-16100.cs.uchicago.edu/2014/lectures.php][CMSC-16100]]
+** [[http://cmsc-22311.cs.uchicago.edu/2015/][CMSC-22311]]
+   This is a follow-on course to CMSC-16100, and is largely inspired by Stanford's CS 240h, “Functional Systems in Haskell.” 
+   My purposes differ a bit from that of the Stanford course, as I want to consider a variety of advanced programming 
+   topics in Haskell like Template Haskell.
+   [[http://www.scs.stanford.edu/14sp-cs240h/][CS240h Spring 2014]]
+   [[http://www.scs.stanford.edu/11au-cs240h/][CS240h: Functional Systems in Haskell -2011]]
+
 * books
   That said, it is one of the two books I encourage newcomers to Haskell to pick up. 
   The other is Real World Haskell (RWH), which has complementary strengths and weaknesses to those of LYaH. 
 
 ** Learn You a Haskell for Great Good!
 ** Real World Haskell
-   
    From there if you want to continue, you can dive deeper with
-
 ** Pearls of Functional Algorithm Design
 ** Parallel and Concurrent Programming in Haskell 
 ** Purely Functional Data Structures
 ** Types and Programming Languages Benjamin C. Pierce
 ** Basic Category Theory for Computer Scientists 
-Benjamin C. Piercer
+   Benjamin C. Piercer
 * http://www.99haskell.org/2
-
-* Learning Haskell � A Racket programmer's documentation of her foray into the land of Haskell (inspired by Learning Racket)
+* Learning Haskell — A Racket programmer's documentation of her foray into the land of Haskell (inspired by Learning Racket)
   http://lexi-lambda.github.io/learning-haskell/
   http://www.reddit.com/r/haskell/comments/2ypdiv//
   https://github.com/lexi-lambda
 
 * http://artyom.me/learning-racket-1
 
+* Fold
+** [[http://www.ibm.com/developerworks/ru/library/l-haskell4/index.html][Свертки списков]]
+** [[http://lambda.jstolarek.com/2012/09/why-foldr-works-for-infinite-lists-and-foldl-doesnt/][Foldr from foldl]]
 
 * The problem of learning functional programming
   http://bitemyapp.com/posts/2014-12-31-functional-education.html
@@ -30,4 +62,13 @@ Benjamin C. Piercer
   http://www.reddit.com/r/haskell/comments/2wfap0/web_development_using_haskell/
 
 * Turtle.Tutorial
+* [[https://github.com/dan-t/cabal-bounds][cabal-bounds]]
+  - cabal-bounds update --ignore=base *.cabal dist/dist-sandbox-*/setup-config
+  - cabal-bounds update --lower --ignore=base *.cabal dist/dist-sandbox-*/setup-config
+
+* [[http://softwaresimply.blogspot.com/2015/08/cabal-gen-bounds-easy-generation-of.html][cabal gen-bounds]]
+  
+
+
+
   

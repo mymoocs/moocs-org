@@ -300,6 +300,5 @@
 *** Semantic Security (16 min)
 *** Stream ciphers are semantically secure (11 min) [optional]
 *** TODO Week 1 - Problem Set
-    DEADLINE: <2015-05-10 Sun>
 *** Week 1 - Programming Assignment [optional: extra credit] 
-    DEADLINE: <2015-05-10 Sun>
+

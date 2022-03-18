@@ -1,3 +1,3 @@
-http://darcs.haskell.org/hugs98/demos/prolog/
-http://propella.blogspot.com/2009/04/prolog-in-haskell.htm
-http://lambda-the-ultimate.org/node/112
+- http://darcs.haskell.org/hugs98/demos/prolog/
+- http://propella.blogspot.com/2009/04/prolog-in-haskell.html
+- http://lambda-the-ultimate.org/node/112
